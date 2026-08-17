@@ -1,0 +1,2050 @@
+[
+  {
+    "target": "퐋",
+    "pred": "퐐",
+    "confidence": 0.43374503,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "퐋",
+    "pred": "팔",
+    "confidence": 0.7312598,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "퐋",
+    "pred": "폴",
+    "confidence": 0.52046394,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "퐋",
+    "pred": "퐝",
+    "confidence": 0.5044135,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "퉑",
+    "pred": "월",
+    "confidence": 0.80609953,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "퉑",
+    "pred": "퉈",
+    "confidence": 0.62660843,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "퉑",
+    "pred": "툭",
+    "confidence": 0.9981475,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "퉑",
+    "pred": "퉈",
+    "confidence": 0.612981,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "죇",
+    "pred": "종",
+    "confidence": 0.5691491,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "죇",
+    "pred": "졍",
+    "confidence": 0.59482914,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "죇",
+    "pred": "죗",
+    "confidence": 0.41599157,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "죇",
+    "pred": "정",
+    "confidence": 0.8721907,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "죇",
+    "pred": "죗",
+    "confidence": 0.44567254,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "뷦",
+    "pred": "뷘",
+    "confidence": 0.7199216,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "뷦",
+    "pred": "부의",
+    "confidence": 0.40281546,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "뷦",
+    "pred": "분",
+    "confidence": 0.3861172,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "뷦",
+    "pred": "빔",
+    "confidence": 0.73368025,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "뷦",
+    "pred": "뷘",
+    "confidence": 0.76276463,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쬙",
+    "pred": "쫌",
+    "confidence": 0.49641916,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "쬙",
+    "pred": "쫄",
+    "confidence": 0.72237605,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "쬙",
+    "pred": "쬐리",
+    "confidence": 0.23705932,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쬙",
+    "pred": "쬐",
+    "confidence": 0.829957,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쬙",
+    "pred": "쬐리",
+    "confidence": 0.47590646,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "똵",
+    "pred": "봙",
+    "confidence": 0.53576237,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "똵",
+    "pred": "봙",
+    "confidence": 0.5424516,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "똵",
+    "pred": null,
+    "confidence": null,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "똵",
+    "pred": null,
+    "confidence": null,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "똵",
+    "pred": "땅",
+    "confidence": 0.5143667,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "똵",
+    "pred": null,
+    "confidence": null,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쾌",
+    "pred": "쾌",
+    "confidence": 0.9653994,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쾌",
+    "pred": "쾌",
+    "confidence": 0.9452304,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쾌",
+    "pred": "쾌",
+    "confidence": 0.940065,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쾌",
+    "pred": "쾡",
+    "confidence": 0.6668676,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쾌",
+    "pred": "쾌",
+    "confidence": 0.9560847,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "츼",
+    "pred": "칠",
+    "confidence": 0.9240175,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "츼",
+    "pred": "친",
+    "confidence": 0.8439796,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "츼",
+    "pred": "침",
+    "confidence": 0.8773132,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "츼",
+    "pred": "츠",
+    "confidence": 0.45961645,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "츼",
+    "pred": "츼",
+    "confidence": 0.6710016,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "와",
+    "pred": "와",
+    "confidence": 0.9979243,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "와",
+    "pred": "와",
+    "confidence": 0.9987232,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "와",
+    "pred": "와",
+    "confidence": 0.9988024,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "와",
+    "pred": "와",
+    "confidence": 0.9989986,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "와",
+    "pred": "와",
+    "confidence": 0.99910945,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "와",
+    "pred": "왕",
+    "confidence": 0.99709344,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "왜",
+    "pred": "왜",
+    "confidence": 0.7279189,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "왜",
+    "pred": "왜",
+    "confidence": 0.9977811,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "왜",
+    "pred": "왜",
+    "confidence": 0.9986621,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "왜",
+    "pred": "왜",
+    "confidence": 0.9856624,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "왜",
+    "pred": "왜",
+    "confidence": 0.99808854,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "왜",
+    "pred": "왜",
+    "confidence": 0.9959721,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쬐",
+    "pred": "쪼",
+    "confidence": 0.98200595,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쬐",
+    "pred": "쫑",
+    "confidence": 0.4908039,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쬐",
+    "pred": "쬔",
+    "confidence": 0.51092315,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "쬐",
+    "pred": "쪼",
+    "confidence": 0.98043835,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쬐",
+    "pred": "쪼",
+    "confidence": 0.99788815,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쬐",
+    "pred": "쪼",
+    "confidence": 0.43615347,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쐐",
+    "pred": "쌩",
+    "confidence": 0.64530474,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쐐",
+    "pred": "쐐",
+    "confidence": 0.98797244,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쐐",
+    "pred": "쐐",
+    "confidence": 0.98886627,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쐐",
+    "pred": "쐐",
+    "confidence": 0.99040574,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쐐",
+    "pred": "쐐",
+    "confidence": 0.8358121,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쐐",
+    "pred": "쐐",
+    "confidence": 0.9900283,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "춲",
+    "pred": "첨",
+    "confidence": 0.863592,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "춲",
+    "pred": "첨",
+    "confidence": 0.980627,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "춲",
+    "pred": "첨",
+    "confidence": 0.97796726,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "춲",
+    "pred": "춰",
+    "confidence": 0.735691,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "춲",
+    "pred": "첨",
+    "confidence": 0.94589454,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "춲",
+    "pred": "춰",
+    "confidence": 0.75989825,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "푔",
+    "pred": "퓐",
+    "confidence": 0.52713966,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "푔",
+    "pred": "핑",
+    "confidence": 0.7483184,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "읚",
+    "pred": "잊",
+    "confidence": 0.9137963,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "읚",
+    "pred": "이즈",
+    "confidence": 0.59876937,
+    "correct": false,
+    "human_label": "extra_text",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "읚",
+    "pred": "잊",
+    "confidence": 0.87379587,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "읚",
+    "pred": "윽",
+    "confidence": 0.91372347,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "읚",
+    "pred": "윽",
+    "confidence": 0.57379293,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "읚",
+    "pred": "있",
+    "confidence": 0.9993111,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "뢨",
+    "pred": "램",
+    "confidence": 0.9575103,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "뢨",
+    "pred": "뢨",
+    "confidence": 0.6760507,
+    "correct": true,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "뢨",
+    "pred": "랭",
+    "confidence": 0.6938938,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "뢨",
+    "pred": "림",
+    "confidence": 0.6617498,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "뢨",
+    "pred": "랭",
+    "confidence": 0.6739801,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "띘",
+    "pred": "띈",
+    "confidence": 0.44106016,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "띘",
+    "pred": "띕",
+    "confidence": 0.3869296,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "띘",
+    "pred": "띕",
+    "confidence": 0.3923745,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "띘",
+    "pred": "띕",
+    "confidence": 0.40298536,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쀆",
+    "pred": "웬",
+    "confidence": 0.5749271,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쀆",
+    "pred": "웩",
+    "confidence": 0.9870843,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "쀆",
+    "pred": "쀠",
+    "confidence": 0.5187393,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쀆",
+    "pred": "쀠",
+    "confidence": 0.55509746,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쀆",
+    "pred": "쀠",
+    "confidence": 0.66691244,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "콃",
+    "pred": "옆",
+    "confidence": 0.4263361,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "탢",
+    "pred": "탤",
+    "confidence": 0.74097073,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "탢",
+    "pred": "탱",
+    "confidence": 0.66769403,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "탢",
+    "pred": "탱",
+    "confidence": 0.769504,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "탢",
+    "pred": "탱",
+    "confidence": 0.9103952,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "값",
+    "pred": "값",
+    "confidence": 0.99513716,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "값",
+    "pred": "값",
+    "confidence": 0.9974138,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "값",
+    "pred": "갑",
+    "confidence": 0.82578117,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "값",
+    "pred": "값",
+    "confidence": 0.9969332,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "값",
+    "pred": "값",
+    "confidence": 0.9967347,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "읽",
+    "pred": "읽",
+    "confidence": 0.9822704,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "읽",
+    "pred": "윽",
+    "confidence": 0.54560816,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "읽",
+    "pred": "읽",
+    "confidence": 0.9763634,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "읽",
+    "pred": "갉",
+    "confidence": 0.99467367,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "읽",
+    "pred": "읽",
+    "confidence": 0.991252,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "읽",
+    "pred": "읽",
+    "confidence": 0.9853473,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "떐",
+    "pred": "떠",
+    "confidence": 0.67430115,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "떐",
+    "pred": "떠",
+    "confidence": 0.46581846,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "떐",
+    "pred": "떼",
+    "confidence": 0.5539193,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "떐",
+    "pred": "뗄",
+    "confidence": 0.92920095,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "떐",
+    "pred": "뗀",
+    "confidence": 0.676185,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "떐",
+    "pred": "뗀",
+    "confidence": 0.65937966,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쩶",
+    "pred": "껫",
+    "confidence": 0.62065804,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쩶",
+    "pred": "짱",
+    "confidence": 0.61967844,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "쩶",
+    "pred": "찡",
+    "confidence": 0.48264003,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쩶",
+    "pred": "쩰",
+    "confidence": 0.8468782,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쩶",
+    "pred": "풍",
+    "confidence": 0.27500346,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "폐",
+    "pred": "폐",
+    "confidence": 0.98767334,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "폐",
+    "pred": "평",
+    "confidence": 0.6851735,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "폐",
+    "pred": "풍",
+    "confidence": 0.5830712,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "폐",
+    "pred": "폐",
+    "confidence": 0.9856289,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "폐",
+    "pred": "폐",
+    "confidence": 0.9865832,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "폐",
+    "pred": "폐",
+    "confidence": 0.9915766,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "태",
+    "pred": "태",
+    "confidence": 0.9963007,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "태",
+    "pred": "태",
+    "confidence": 0.99174446,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "태",
+    "pred": "태",
+    "confidence": 0.9905067,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "태",
+    "pred": "태",
+    "confidence": 0.99521166,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "태",
+    "pred": "태",
+    "confidence": 0.9907624,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "태",
+    "pred": "태",
+    "confidence": 0.9961106,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "가",
+    "pred": "가",
+    "confidence": 0.9996891,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "가",
+    "pred": "가",
+    "confidence": 0.99882716,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "가",
+    "pred": "가",
+    "confidence": 0.99803346,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "가",
+    "pred": "가",
+    "confidence": 0.9992767,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "가",
+    "pred": "가",
+    "confidence": 0.9981956,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쟤",
+    "pred": "쟤",
+    "confidence": 0.9533179,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쟤",
+    "pred": "쟤",
+    "confidence": 0.95483917,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쟤",
+    "pred": "쟤",
+    "confidence": 0.9678429,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쟤",
+    "pred": "쨰",
+    "confidence": 0.87919766,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쟤",
+    "pred": "쟁",
+    "confidence": 0.5853161,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "깨",
+    "pred": "꺠",
+    "confidence": 0.9094379,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "깨",
+    "pred": "까",
+    "confidence": 0.6128148,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "깨",
+    "pred": "꺵",
+    "confidence": 0.62116843,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "깨",
+    "pred": "꺠",
+    "confidence": 0.9600795,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "깨",
+    "pred": "깨",
+    "confidence": 0.9888544,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "깨",
+    "pred": "깨",
+    "confidence": 0.99082536,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "떄",
+    "pred": "떄",
+    "confidence": 0.58465046,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "떄",
+    "pred": "떄",
+    "confidence": 0.36988205,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "떄",
+    "pred": "끝",
+    "confidence": 0.70374185,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "켰",
+    "pred": "켰",
+    "confidence": 0.65814036,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "켰",
+    "pred": "컸",
+    "confidence": 0.97878253,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "켰",
+    "pred": "컸",
+    "confidence": 0.95525783,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "켰",
+    "pred": "컸",
+    "confidence": 0.9510409,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "촜",
+    "pred": "좀",
+    "confidence": 0.9767244,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "촜",
+    "pred": "휭",
+    "confidence": 0.55754834,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "촜",
+    "pred": "챌",
+    "confidence": 0.8362251,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "촜",
+    "pred": "좃",
+    "confidence": 0.40471384,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "촜",
+    "pred": "쩔",
+    "confidence": 0.98832816,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "촜",
+    "pred": "좃",
+    "confidence": 0.47696063,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "각",
+    "pred": "각",
+    "confidence": 0.9984084,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "각",
+    "pred": "각",
+    "confidence": 0.99777395,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "각",
+    "pred": "각",
+    "confidence": 0.9985372,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "각",
+    "pred": "각",
+    "confidence": 0.998386,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "각",
+    "pred": "각",
+    "confidence": 0.99843997,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "각",
+    "pred": "각",
+    "confidence": 0.9983364,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갂",
+    "pred": "감",
+    "confidence": 0.5215796,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갂",
+    "pred": "감",
+    "confidence": 0.60228014,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갂",
+    "pred": "감",
+    "confidence": 0.6189047,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갂",
+    "pred": "가",
+    "confidence": 0.1800398,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갂",
+    "pred": "갉",
+    "confidence": 0.44901535,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갂",
+    "pred": "가",
+    "confidence": 0.1755126,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "띢",
+    "pred": "랬",
+    "confidence": 0.9617021,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "띢",
+    "pred": "띡",
+    "confidence": 0.9955212,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "띢",
+    "pred": "뢔가",
+    "confidence": 0.2409464,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "띢",
+    "pred": "띡",
+    "confidence": 0.96965873,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "띢",
+    "pred": "뒤",
+    "confidence": 0.9154736,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "띢",
+    "pred": "띡",
+    "confidence": 0.69178396,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쪆",
+    "pred": "쪄기",
+    "confidence": 0.41815487,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쪆",
+    "pred": "쪄기",
+    "confidence": 0.4881299,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쪆",
+    "pred": null,
+    "confidence": null,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쪆",
+    "pred": "쪄기",
+    "confidence": 0.5811142,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "쪆",
+    "pred": "쭸",
+    "confidence": 0.7361938,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "간",
+    "pred": "간",
+    "confidence": 0.9978739,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "간",
+    "pred": "간",
+    "confidence": 0.99761814,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "간",
+    "pred": "간",
+    "confidence": 0.9979006,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "간",
+    "pred": "간",
+    "confidence": 0.9995427,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "간",
+    "pred": "간",
+    "confidence": 0.999203,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "간",
+    "pred": "간",
+    "confidence": 0.99851197,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갈",
+    "pred": "갈",
+    "confidence": 0.99331504,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갈",
+    "pred": "갈",
+    "confidence": 0.9937703,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갈",
+    "pred": "갈",
+    "confidence": 0.99251807,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갈",
+    "pred": "갈",
+    "confidence": 0.9946898,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갈",
+    "pred": "갈",
+    "confidence": 0.993814,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갈",
+    "pred": "갈",
+    "confidence": 0.9950062,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "감",
+    "pred": "감",
+    "confidence": 0.99768937,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "감",
+    "pred": "감",
+    "confidence": 0.99709034,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "감",
+    "pred": "감",
+    "confidence": 0.99795145,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "감",
+    "pred": "감",
+    "confidence": 0.774851,
+    "correct": true,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "감",
+    "pred": "감",
+    "confidence": 0.99791056,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "감",
+    "pred": "감",
+    "confidence": 0.9978968,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갑",
+    "pred": "갑",
+    "confidence": 0.9900344,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갑",
+    "pred": "갑",
+    "confidence": 0.99148226,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갑",
+    "pred": "갑",
+    "confidence": 0.98302174,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갑",
+    "pred": "갑",
+    "confidence": 0.98599803,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갑",
+    "pred": "갑",
+    "confidence": 0.9869537,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갑",
+    "pred": "감",
+    "confidence": 0.58811814,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "갓",
+    "pred": "갓",
+    "confidence": 0.98295295,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갓",
+    "pred": "갓",
+    "confidence": 0.9870842,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갓",
+    "pred": "갓",
+    "confidence": 0.98562104,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갓",
+    "pred": "갓",
+    "confidence": 0.9892173,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갓",
+    "pred": "갓",
+    "confidence": 0.9912164,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갓",
+    "pred": "갓",
+    "confidence": 0.9910014,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갔",
+    "pred": "갔",
+    "confidence": 0.9842606,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갔",
+    "pred": "갔",
+    "confidence": 0.9845368,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갔",
+    "pred": "갔",
+    "confidence": 0.9827801,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갔",
+    "pred": "갔",
+    "confidence": 0.98307943,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갔",
+    "pred": "갔",
+    "confidence": 0.98392105,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갔",
+    "pred": "갔",
+    "confidence": 0.9886855,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "개",
+    "pred": "개",
+    "confidence": 0.99486816,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "개",
+    "pred": "개",
+    "confidence": 0.9968636,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "개",
+    "pred": "개",
+    "confidence": 0.99185634,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "개",
+    "pred": "개",
+    "confidence": 0.99720037,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "개",
+    "pred": "개",
+    "confidence": 0.9963574,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "개",
+    "pred": "개",
+    "confidence": 0.99689,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갵",
+    "pred": "갔",
+    "confidence": 0.78599995,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "갵",
+    "pred": "갤",
+    "confidence": 0.5632497,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갵",
+    "pred": "갈",
+    "confidence": 0.9219907,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "갵",
+    "pred": "갤",
+    "confidence": 0.58656126,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갵",
+    "pred": "갤",
+    "confidence": 0.5468416,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "갵",
+    "pred": "갬",
+    "confidence": 0.79506624,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "걗",
+    "pred": "걘",
+    "confidence": 0.69148177,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "걗",
+    "pred": "걘",
+    "confidence": 0.6812358,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "걗",
+    "pred": "겯",
+    "confidence": 0.8389665,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "걗",
+    "pred": "걘",
+    "confidence": 0.65985835,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "걨",
+    "pred": "겸",
+    "confidence": 0.76280785,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "걨",
+    "pred": "걘",
+    "confidence": 0.8327717,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "걨",
+    "pred": "겸",
+    "confidence": 0.8111239,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "게",
+    "pred": "게",
+    "confidence": 0.99891603,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "게",
+    "pred": "계",
+    "confidence": 0.91358155,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "게",
+    "pred": "게",
+    "confidence": 0.99757797,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "게",
+    "pred": "게",
+    "confidence": 0.99827933,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "게",
+    "pred": "걱",
+    "confidence": 0.9218078,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "게",
+    "pred": "게",
+    "confidence": 0.9934302,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "계",
+    "pred": "계",
+    "confidence": 0.9934481,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "계",
+    "pred": "계",
+    "confidence": 0.954679,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "계",
+    "pred": "계",
+    "confidence": 0.98662114,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "계",
+    "pred": "계",
+    "confidence": 0.99519664,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "계",
+    "pred": "계",
+    "confidence": 0.99387723,
+    "correct": true,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "계",
+    "pred": "예",
+    "confidence": 0.9925338,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "곥",
+    "pred": "곰",
+    "confidence": 0.5302468,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "곥",
+    "pred": "곰",
+    "confidence": 0.5085947,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "곩",
+    "pred": "꼭",
+    "confidence": 0.37973917,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "곩",
+    "pred": "획",
+    "confidence": 0.2086462,
+    "correct": false,
+    "human_label": "illegible",
+    "is_hangul_per_human": false
+  },
+  {
+    "target": "곩",
+    "pred": "곰",
+    "confidence": 0.6557312,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "곩",
+    "pred": "겯",
+    "confidence": 0.3653381,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  },
+  {
+    "target": "곩",
+    "pred": "곰",
+    "confidence": 0.6968283,
+    "correct": false,
+    "human_label": "text",
+    "is_hangul_per_human": true
+  }
+]

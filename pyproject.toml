@@ -1,0 +1,31 @@
+[project]
+name = "jamo-bench"
+version = "0.1.0"
+description = "JAMO: Judging Accuracy of Machine-rendered Orthography — OCR-mediated Hangul rendering benchmark"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "PyYAML>=6.0",
+    "Pillow>=10.0",
+    "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+release = [
+    "datasets>=2.19",
+    "pyarrow>=15.0",
+    "huggingface_hub>=0.23",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["jamo_bench*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

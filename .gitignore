@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# 재생성 가능한 대용량 산출물 (295MB) — scripts로 다시 만들 수 있다
+results/template_cache/
+
+# 생성 이미지 원본 — 모델 약관 확인 전까지 미공개(설계서 §10.2)
+results/pilot/images/
+
+# 릴리스 번들은 build_release.py로 생성 (커밋 대상 아님)
+release/

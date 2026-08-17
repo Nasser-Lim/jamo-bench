@@ -1,0 +1,69 @@
+{
+  "n": 300,
+  "n_gold": 172,
+  "n_silver": 128,
+  "gold_frac": 0.5733333333333334,
+  "well_formed_rate": 0.8366666666666667,
+  "target_match_rate_unconditional": 0.6133333333333333,
+  "target_match_rate_conditional": 0.7330677290836654,
+  "well_formed_rate_by_coda": {
+    "cluster_T": {
+      "n": 90,
+      "well_formed_rate": 0.8111111111111111
+    },
+    "no_T": {
+      "n": 90,
+      "well_formed_rate": 0.8777777777777778
+    },
+    "simple_T": {
+      "n": 120,
+      "well_formed_rate": 0.825
+    }
+  },
+  "target_match_rate_by_coda": {
+    "cluster_T": {
+      "n": 73,
+      "exact_match_rate": 0.6712328767123288
+    },
+    "no_T": {
+      "n": 79,
+      "exact_match_rate": 0.7974683544303798
+    },
+    "simple_T": {
+      "n": 99,
+      "exact_match_rate": 0.7272727272727273
+    }
+  },
+  "jamo_error_rate_conditional": {
+    "onset": 0.035856573705179286,
+    "nucleus": 0.16733067729083664,
+    "coda": 0.21912350597609562
+  },
+  "jamo_error_rate_unconditional": {
+    "onset": 0.19333333333333333,
+    "nucleus": 0.30333333333333334,
+    "coda": 0.3466666666666667
+  },
+  "confidence_threshold": 0.8,
+  "measured_bias_pp": {
+    "no_T": 0.0,
+    "simple_T": -0.9,
+    "cluster_T": -1.5,
+    "overall": -0.8
+  },
+  "calibration": {
+    "n": 256,
+    "model": "dola-seedream-5-0-pro-260628",
+    "occupancy_recipe": "v2 (target_max_occupancy=0.10)",
+    "human_queue_frac": 0.5,
+    "bias_spread_pp": {
+      "coda": 1.5,
+      "vowel": 0.5,
+      "onset": 1.9
+    },
+    "jamo_position_gradient_inflation_pp": {
+      "unconditional": 3.9,
+      "conditional": 3.3
+    }
+  }
+}

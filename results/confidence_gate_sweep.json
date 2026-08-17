@@ -1,0 +1,168 @@
+{
+  "n": 256,
+  "truth_overall": 0.64453125,
+  "truth_by_coda": {
+    "no_T": 0.7590361445783133,
+    "simple_T": 0.6509433962264151,
+    "cluster_T": 0.4925373134328358
+  },
+  "gap_truth": -0.15840608279357926,
+  "recommended": {
+    "threshold": 0.8,
+    "human_queue_frac": 0.421875,
+    "accuracy": 0.609375,
+    "bias": -0.03515625,
+    "bias_by_coda": {
+      "no_T": -0.03614457831325302,
+      "simple_T": -0.028301886792452824,
+      "cluster_T": -0.04477611940298504
+    },
+    "bias_spread": 0.016474232610532213,
+    "gap_recovery_error": -0.016474232610532213
+  },
+  "sweep": [
+    {
+      "threshold": 0.0,
+      "human_queue_frac": 0.015625,
+      "accuracy": 0.44140625,
+      "bias": -0.203125,
+      "bias_by_coda": {
+        "no_T": -0.06024096385542166,
+        "simple_T": -0.23584905660377353,
+        "cluster_T": -0.32835820895522383
+      },
+      "bias_spread": 0.26811724509980217,
+      "gap_recovery_error": -0.0925091523514503
+    },
+    {
+      "threshold": 0.5,
+      "human_queue_frac": 0.13671875,
+      "accuracy": 0.50390625,
+      "bias": -0.140625,
+      "bias_by_coda": {
+        "no_T": -0.03614457831325302,
+        "simple_T": -0.13207547169811318,
+        "cluster_T": -0.2835820895522388
+      },
+      "bias_spread": 0.24743751123898577,
+      "gap_recovery_error": -0.1515066178541256
+    },
+    {
+      "threshold": 0.7,
+      "human_queue_frac": 0.35546875,
+      "accuracy": 0.59375,
+      "bias": -0.05078125,
+      "bias_by_coda": {
+        "no_T": -0.03614457831325302,
+        "simple_T": -0.037735849056603765,
+        "cluster_T": -0.08955223880597013
+      },
+      "bias_spread": 0.05340766049271711,
+      "gap_recovery_error": -0.051816389749366365
+    },
+    {
+      "threshold": 0.8,
+      "human_queue_frac": 0.421875,
+      "accuracy": 0.609375,
+      "bias": -0.03515625,
+      "bias_by_coda": {
+        "no_T": -0.03614457831325302,
+        "simple_T": -0.028301886792452824,
+        "cluster_T": -0.04477611940298504
+      },
+      "bias_spread": 0.016474232610532213,
+      "gap_recovery_error": -0.016474232610532213
+    },
+    {
+      "threshold": 0.85,
+      "human_queue_frac": 0.4609375,
+      "accuracy": 0.6171875,
+      "bias": -0.02734375,
+      "bias_by_coda": {
+        "no_T": -0.03614457831325302,
+        "simple_T": -0.028301886792452824,
+        "cluster_T": -0.014925373134328346
+      },
+      "bias_spread": 0.02121920517892467,
+      "gap_recovery_error": 0.013376513658124478
+    },
+    {
+      "threshold": 0.9,
+      "human_queue_frac": 0.48046875,
+      "accuracy": 0.6171875,
+      "bias": -0.02734375,
+      "bias_by_coda": {
+        "no_T": -0.03614457831325302,
+        "simple_T": -0.028301886792452824,
+        "cluster_T": -0.014925373134328346
+      },
+      "bias_spread": 0.02121920517892467,
+      "gap_recovery_error": 0.013376513658124478
+    },
+    {
+      "threshold": 0.93,
+      "human_queue_frac": 0.51953125,
+      "accuracy": 0.625,
+      "bias": -0.01953125,
+      "bias_by_coda": {
+        "no_T": -0.03614457831325302,
+        "simple_T": -0.018867924528301883,
+        "cluster_T": 0.0
+      },
+      "bias_spread": 0.03614457831325302,
+      "gap_recovery_error": 0.018867924528301883
+    },
+    {
+      "threshold": 0.95,
+      "human_queue_frac": 0.53125,
+      "accuracy": 0.625,
+      "bias": -0.01953125,
+      "bias_by_coda": {
+        "no_T": -0.03614457831325302,
+        "simple_T": -0.018867924528301883,
+        "cluster_T": 0.0
+      },
+      "bias_spread": 0.03614457831325302,
+      "gap_recovery_error": 0.018867924528301883
+    },
+    {
+      "threshold": 0.97,
+      "human_queue_frac": 0.578125,
+      "accuracy": 0.62890625,
+      "bias": -0.015625,
+      "bias_by_coda": {
+        "no_T": -0.03614457831325302,
+        "simple_T": -0.009433962264150941,
+        "cluster_T": 0.0
+      },
+      "bias_spread": 0.03614457831325302,
+      "gap_recovery_error": 0.009433962264150941
+    },
+    {
+      "threshold": 0.99,
+      "human_queue_frac": 0.703125,
+      "accuracy": 0.63671875,
+      "bias": -0.0078125,
+      "bias_by_coda": {
+        "no_T": -0.012048192771084376,
+        "simple_T": -0.009433962264150941,
+        "cluster_T": 0.0
+      },
+      "bias_spread": 0.012048192771084376,
+      "gap_recovery_error": 0.009433962264150941
+    },
+    {
+      "threshold": 1.01,
+      "human_queue_frac": 1.0,
+      "accuracy": 0.64453125,
+      "bias": 0.0,
+      "bias_by_coda": {
+        "no_T": 0.0,
+        "simple_T": 0.0,
+        "cluster_T": 0.0
+      },
+      "bias_spread": 0.0,
+      "gap_recovery_error": 0.0
+    }
+  ]
+}

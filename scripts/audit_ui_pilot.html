@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>JAMO 파일럿 감사</title>
+<style>
+  :root {
+    --bg: #f5f5f4;
+    --surface: #ffffff;
+    --ink: #18181b;
+    --ink-soft: #52525b;
+    --border: #e4e4e7;
+    --accent: #2563eb;
+    --accent-ink: #ffffff;
+    --danger: #dc2626;
+    --good: #16a34a;
+    --shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06);
+    --radius: 16px;
+    --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Pretendard", "Malgun Gothic", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0b0d;
+      --surface: #17171a;
+      --ink: #f4f4f5;
+      --ink-soft: #a1a1aa;
+      --border: #2a2a2e;
+      --accent: #3b82f6;
+      --accent-ink: #ffffff;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 30px rgba(0,0,0,.45);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .app { width: 100%; max-width: 680px; }
+
+  .progress-row {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 18px; color: var(--ink-soft); font-size: 13px;
+  }
+  .progress-track {
+    flex: 1; height: 4px; background: var(--border); border-radius: 999px; overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%; background: var(--accent); border-radius: 999px;
+    transition: width .25s ease;
+  }
+  .progress-count { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 28px;
+  }
+  .cell-tag {
+    display: inline-block; font-family: var(--mono); font-size: 11px;
+    color: var(--ink-soft); background: var(--bg); border: 1px solid var(--border);
+    padding: 3px 8px; border-radius: 999px; margin-bottom: 16px;
+  }
+  .image-wrap {
+    display: flex; align-items: center; justify-content: center;
+    background:
+      linear-gradient(45deg, rgba(128,128,128,.08) 25%, transparent 25%),
+      linear-gradient(-45deg, rgba(128,128,128,.08) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, rgba(128,128,128,.08) 75%),
+      linear-gradient(-45deg, transparent 75%, rgba(128,128,128,.08) 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    margin-bottom: 22px;
+    min-height: 320px;
+  }
+  .image-wrap img {
+    max-width: 100%; max-height: 45vh; display: block; border-radius: 10px;
+  }
+
+  .field-label {
+    font-size: 13px; color: var(--ink-soft); margin-bottom: 8px; font-weight: 500;
+  }
+  input[type="text"] {
+    width: 100%; font-size: 28px; text-align: center; padding: 16px 12px;
+    border-radius: 12px; border: 1.5px solid var(--border); background: var(--bg);
+    color: var(--ink); font-family: var(--sans); outline: none;
+    transition: border-color .15s ease, box-shadow .15s ease;
+  }
+  input[type="text"]:focus {
+    border-color: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 18%, transparent);
+  }
+
+  .hint { text-align: center; font-size: 12px; color: var(--ink-soft); margin-top: 10px; }
+  .hint kbd {
+    font-family: var(--mono); background: var(--bg); border: 1px solid var(--border);
+    border-radius: 4px; padding: 1px 5px; font-size: 11px;
+  }
+
+  .quick-actions {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 18px;
+  }
+  .quick-actions button {
+    font-family: var(--sans); font-size: 13px; padding: 10px 8px;
+    border-radius: 10px; border: 1px solid var(--border); background: var(--surface);
+    color: var(--ink-soft); cursor: pointer; transition: all .12s ease;
+  }
+  .quick-actions button:hover { border-color: var(--accent); color: var(--ink); }
+  .quick-actions button .k {
+    display: block; font-family: var(--mono); font-size: 10px; opacity: .6; margin-top: 2px;
+  }
+
+  .submit-row { margin-top: 18px; display: flex; gap: 10px; }
+  .submit-row button.primary {
+    flex: 1; font-size: 15px; font-weight: 600; padding: 14px; border-radius: 12px;
+    border: none; background: var(--accent); color: var(--accent-ink); cursor: pointer;
+    transition: transform .08s ease, opacity .15s ease;
+  }
+  .submit-row button.primary:active { transform: scale(.98); }
+  .submit-row button.primary:disabled { opacity: .4; cursor: not-allowed; }
+
+  .start h1 { font-size: 20px; margin: 0 0 6px; }
+  .start p { color: var(--ink-soft); font-size: 14px; line-height: 1.6; margin: 0 0 20px; }
+  .start input[type="text"] { font-size: 16px; text-align: left; padding: 12px 14px; }
+  .start .submit-row { margin-top: 16px; }
+
+  .summary h1 { font-size: 22px; margin: 0 0 4px; }
+  .summary .sub { color: var(--ink-soft); font-size: 13px; margin-bottom: 20px; }
+  .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 14px; }
+  .stat-grid.secondary { grid-template-columns: repeat(2, 1fr); margin-bottom: 22px; }
+  .stat {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px;
+  }
+  .stat .n { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .stat .l { font-size: 11px; color: var(--ink-soft); margin-top: 2px; line-height: 1.3; }
+  table.cellstats { width: 100%; border-collapse: collapse; font-size: 12px; }
+  table.cellstats th, table.cellstats td {
+    text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border);
+    font-family: var(--mono);
+  }
+  table.cellstats th { color: var(--ink-soft); font-weight: 500; }
+  .badge { display: inline-block; padding: 1px 6px; border-radius: 999px; font-size: 10px; font-family: var(--sans); }
+  .badge.good { background: color-mix(in srgb, var(--good) 15%, transparent); color: var(--good); }
+  .badge.bad { background: color-mix(in srgb, var(--danger) 15%, transparent); color: var(--danger); }
+
+  .hidden { display: none !important; }
+  .footer-link { text-align: center; margin-top: 16px; font-size: 12px; }
+  .footer-link a { color: var(--ink-soft); }
+</style>
+</head>
+<body>
+  <div class="app">
+
+    <div id="screen-start" class="card start">
+      <h1>JAMO 파일럿 감사 — 실제 Seedream 생성물</h1>
+      <p>
+        이번엔 폰트 렌더링이 아니라 <strong>Seedream이 실제로 생성한 이미지</strong>입니다.
+        정답을 모르는 상태로 실제로 눈에 보이는 대로만 입력하세요. 이 판독이
+        "Seedream이 진짜 잘 그렸는가"와 "CLOVA·template_match 중 누가 맞았는가"를
+        동시에 가려냅니다. 의견이 갈린 문항부터 먼저 나옵니다.
+      </p>
+      <div class="field-label">감사자 이름 (익명 가능)</div>
+      <input type="text" id="annotator-input" placeholder="예: kim / anonymous" autocomplete="off" />
+      <div class="submit-row">
+        <button class="primary" onclick="startSession()">시작</button>
+      </div>
+    </div>
+
+    <div id="screen-review" class="card hidden">
+      <div class="progress-row">
+        <span class="progress-count" id="progress-count">0 / 0</span>
+        <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+      </div>
+      <div class="cell-tag" id="cell-tag">-</div>
+      <div class="image-wrap"><img id="target-image" alt="판독 대상 이미지" /></div>
+
+      <div class="field-label">무슨 글자로 보이나요?</div>
+      <input type="text" id="answer-input" placeholder="여기에 입력 후 Enter" autocomplete="off" autofocus />
+      <div class="hint"><kbd>Enter</kbd> 제출 · <kbd>1</kbd> 텍스트없음 · <kbd>2</kbd> 읽기어려움 · <kbd>3</kbd> 다중글자</div>
+
+      <div class="quick-actions">
+        <button onclick="quickSubmit('no_text')">텍스트 없음<span class="k">1</span></button>
+        <button onclick="quickSubmit('illegible')">읽을 수 없음<span class="k">2</span></button>
+        <button onclick="quickSubmit('extra_text')">여러 글자로 보임<span class="k">3</span></button>
+      </div>
+
+      <div class="submit-row">
+        <button class="primary" id="submit-btn" onclick="submitText()">제출하고 다음</button>
+      </div>
+    </div>
+
+    <div id="screen-summary" class="card summary hidden">
+      <h1>감사 완료</h1>
+      <div class="sub" id="summary-sub">-</div>
+
+      <div class="field-label">Seedream 실제 성능 (사람 기준)</div>
+      <div class="stat-grid">
+        <div class="stat"><div class="n" id="stat-total">-</div><div class="l">판독 건수</div></div>
+        <div class="stat"><div class="n" id="stat-human-acc">-</div><div class="l">사람 vs 실제 타깃<br/>(= Seedream 실제 정확도)</div></div>
+        <div class="stat"><div class="n" id="stat-clova-vs-tm">-</div><div class="l">CLOVA↔template_match<br/>서로 일치율</div></div>
+      </div>
+
+      <div class="field-label">판정자별 정확도·사람과의 일치율</div>
+      <div class="stat-grid secondary">
+        <div class="stat"><div class="n" id="stat-clova-acc">-</div><div class="l">CLOVA 정확도 (vs 타깃)</div></div>
+        <div class="stat"><div class="n" id="stat-clova-agree">-</div><div class="l">사람↔CLOVA 일치율</div></div>
+        <div class="stat"><div class="n" id="stat-tm-acc">-</div><div class="l">template_match 정확도 (vs 타깃)</div></div>
+        <div class="stat"><div class="n" id="stat-tm-agree">-</div><div class="l">사람↔template_match 일치율</div></div>
+      </div>
+
+      <div class="field-label">종성유형별 비교 (사람 정확도 낮은 순)</div>
+      <table class="cellstats">
+        <thead><tr><th>coda_type</th><th>사람</th><th>CLOVA</th><th>tmpl_match</th><th>n</th></tr></thead>
+        <tbody id="cellstats-body"></tbody>
+      </table>
+      <div class="footer-link"><a href="#" onclick="location.reload(); return false;">처음부터 다시 (다른 감사자로)</a></div>
+    </div>
+
+  </div>
+
+<script>
+let annotator = "";
+let current = null;
+
+function qs(id) { return document.getElementById(id); }
+
+function show(id) {
+  ["screen-start", "screen-review", "screen-summary"].forEach(s => qs(s).classList.toggle("hidden", s !== id));
+}
+
+function startSession() {
+  annotator = qs("annotator-input").value.trim() || "anonymous";
+  loadNext();
+}
+
+async function loadNext() {
+  const res = await fetch(`/api/next?annotator=${encodeURIComponent(annotator)}`);
+  const data = await res.json();
+  if (data.done) {
+    await loadSummary();
+    return;
+  }
+  current = data.item;
+  qs("progress-count").textContent = `${data.index} / ${data.total}`;
+  qs("progress-fill").style.width = `${(data.index / data.total) * 100}%`;
+  qs("cell-tag").textContent = `coda=${current.coda_type} · template=${current.template_id}`;
+  qs("target-image").src = current.image_data_uri;
+  qs("answer-input").value = "";
+  show("screen-review");
+  qs("answer-input").focus();
+}
+
+async function submitAnswer(label, transcription) {
+  qs("submit-btn").disabled = true;
+  await fetch("/api/submit", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ id: current.id, annotator, label, transcription }),
+  });
+  qs("submit-btn").disabled = false;
+  loadNext();
+}
+
+function submitText() {
+  const val = qs("answer-input").value.trim();
+  if (!val) { quickSubmit("no_text"); return; }
+  submitAnswer("text", val);
+}
+
+function quickSubmit(label) {
+  submitAnswer(label, "");
+}
+
+document.addEventListener("keydown", (e) => {
+  if (qs("screen-review").classList.contains("hidden")) return;
+  if (document.activeElement === qs("answer-input")) {
+    if (e.key === "Enter") { e.preventDefault(); submitText(); }
+    return;
+  }
+  if (e.key === "1") quickSubmit("no_text");
+  if (e.key === "2") quickSubmit("illegible");
+  if (e.key === "3") quickSubmit("extra_text");
+});
+
+async function loadSummary() {
+  const res = await fetch(`/api/summary?annotator=${encodeURIComponent(annotator)}`);
+  const s = await res.json();
+  qs("summary-sub").textContent = `감사자: ${annotator}`;
+  qs("stat-total").textContent = s.total;
+  qs("stat-human-acc").textContent = (s.human_accuracy * 100).toFixed(1) + "%";
+  qs("stat-clova-vs-tm").textContent = (s.clova_vs_tm_agreement * 100).toFixed(1) + "%";
+  qs("stat-clova-acc").textContent = (s.clova_accuracy * 100).toFixed(1) + "%";
+  qs("stat-clova-agree").textContent = (s.clova_agreement_rate * 100).toFixed(1) + "%";
+  qs("stat-tm-acc").textContent = (s.tm_accuracy * 100).toFixed(1) + "%";
+  qs("stat-tm-agree").textContent = (s.tm_agreement_rate * 100).toFixed(1) + "%";
+
+  const body = qs("cellstats-body");
+  body.innerHTML = "";
+  s.per_cell.forEach(c => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${c.cell_key}</td>
+      <td><span class="badge ${c.human_accuracy >= 0.9 ? 'good' : 'bad'}">${(c.human_accuracy*100).toFixed(0)}%</span></td>
+      <td><span class="badge ${c.clova_accuracy >= 0.9 ? 'good' : 'bad'}">${(c.clova_accuracy*100).toFixed(0)}%</span></td>
+      <td><span class="badge ${c.tm_accuracy >= 0.9 ? 'good' : 'bad'}">${(c.tm_accuracy*100).toFixed(0)}%</span></td>
+      <td>${c.n}</td>`;
+    body.appendChild(tr);
+  });
+  show("screen-summary");
+}
+</script>
+</body>
+</html>

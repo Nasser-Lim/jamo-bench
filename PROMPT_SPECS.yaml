@@ -1,0 +1,27 @@
+# PROMPT_SPECS.yaml — JAMO_v51_patch.md §11 {target} interpolation freeze
+#
+# 버전 고정, 리포지토리 공개. 따옴표 유무·반복 횟수·"Hangul syllable" vs
+# "Korean character" 표현에 모델이 민감하다는 실측 지적(v5.1 §11)에 따라
+# 여기서 값을 한 번 고정하면 이후 임의로 바꾸지 않는다 — 바꿀 경우 버전을
+# 올리고 데이터셋 카드에 명시한다.
+
+version: 1
+
+templates:
+  T1:
+    label: "영문 미니멀"
+    text: 'plain white background, one large centered Hangul syllable "{target}", no other text, no watermark, no decoration'
+    interpolation: double_quote
+    target_repeat: 1
+
+  T2:
+    label: "영문 사실적"
+    text: 'printed black ink on white paper, single centered Korean character "{target}", studio photo, nothing else in frame'
+    interpolation: double_quote
+    target_repeat: 1
+
+  T3:
+    label: "한국어"
+    text: '흰 배경 정중앙에 한글 "{target}" 한 글자만 크게. 다른 글자나 장식 없음'
+    interpolation: double_quote
+    target_repeat: 1

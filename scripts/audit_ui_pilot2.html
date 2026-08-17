@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>JAMO 파일럿 감사 — Phase 2</title>
+<style>
+  :root {
+    --bg: #f5f5f4;
+    --surface: #ffffff;
+    --ink: #18181b;
+    --ink-soft: #52525b;
+    --border: #e4e4e7;
+    --accent: #2563eb;
+    --accent-ink: #ffffff;
+    --danger: #dc2626;
+    --good: #16a34a;
+    --shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.06);
+    --radius: 16px;
+    --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Pretendard", "Malgun Gothic", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0b0d;
+      --surface: #17171a;
+      --ink: #f4f4f5;
+      --ink-soft: #a1a1aa;
+      --border: #2a2a2e;
+      --accent: #3b82f6;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 30px rgba(0,0,0,.45);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--sans); display: flex; justify-content: center;
+    padding: 24px;
+  }
+  .app { width: 100%; max-width: 720px; }
+
+  .progress-row {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 16px; color: var(--ink-soft); font-size: 13px;
+  }
+  .progress-track { flex: 1; height: 4px; background: var(--border); border-radius: 999px; overflow: hidden; }
+  .progress-fill { height: 100%; background: var(--accent); border-radius: 999px; transition: width .25s ease; }
+  .progress-count { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); box-shadow: var(--shadow);
+    padding: 20px; margin-bottom: 16px;
+  }
+  .criterion {
+    font-size: 13px; line-height: 1.6; color: var(--ink-soft);
+    border-left: 3px solid var(--accent); padding-left: 12px; margin-bottom: 16px;
+  }
+  .criterion b { color: var(--ink); }
+  .group-tag {
+    display: inline-block; font-size: 11px; font-family: var(--mono);
+    padding: 3px 8px; border-radius: 999px; border: 1px solid var(--border);
+    color: var(--ink-soft); margin-bottom: 12px;
+  }
+  .image-wrap {
+    display: flex; align-items: center; justify-content: center;
+    background: #fff; border: 1px solid var(--border); border-radius: 12px;
+    overflow: hidden; margin-bottom: 18px;
+  }
+  .image-wrap img { max-width: 100%; max-height: 46vh; display: block; cursor: zoom-in; }
+  .image-wrap img.zoomed { max-height: none; width: 100%; cursor: zoom-out; }
+
+  .labels { display: flex; flex-direction: column; gap: 8px; }
+  .label-btn {
+    display: flex; align-items: center; gap: 12px; width: 100%;
+    padding: 12px 14px; font-size: 14px; font-family: var(--sans);
+    text-align: left; cursor: pointer;
+    background: var(--surface); color: var(--ink);
+    border: 1px solid var(--border); border-radius: 10px;
+    transition: border-color .12s ease, background .12s ease;
+  }
+  .label-btn:hover { border-color: var(--accent); }
+  .label-btn.selected { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, transparent); }
+  .key {
+    flex: none; width: 22px; height: 22px; display: grid; place-items: center;
+    font-family: var(--mono); font-size: 12px;
+    border: 1px solid var(--border); border-radius: 6px; color: var(--ink-soft);
+  }
+
+  .transcription { margin-top: 16px; display: none; }
+  .transcription.show { display: block; }
+  .transcription label { display: block; font-size: 13px; color: var(--ink-soft); margin-bottom: 6px; }
+  input[type=text] {
+    width: 100%; padding: 12px 14px; font-size: 22px; font-family: var(--sans);
+    background: var(--bg); color: var(--ink);
+    border: 1px solid var(--border); border-radius: 10px;
+  }
+  input[type=text].note { font-size: 14px; }
+  input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+
+  .actions { display: flex; gap: 10px; align-items: center; margin-top: 18px; }
+  .submit {
+    flex: 1; padding: 13px; font-size: 15px; font-family: var(--sans);
+    background: var(--accent); color: var(--accent-ink);
+    border: none; border-radius: 10px; cursor: pointer;
+  }
+  .submit:disabled { opacity: .4; cursor: not-allowed; }
+  .hint { font-size: 12px; color: var(--ink-soft); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--ink-soft); font-weight: 500; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--mono); }
+  h2 { font-size: 14px; margin: 0 0 12px; }
+  .done { text-align: center; padding: 40px 0; }
+  .done .big { font-size: 40px; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="progress-row">
+    <div class="progress-track"><div class="progress-fill" id="fill" style="width:0%"></div></div>
+    <div class="progress-count" id="count">—</div>
+  </div>
+
+  <div class="card" id="main">
+    <div class="criterion">
+      보이는 그대로 판정하세요. 타깃은 표시되지 않습니다.<br />
+      기준: <b>이 글자를 윈도우 키보드로 그대로 입력할 수 있는가?</b>
+      입력 가능한 완성형 한 글자면 1번을 고르고 전사하세요.
+      획이 하나라도 틀려 입력이 불가능하면 2번입니다.
+    </div>
+    <div class="group-tag" id="group">—</div>
+    <div class="image-wrap"><img id="img" alt="감사 대상 이미지" /></div>
+
+    <div class="labels" id="labels"></div>
+
+    <div class="transcription" id="trWrap">
+      <label for="tr">보이는 글자를 그대로 입력</label>
+      <input type="text" id="tr" autocomplete="off" spellcheck="false" />
+    </div>
+    <div class="transcription show" style="margin-top:12px">
+      <label for="note">메모 (선택)</label>
+      <input type="text" id="note" class="note" autocomplete="off" placeholder="예: 받침 ㅁ이 田으로 그려짐" />
+    </div>
+
+    <div class="actions">
+      <button class="submit" id="submit" disabled>제출 (Enter)</button>
+      <span class="hint">숫자키 1–5로 선택</span>
+    </div>
+  </div>
+
+  <div class="card" id="summaryCard" style="display:none">
+    <h2>진행 요약</h2>
+    <div id="summary"></div>
+  </div>
+</div>
+
+<script>
+const params = new URLSearchParams(location.search);
+let annotator = params.get("annotator") || localStorage.getItem("jamo_annotator") || "";
+if (!annotator) {
+  annotator = prompt("감사자 이름을 입력하세요") || "anonymous";
+}
+localStorage.setItem("jamo_annotator", annotator);
+
+let LABELS = [];
+let current = null;
+let selected = null;
+
+const $ = (id) => document.getElementById(id);
+
+async function loadLabels() {
+  const r = await fetch("/api/labels");
+  LABELS = (await r.json()).labels;
+  $("labels").innerHTML = LABELS.map((l, i) => `
+    <button class="label-btn" data-value="${l.value}">
+      <span class="key">${i + 1}</span><span>${l.text}</span>
+    </button>`).join("");
+  $("labels").querySelectorAll(".label-btn").forEach((b) =>
+    b.addEventListener("click", () => select(b.dataset.value)));
+}
+
+function select(value) {
+  selected = value;
+  const meta = LABELS.find((l) => l.value === value);
+  $("labels").querySelectorAll(".label-btn").forEach((b) =>
+    b.classList.toggle("selected", b.dataset.value === value));
+  $("trWrap").classList.toggle("show", meta.needs_transcription);
+  if (meta.needs_transcription) $("tr").focus();
+  updateSubmit();
+}
+
+function updateSubmit() {
+  const meta = LABELS.find((l) => l.value === selected);
+  const ok = !!selected && (!meta.needs_transcription || $("tr").value.trim().length > 0);
+  $("submit").disabled = !ok;
+}
+
+async function next() {
+  const r = await fetch(`/api/next?annotator=${encodeURIComponent(annotator)}`);
+  const data = await r.json();
+  if (data.done) {
+    $("main").innerHTML = `<div class="done"><div class="big">✓</div>
+      <div>모든 문항을 완료했습니다.</div></div>`;
+    refreshSummary();
+    return;
+  }
+  current = data.item;
+  selected = null;
+  $("img").src = data.item.image_data_uri;
+  $("img").classList.remove("zoomed");
+  $("group").textContent = data.item.group === "unaudited"
+    ? "미감사 — 이번에 처음 판정" : "재라벨링 — 1차에서 illegible로 표기됨";
+  $("tr").value = "";
+  $("note").value = "";
+  $("trWrap").classList.remove("show");
+  $("labels").querySelectorAll(".label-btn").forEach((b) => b.classList.remove("selected"));
+  $("count").textContent = `${data.index} / ${data.total}`;
+  $("fill").style.width = `${((data.index - 1) / data.total) * 100}%`;
+  $("submit").disabled = true;
+  refreshSummary();
+}
+
+async function submit() {
+  if ($("submit").disabled) return;
+  $("submit").disabled = true;
+  const res = await fetch("/api/submit", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      id: current.id, annotator, label: selected,
+      transcription: $("tr").value, note: $("note").value,
+    }),
+  });
+  const out = await res.json();
+  if (!out.ok) { alert(out.error); updateSubmit(); return; }
+  next();
+}
+
+async function refreshSummary() {
+  const r = await fetch(`/api/summary?annotator=${encodeURIComponent(annotator)}`);
+  const s = await r.json();
+  if (!s.total) return;
+  $("summaryCard").style.display = "block";
+  const labelRows = s.by_label.map((l) =>
+    `<tr><td>${l.text}</td><td class="num">${l.n}</td></tr>`).join("");
+  const ctRows = s.route_crosstab.map((c) =>
+    `<tr><td>${c.route}</td><td class="num">${c.n}</td>
+     <td class="num">${c.valid_syllable}</td><td class="num">${c.invalid}</td>
+     <td class="num">${(c.invalid_rate * 100).toFixed(0)}%</td></tr>`).join("");
+  $("summary").innerHTML = `
+    <table><tr><th>라벨</th><th class="num">건수</th></tr>${labelRows}</table>
+    ${s.route_crosstab.length ? `
+      <h2 style="margin-top:18px">Route × 유효성 (미감사 집단만)</h2>
+      <table>
+        <tr><th>Route</th><th class="num">n</th><th class="num">유효</th>
+            <th class="num">무효</th><th class="num">무효율</th></tr>
+        ${ctRows}
+      </table>` : ""}`;
+}
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") { e.preventDefault(); submit(); return; }
+  if (document.activeElement === $("tr") || document.activeElement === $("note")) return;
+  const n = parseInt(e.key, 10);
+  if (n >= 1 && n <= LABELS.length) { e.preventDefault(); select(LABELS[n - 1].value); }
+});
+$("tr").addEventListener("input", updateSubmit);
+$("submit").addEventListener("click", submit);
+$("img").addEventListener("click", () => $("img").classList.toggle("zoomed"));
+
+loadLabels().then(next);
+</script>
+</body>
+</html>

@@ -1,0 +1,1279 @@
+{
+  "config": {
+    "n_per_coda": 6,
+    "fonts": [
+      "noto_sans_kr"
+    ],
+    "severities": [
+      "mild",
+      "moderate",
+      "severe"
+    ],
+    "seed": 0,
+    "engine": "paddleocr"
+  },
+  "n_items": 126,
+  "n_rejected": 0,
+  "rows": [
+    {
+      "char": "소",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "소",
+      "paddleocr_confidence": 0.9980542659759521,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "소",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "소",
+      "paddleocr_confidence": 0.996498703956604,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "소",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "소",
+      "paddleocr_confidence": 0.9976219534873962,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "소",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "소",
+      "paddleocr_confidence": 0.9975645542144775,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "소",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "소",
+      "paddleocr_confidence": 0.9989444613456726,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "소",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "소",
+      "paddleocr_confidence": 0.993800938129425,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "소",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "소",
+      "paddleocr_confidence": 0.9845766425132751,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "홰",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "꽤",
+      "paddleocr_confidence": 0.40317413210868835,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "홰",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "꽤",
+      "paddleocr_confidence": 0.5646573305130005,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "홰",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "꽤",
+      "paddleocr_confidence": 0.6002810001373291,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "홰",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "왜",
+      "paddleocr_confidence": 0.47893819212913513,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "홰",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "왜",
+      "paddleocr_confidence": 0.43429213762283325,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "홰",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "화",
+      "paddleocr_confidence": 0.9873145222663879,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "홰",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "해",
+      "paddleocr_confidence": 0.9992303848266602,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쎄",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "써",
+      "paddleocr_confidence": 0.25123655796051025,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쎄",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "써",
+      "paddleocr_confidence": 0.3403471112251282,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쎄",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "써",
+      "paddleocr_confidence": 0.7731818556785583,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쎄",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "써",
+      "paddleocr_confidence": 0.47570598125457764,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쎄",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "세",
+      "paddleocr_confidence": 0.29845941066741943,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쎄",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "써",
+      "paddleocr_confidence": 0.7734160423278809,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쎄",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "기",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "기",
+      "paddleocr_confidence": 0.9996635913848877,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "기",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "기",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "기",
+      "paddleocr_confidence": 0.9901402592658997,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "기",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "키",
+      "paddleocr_confidence": 0.9998212456703186,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "기",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "기",
+      "paddleocr_confidence": 0.9998449087142944,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "기",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "기",
+      "paddleocr_confidence": 0.9357671737670898,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "기",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "기",
+      "paddleocr_confidence": 0.7602506279945374,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "며",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "며",
+      "paddleocr_confidence": 0.9999560117721558,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "며",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "며",
+      "paddleocr_confidence": 0.9999464750289917,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "며",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "며",
+      "paddleocr_confidence": 0.999923586845398,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "며",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "며",
+      "paddleocr_confidence": 0.9999382495880127,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "며",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "며",
+      "paddleocr_confidence": 0.9999516010284424,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "며",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "며",
+      "paddleocr_confidence": 0.99671870470047,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "며",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "좌",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "좌",
+      "paddleocr_confidence": 0.9959877133369446,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "좌",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "좌",
+      "paddleocr_confidence": 0.9935548901557922,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "좌",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "좌",
+      "paddleocr_confidence": 0.9938614368438721,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "좌",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "좌",
+      "paddleocr_confidence": 0.9983628392219543,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "좌",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "좌",
+      "paddleocr_confidence": 0.9977952241897583,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "좌",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "좌",
+      "paddleocr_confidence": 0.9777373671531677,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "좌",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "자",
+      "paddleocr_confidence": 0.5521116852760315,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "윸",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "율",
+      "paddleocr_confidence": 0.9759934544563293,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "윸",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "율",
+      "paddleocr_confidence": 0.9929376244544983,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "윸",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "율",
+      "paddleocr_confidence": 0.9954519867897034,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "윸",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "율",
+      "paddleocr_confidence": 0.9185786247253418,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "윸",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "율",
+      "paddleocr_confidence": 0.9178234338760376,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "윸",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "육",
+      "paddleocr_confidence": 0.6861518025398254,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "윸",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "욱",
+      "paddleocr_confidence": 0.42649003863334656,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "슴",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "슴",
+      "paddleocr_confidence": 0.7007921934127808,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "슴",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "슴",
+      "paddleocr_confidence": 0.487591952085495,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "슴",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "솜",
+      "paddleocr_confidence": 0.7433995008468628,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "슴",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "슴",
+      "paddleocr_confidence": 0.4329661428928375,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "슴",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "슴",
+      "paddleocr_confidence": 0.6327562928199768,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "슴",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "즘",
+      "paddleocr_confidence": 0.6163359880447388,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "슴",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "음",
+      "paddleocr_confidence": 0.3176180124282837,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "볼",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "볼",
+      "paddleocr_confidence": 0.9999569654464722,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "볼",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "볼",
+      "paddleocr_confidence": 0.9998610019683838,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "볼",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "볼",
+      "paddleocr_confidence": 0.9999523162841797,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "볼",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "볼",
+      "paddleocr_confidence": 0.999975323677063,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "볼",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "볼",
+      "paddleocr_confidence": 0.9999198913574219,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "볼",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "볼",
+      "paddleocr_confidence": 0.9991616010665894,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "볼",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "틀",
+      "paddleocr_confidence": 0.9829927086830139,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "욱",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "욱",
+      "paddleocr_confidence": 0.9985645413398743,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "욱",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "욱",
+      "paddleocr_confidence": 0.998802900314331,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "욱",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "욱",
+      "paddleocr_confidence": 0.9977200627326965,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "욱",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "욱",
+      "paddleocr_confidence": 0.9961374402046204,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "욱",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "욱",
+      "paddleocr_confidence": 0.9935387969017029,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "욱",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "욱",
+      "paddleocr_confidence": 0.47005724906921387,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "욱",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "죽",
+      "paddleocr_confidence": 0.500995397567749,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쀔",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "뺨",
+      "paddleocr_confidence": 0.4417210519313812,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쀔",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "뺨",
+      "paddleocr_confidence": 0.4414108097553253,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쀔",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "삘",
+      "paddleocr_confidence": 0.29862844944000244,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쀔",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "뺨",
+      "paddleocr_confidence": 0.21306440234184265,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쀔",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "뺨",
+      "paddleocr_confidence": 0.22565509378910065,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쀔",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "빨",
+      "paddleocr_confidence": 0.14613144099712372,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "쀔",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "뿜",
+      "paddleocr_confidence": 0.2836361527442932,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "첯",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "첫",
+      "paddleocr_confidence": 0.9764067530632019,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "첯",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "첫",
+      "paddleocr_confidence": 0.9633556604385376,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "첯",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "젖",
+      "paddleocr_confidence": 0.5772928595542908,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "첯",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "첫",
+      "paddleocr_confidence": 0.7478553056716919,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "첯",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "첫",
+      "paddleocr_confidence": 0.9394192695617676,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "첯",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "첫",
+      "paddleocr_confidence": 0.9724195003509521,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "첯",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뷅",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "뮐",
+      "paddleocr_confidence": 0.3644501566886902,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뷅",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "뿔",
+      "paddleocr_confidence": 0.3688259720802307,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뷅",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "뿔",
+      "paddleocr_confidence": 0.36300209164619446,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뷅",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뷅",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "뮐",
+      "paddleocr_confidence": 0.4459631145000458,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뷅",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "훨",
+      "paddleocr_confidence": 0.3137369751930237,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뷅",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "불",
+      "paddleocr_confidence": 0.3208126723766327,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "픓",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "픓",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "픓",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "끓",
+      "paddleocr_confidence": 0.34197157621383667,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "픓",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "뚫",
+      "paddleocr_confidence": 0.6675809621810913,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "픓",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "픓",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "픓",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띑",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "띨",
+      "paddleocr_confidence": 0.42995399236679077,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띑",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띑",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "뚫",
+      "paddleocr_confidence": 0.23207007348537445,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띑",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "뚫",
+      "paddleocr_confidence": 0.7249161601066589,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띑",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "둘",
+      "paddleocr_confidence": 0.3060666620731354,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띑",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "뚫",
+      "paddleocr_confidence": 0.40661635994911194,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띑",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "띨",
+      "paddleocr_confidence": 0.3121403157711029,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "싫",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "십",
+      "paddleocr_confidence": 0.5740780234336853,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "싫",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "십",
+      "paddleocr_confidence": 0.5036385655403137,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "싫",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "쉽",
+      "paddleocr_confidence": 0.3296084403991699,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "싫",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "싫",
+      "paddleocr_confidence": 0.998997151851654,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "싫",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "십",
+      "paddleocr_confidence": 0.319674551486969,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "싫",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "싫",
+      "paddleocr_confidence": 0.9868535995483398,
+      "paddleocr_matches_original": true
+    },
+    {
+      "char": "싫",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띣",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띣",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띣",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띣",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "뛸",
+      "paddleocr_confidence": 0.3042771518230438,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띣",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띣",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "띣",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뎴",
+      "font_name": "noto_sans_kr",
+      "kind": "control",
+      "severity": "none",
+      "is_control": true,
+      "paddleocr_reading": "델",
+      "paddleocr_confidence": 0.9254025816917419,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뎴",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "덴",
+      "paddleocr_confidence": 0.37196704745292664,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뎴",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "덫",
+      "paddleocr_confidence": 0.29354801774024963,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뎴",
+      "font_name": "noto_sans_kr",
+      "kind": "add_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": null,
+      "paddleocr_confidence": 0.0,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뎴",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "mild",
+      "is_control": false,
+      "paddleocr_reading": "델",
+      "paddleocr_confidence": 0.8676940202713013,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뎴",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "moderate",
+      "is_control": false,
+      "paddleocr_reading": "덴",
+      "paddleocr_confidence": 0.41260427236557007,
+      "paddleocr_matches_original": false
+    },
+    {
+      "char": "뎴",
+      "font_name": "noto_sans_kr",
+      "kind": "remove_stroke",
+      "severity": "severe",
+      "is_control": false,
+      "paddleocr_reading": "델",
+      "paddleocr_confidence": 0.8075546026229858,
+      "paddleocr_matches_original": false
+    }
+  ]
+}

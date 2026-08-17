@@ -1,0 +1,7734 @@
+{
+  "n": 256,
+  "n_invalid": 44,
+  "signals": {
+    "unexplained_ink": {
+      "auc": 0.8649228130360206,
+      "direction": 1,
+      "median_invalid": 0.11494273595511997,
+      "median_valid": 0.016163584189373324,
+      "threshold": 0.03595724003887269,
+      "recall": 0.9545454545454546,
+      "false_flag": 0.33490566037735847,
+      "youden": 0.6196397941680961
+    },
+    "font_agreement": {
+      "auc": 0.440180102915952,
+      "direction": -1,
+      "median_invalid": 0.6666666666666666,
+      "median_valid": 0.6666666666666666,
+      "threshold": -0.3333333333333333,
+      "recall": 0.4318181818181818,
+      "false_flag": 0.32547169811320753,
+      "youden": 0.10634648370497429
+    },
+    "margin": {
+      "auc": 0.6961835334476844,
+      "direction": -1,
+      "median_invalid": 0.011223852634429932,
+      "median_valid": 0.025451302528381348,
+      "threshold": -0.0235595703125,
+      "recall": 0.7954545454545454,
+      "false_flag": 0.4716981132075472,
+      "youden": 0.32375643224699824
+    },
+    "score": {
+      "auc": 0.8471269296740995,
+      "direction": -1,
+      "median_invalid": 0.6486833393573761,
+      "median_valid": 0.7650537192821503,
+      "threshold": -0.7180936932563782,
+      "recall": 0.8636363636363636,
+      "false_flag": 0.24528301886792453,
+      "youden": 0.6183533447684391
+    }
+  },
+  "combined": {
+    "rule": "unexplained_ink >= 0.098 OR font_agreement < 1.0",
+    "recall": 0.9772727272727273,
+    "false_flag": 0.8160377358490566,
+    "youden": 0.1612349914236707
+  },
+  "rows": [
+    {
+      "image_path": "results\\pilot\\images\\퐋_T1_1_765ea641ec9fd943.jpeg",
+      "target": "퐋",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "퐏",
+      "score": 0.8612866401672363,
+      "margin": 0.02547430992126465,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "퐏",
+          0.8573060631752014
+        ],
+        [
+          "pretendard",
+          "퐏",
+          0.8612866401672363
+        ],
+        [
+          "noto_serif_kr",
+          "촲",
+          0.5620245337486267
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\퐋_T2_0_f0e63dafec1cc58d.jpeg",
+      "target": "퐋",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "퐐",
+      "score": 0.8785358667373657,
+      "margin": 0.039966046810150146,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.008516483516483516,
+      "missing_ink": 0.0033277870216306157,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "퐐",
+          0.8785358667373657
+        ],
+        [
+          "pretendard",
+          "퐐",
+          0.8622608780860901
+        ],
+        [
+          "noto_serif_kr",
+          "꽖",
+          0.6015955805778503
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\퐋_T2_1_07baace06de0347c.jpeg",
+      "target": "퐋",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "뢀",
+      "score": 0.7080433964729309,
+      "margin": 0.003580451011657715,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.05426633345233845,
+      "missing_ink": 0.1119724375538329,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뢀",
+          0.7080433964729309
+        ],
+        [
+          "pretendard",
+          "뢀",
+          0.6994277834892273
+        ],
+        [
+          "noto_serif_kr",
+          "꽐",
+          0.641643762588501
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\퐋_T2_2_92d96575495d09d2.jpeg",
+      "target": "퐋",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "늫",
+      "score": 0.2423204928636551,
+      "margin": 0.004790827631950378,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.1936619718309859,
+      "missing_ink": 0.7276876267748479,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "녹",
+          0.1864795982837677
+        ],
+        [
+          "pretendard",
+          "누",
+          0.18266741931438446
+        ],
+        [
+          "noto_serif_kr",
+          "늫",
+          0.2423204928636551
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\퉑_T1_1_5de0f51a93955557.jpeg",
+      "target": "퉑",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "퉑",
+      "score": 0.7946587800979614,
+      "margin": 0.04403620958328247,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.036990985390115014,
+      "missing_ink": 0.05324909747292419,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "퉑",
+          0.7429265379905701
+        ],
+        [
+          "pretendard",
+          "퉑",
+          0.7946587800979614
+        ],
+        [
+          "noto_serif_kr",
+          "쮉",
+          0.606398344039917
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\퉑_T1_2_fcec3bfe6fa931c1.jpeg",
+      "target": "퉑",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "퉑",
+      "score": 0.7576966285705566,
+      "margin": 0.010854542255401611,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.013265704252828716,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "훩",
+          0.5522745251655579
+        ],
+        [
+          "pretendard",
+          "퉑",
+          0.5536087155342102
+        ],
+        [
+          "noto_serif_kr",
+          "퉑",
+          0.7576966285705566
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\퉑_T2_2_8225ff77fc8748d2.jpeg",
+      "target": "퉑",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "둵",
+      "score": 0.734529435634613,
+      "margin": 0.0006232857704162598,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.06068204613841525,
+      "missing_ink": 0.048027444253859346,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "릫",
+          0.5321248173713684
+        ],
+        [
+          "pretendard",
+          "휡",
+          0.5242854952812195
+        ],
+        [
+          "noto_serif_kr",
+          "둵",
+          0.734529435634613
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\죇_T1_1_ad77d7699ea7886e.jpeg",
+      "target": "죇",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "죙",
+      "score": 0.6979705691337585,
+      "margin": 0.006515920162200928,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.10083396512509477,
+      "missing_ink": 0.06160714285714286,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쵱",
+          0.6926039457321167
+        ],
+        [
+          "pretendard",
+          "쵱",
+          0.673982560634613
+        ],
+        [
+          "noto_serif_kr",
+          "죙",
+          0.6979705691337585
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\죇_T1_2_0cb09ac686fcefb9.jpeg",
+      "target": "죇",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "징",
+      "score": 0.8000776767730713,
+      "margin": 0.0073163509368896484,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.06941266209000763,
+      "missing_ink": 0.019187358916478554,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "졍",
+          0.7942554950714111
+        ],
+        [
+          "pretendard",
+          "징",
+          0.8000776767730713
+        ],
+        [
+          "noto_serif_kr",
+          "셟",
+          0.5816574096679688
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\죇_T2_0_a02b7d1eee249ab2.jpeg",
+      "target": "죇",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "죇",
+      "score": 0.7647516131401062,
+      "margin": 0.048310041427612305,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.044885945548197206,
+      "missing_ink": 0.0004553734061930783,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쵟",
+          0.634820818901062
+        ],
+        [
+          "pretendard",
+          "푃",
+          0.629801869392395
+        ],
+        [
+          "noto_serif_kr",
+          "죇",
+          0.7647516131401062
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\죇_T2_1_c513e0e27adcf379.jpeg",
+      "target": "죇",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "쟹",
+      "score": 0.6421566009521484,
+      "margin": 0.009863853454589844,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.10142857142857142,
+      "missing_ink": 0.1497835497835498,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쳒",
+          0.49701225757598877
+        ],
+        [
+          "pretendard",
+          "쳒",
+          0.502899706363678
+        ],
+        [
+          "noto_serif_kr",
+          "쟹",
+          0.6421566009521484
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\죇_T2_2_b93daba7ff097ba0.jpeg",
+      "target": "죇",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "죇",
+      "score": 0.7126963138580322,
+      "margin": 0.021543383598327637,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.083447959651536,
+      "missing_ink": 0.0441712204007286,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쵟",
+          0.5470262765884399
+        ],
+        [
+          "pretendard",
+          "쵟",
+          0.5453804731369019
+        ],
+        [
+          "noto_serif_kr",
+          "죇",
+          0.7126963138580322
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\뷦_T1_0_6a11134f1f84705e.jpeg",
+      "target": "뷦",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뷦",
+      "score": 0.8731958866119385,
+      "margin": 0.0634050965309143,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.003806734992679356,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뷦",
+          0.8731958866119385
+        ],
+        [
+          "pretendard",
+          "뷦",
+          0.8395017981529236
+        ],
+        [
+          "noto_serif_kr",
+          "붨",
+          0.6455161571502686
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\뷦_T1_1_d3644e21f743d43a.jpeg",
+      "target": "뷦",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "뷧",
+      "score": 0.7180936932563782,
+      "margin": 0.01697826385498047,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.10423011844331641,
+      "missing_ink": 0.05866395388267209,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "퍳",
+          0.7138338088989258
+        ],
+        [
+          "pretendard",
+          "뷧",
+          0.7180936932563782
+        ],
+        [
+          "noto_serif_kr",
+          "쀛",
+          0.5714119672775269
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\뷦_T2_0_467a6ebbe55d7679.jpeg",
+      "target": "뷦",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뷦",
+      "score": 0.8272932767868042,
+      "margin": 0.0200425386428833,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.012905604719764012,
+      "missing_ink": 0.011354737666405637,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "휤",
+          0.6279968619346619
+        ],
+        [
+          "pretendard",
+          "뷗",
+          0.633215606212616
+        ],
+        [
+          "noto_serif_kr",
+          "뷦",
+          0.8272932767868042
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\뷦_T2_1_27b73295b18f26a6.jpeg",
+      "target": "뷦",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "붬",
+      "score": 0.6373488903045654,
+      "margin": 0.008219599723815918,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.02612562534741523,
+      "missing_ink": 0.12381345439537764,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뷖",
+          0.508712887763977
+        ],
+        [
+          "pretendard",
+          "끣",
+          0.48498255014419556
+        ],
+        [
+          "noto_serif_kr",
+          "붬",
+          0.6373488903045654
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\뷦_T2_2_6d30037f9d24c263.jpeg",
+      "target": "뷦",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뷦",
+      "score": 0.7978830933570862,
+      "margin": 0.0006275177001953125,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.016286644951140065,
+      "missing_ink": 0.039545810493343776,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "휤",
+          0.6082958579063416
+        ],
+        [
+          "pretendard",
+          "뷗",
+          0.607365071773529
+        ],
+        [
+          "noto_serif_kr",
+          "뷦",
+          0.7978830933570862
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬙_T1_0_087ece133dcc793d.jpeg",
+      "target": "쬙",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "퇡",
+      "score": 0.5503110885620117,
+      "margin": 0.004059493541717529,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.19345238095238096,
+      "missing_ink": 0.2505476451259584,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뙑",
+          0.5497626662254333
+        ],
+        [
+          "pretendard",
+          "퇡",
+          0.5503110885620117
+        ],
+        [
+          "noto_serif_kr",
+          "햵",
+          0.5110633969306946
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬙_T1_1_fe68e8f07340d6a3.jpeg",
+      "target": "쬙",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "뙑",
+      "score": 0.6421128511428833,
+      "margin": 0.0020159482955932617,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.09042016806722689,
+      "missing_ink": 0.15343317321277197,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뙑",
+          0.6281891465187073
+        ],
+        [
+          "pretendard",
+          "뙑",
+          0.6421128511428833
+        ],
+        [
+          "noto_serif_kr",
+          "핽",
+          0.5751664638519287
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬙_T1_2_1f635557119c69f0.jpeg",
+      "target": "쬙",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쬙",
+      "score": 0.7709493041038513,
+      "margin": 0.028770864009857178,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.000355998576005696,
+      "missing_ink": 0.02156177156177156,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쬙",
+          0.7709493041038513
+        ],
+        [
+          "pretendard",
+          "쬙",
+          0.7435647249221802
+        ],
+        [
+          "noto_serif_kr",
+          "씕",
+          0.726374626159668
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬙_T2_1_0b86e4128fd1c94a.jpeg",
+      "target": "쬙",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쬙",
+      "score": 0.8073428869247437,
+      "margin": 0.03368502855300903,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0039249890972525075,
+      "missing_ink": 0.0215633423180593,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쵥",
+          0.5692950487136841
+        ],
+        [
+          "pretendard",
+          "쵥",
+          0.5799440145492554
+        ],
+        [
+          "noto_serif_kr",
+          "쬙",
+          0.8073428869247437
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬙_T2_2_7a28b83c2ce4d0ef.jpeg",
+      "target": "쬙",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쬙",
+      "score": 0.8146571516990662,
+      "margin": 0.020830988883972168,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.010752688172043012,
+      "missing_ink": 0.005390835579514825,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "븱",
+          0.6234931349754333
+        ],
+        [
+          "pretendard",
+          "쵥",
+          0.6099553108215332
+        ],
+        [
+          "noto_serif_kr",
+          "쬙",
+          0.8146571516990662
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\똵_T1_0_58168292652395a3.jpeg",
+      "target": "똵",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "똵",
+      "score": 0.8204650282859802,
+      "margin": 0.022102534770965576,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0005925925925925926,
+      "missing_ink": 0.004910456383593298,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "똵",
+          0.8140956163406372
+        ],
+        [
+          "pretendard",
+          "똵",
+          0.8204650282859802
+        ],
+        [
+          "noto_serif_kr",
+          "똵",
+          0.5780454874038696
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\똵_T1_1_3141a1ba6e1e18db.jpeg",
+      "target": "똵",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "똵",
+      "score": 0.8193879723548889,
+      "margin": 0.02905285358428955,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.019082001031459517,
+      "missing_ink": 0.0036848072562358277,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "똵",
+          0.8193879723548889
+        ],
+        [
+          "pretendard",
+          "똵",
+          0.7805488109588623
+        ],
+        [
+          "noto_serif_kr",
+          "똵",
+          0.5682932138442993
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\똵_T1_2_d5a7d6f6dda458a0.jpeg",
+      "target": "똵",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "똵",
+      "score": 0.7547591328620911,
+      "margin": 0.03848421573638916,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.012724879333040808,
+      "missing_ink": 0.05449079293498685,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "촭",
+          0.5635027885437012
+        ],
+        [
+          "pretendard",
+          "촭",
+          0.5754371285438538
+        ],
+        [
+          "noto_serif_kr",
+          "똵",
+          0.7547591328620911
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\똵_T2_0_0fc7b9a5ba7dc5c7.jpeg",
+      "target": "똵",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뽥",
+      "score": 0.6728271842002869,
+      "margin": 0.0016044378280639648,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.09684323167469235,
+      "missing_ink": 0.11704697986577181,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뽥",
+          0.6728271842002869
+        ],
+        [
+          "pretendard",
+          "퐑",
+          0.6595392823219299
+        ],
+        [
+          "noto_serif_kr",
+          "똵",
+          0.6664291620254517
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\똵_T2_1_1f3662ab61910fa2.jpeg",
+      "target": "똵",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뙁",
+      "score": 0.764313817024231,
+      "margin": 0.03991049528121948,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.038748137108792845,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뙁",
+          0.7641397714614868
+        ],
+        [
+          "pretendard",
+          "뙁",
+          0.764313817024231
+        ],
+        [
+          "noto_serif_kr",
+          "똶",
+          0.5786877274513245
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\똵_T2_2_50201440ebbc7d50.jpeg",
+      "target": "똵",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "똵",
+      "score": 0.6987941861152649,
+      "margin": 0.014338672161102295,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.08876329787234043,
+      "missing_ink": 0.06350995866215708,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "퐑",
+          0.6808753609657288
+        ],
+        [
+          "pretendard",
+          "퐑",
+          0.6548509001731873
+        ],
+        [
+          "noto_serif_kr",
+          "똵",
+          0.6987941861152649
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쾌_T2_0_088e355e04e452a4.jpeg",
+      "target": "쾌",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "꽾",
+      "score": 0.639878511428833,
+      "margin": 0.0023726820945739746,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.07100046104195482,
+      "missing_ink": 0.2064973861090366,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꽷",
+          0.5230168104171753
+        ],
+        [
+          "pretendard",
+          "꽧",
+          0.5124896764755249
+        ],
+        [
+          "noto_serif_kr",
+          "꽾",
+          0.639878511428833
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\츼_T1_0_dd0bccd93d11edfa.jpeg",
+      "target": "츼",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "칕",
+      "score": 0.7979429364204407,
+      "margin": 0.0010627508163452148,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.026151930261519303,
+      "missing_ink": 0.053811659192825115,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "칕",
+          0.7979429364204407
+        ],
+        [
+          "pretendard",
+          "칄",
+          0.7924790978431702
+        ],
+        [
+          "noto_serif_kr",
+          "뛸",
+          0.6546569466590881
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\츼_T1_1_4ca31e407b30dc44.jpeg",
+      "target": "츼",
+      "coda_type": "no_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "췬",
+      "score": 0.6393206119537354,
+      "margin": 0.019981801509857178,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.07210455159981974,
+      "missing_ink": 0.14080267558528428,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "췬",
+          0.6393206119537354
+        ],
+        [
+          "pretendard",
+          "췬",
+          0.6319042444229126
+        ],
+        [
+          "noto_serif_kr",
+          "췯",
+          0.6078025102615356
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\츼_T1_2_7c36a9cfa179db79.jpeg",
+      "target": "츼",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "췸",
+      "score": 0.8594422936439514,
+      "margin": 0.028516948223114014,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.0008789920890711983,
+      "missing_ink": 0.013083556348498365,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "췸",
+          0.8594422936439514
+        ],
+        [
+          "pretendard",
+          "즴",
+          0.8320067524909973
+        ],
+        [
+          "noto_serif_kr",
+          "퓖",
+          0.6216273903846741
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\츼_T2_0_4ab06d97b107e356.jpeg",
+      "target": "츼",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "츼",
+      "score": 0.6849986910820007,
+      "margin": 0.013199329376220703,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.12270642201834862,
+      "missing_ink": 0.08672638436482084,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "츼",
+          0.6849986910820007
+        ],
+        [
+          "pretendard",
+          "츼",
+          0.6808671355247498
+        ],
+        [
+          "noto_serif_kr",
+          "즤",
+          0.6172886490821838
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\츼_T2_1_dbdedd4f7b00785f.jpeg",
+      "target": "츼",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "즤",
+      "score": 0.6955277323722839,
+      "margin": 0.005714714527130127,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.1356020942408377,
+      "missing_ink": 0.10298102981029811,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "싀",
+          0.5500528812408447
+        ],
+        [
+          "pretendard",
+          "쇡",
+          0.5461883544921875
+        ],
+        [
+          "noto_serif_kr",
+          "즤",
+          0.6955277323722839
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\와_T2_2_17d30e6817e5a4cd.jpeg",
+      "target": "와",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "퇑",
+      "score": 0.642899215221405,
+      "margin": 0.004559040069580078,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.10108481262327416,
+      "missing_ink": 0.20937752627324172,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "홗",
+          0.4656037986278534
+        ],
+        [
+          "pretendard",
+          "홗",
+          0.4554288983345032
+        ],
+        [
+          "noto_serif_kr",
+          "퇑",
+          0.642899215221405
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\왜_T1_2_6c41ac35743a5d23.jpeg",
+      "target": "왜",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뫠",
+      "score": 0.787602961063385,
+      "margin": 0.049479901790618896,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.016033755274261603,
+      "missing_ink": 0.016260162601626018,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뫠",
+          0.7468931078910828
+        ],
+        [
+          "pretendard",
+          "뫠",
+          0.787602961063385
+        ],
+        [
+          "noto_serif_kr",
+          "왜",
+          0.5860596895217896
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬐_T1_0_49a9fc1d26b14db2.jpeg",
+      "target": "쬐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "푀",
+      "score": 0.7007543444633484,
+      "margin": 0.000843048095703125,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.05778561976179974,
+      "missing_ink": 0.11434894872740686,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "푀",
+          0.7007543444633484
+        ],
+        [
+          "pretendard",
+          "쯰",
+          0.6635358333587646
+        ],
+        [
+          "noto_serif_kr",
+          "씌",
+          0.691787600517273
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬐_T1_1_206e102d19d6883e.jpeg",
+      "target": "쬐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "꽝",
+      "score": 0.6838416457176208,
+      "margin": 0.01568204164505005,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.07025117739403454,
+      "missing_ink": 0.08792650918635171,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꽝",
+          0.6838416457176208
+        ],
+        [
+          "pretendard",
+          "쫭",
+          0.6808488965034485
+        ],
+        [
+          "noto_serif_kr",
+          "쫠",
+          0.5717741847038269
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬐_T2_0_e977a3fa2ea6b18b.jpeg",
+      "target": "쬐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쯰",
+      "score": 0.7497920393943787,
+      "margin": 0.0020531415939331055,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.06535462309691793,
+      "missing_ink": 0.02150943396226415,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쯰",
+          0.7497920393943787
+        ],
+        [
+          "pretendard",
+          "쯰",
+          0.7087446451187134
+        ],
+        [
+          "noto_serif_kr",
+          "쐬",
+          0.7026510834693909
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬐_T2_1_20c8c654a1dd5387.jpeg",
+      "target": "쬐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쬐",
+      "score": 0.8099033236503601,
+      "margin": 0.03840702772140503,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.024683338746346217,
+      "missing_ink": 0.008956252152945229,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쬐",
+          0.8099033236503601
+        ],
+        [
+          "pretendard",
+          "쯰",
+          0.7637122869491577
+        ],
+        [
+          "noto_serif_kr",
+          "쐬",
+          0.5971041917800903
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬐_T2_2_cc1b533696dd88e2.jpeg",
+      "target": "쬐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쬐",
+      "score": 0.7296074032783508,
+      "margin": 0.025428295135498047,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.05628438425730004,
+      "missing_ink": 0.024919243193354867,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꾀",
+          0.5896875262260437
+        ],
+        [
+          "pretendard",
+          "븩",
+          0.5607696175575256
+        ],
+        [
+          "noto_serif_kr",
+          "쬐",
+          0.7296074032783508
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쐐_T1_0_2cd22c0e22ca37dc.jpeg",
+      "target": "쐐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "썥",
+      "score": 0.6428071856498718,
+      "margin": 0.004299521446228027,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.07609427609427609,
+      "missing_ink": 0.20256338813039845,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "썥",
+          0.6428071856498718
+        ],
+        [
+          "pretendard",
+          "쨸",
+          0.62856125831604
+        ],
+        [
+          "noto_serif_kr",
+          "쐞",
+          0.5602196455001831
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\춲_T1_0_56a0022783e265ab.jpeg",
+      "target": "춲",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "춸",
+      "score": 0.7987529039382935,
+      "margin": 0.006656527519226074,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.03154168007724493,
+      "missing_ink": 0.025290697674418605,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "춸",
+          0.7987529039382935
+        ],
+        [
+          "pretendard",
+          "춸",
+          0.7664158940315247
+        ],
+        [
+          "noto_serif_kr",
+          "줦",
+          0.6941906213760376
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\춲_T1_1_b4a8df59dad2283e.jpeg",
+      "target": "춲",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "췀",
+      "score": 0.734998881816864,
+      "margin": 0.02749800682067871,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.02633587786259542,
+      "missing_ink": 0.05975975975975976,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "췀",
+          0.7245905995368958
+        ],
+        [
+          "pretendard",
+          "췀",
+          0.734998881816864
+        ],
+        [
+          "noto_serif_kr",
+          "줟",
+          0.6583049297332764
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\춲_T1_2_ea559b287a05b698.jpeg",
+      "target": "춲",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "햠",
+      "score": 0.6959648132324219,
+      "margin": 0.03301894664764404,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.12283195905601364,
+      "missing_ink": 0.06529103788112103,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "햠",
+          0.6959648132324219
+        ],
+        [
+          "pretendard",
+          "햠",
+          0.69461989402771
+        ],
+        [
+          "noto_serif_kr",
+          "쭳",
+          0.5689641237258911
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\춲_T2_0_7f460a007b280588.jpeg",
+      "target": "춲",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "꿖",
+      "score": 0.6960107088088989,
+      "margin": 0.0156363844871521,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.14620689655172414,
+      "missing_ink": 0.09006499535747446,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "춲",
+          0.6298266053199768
+        ],
+        [
+          "pretendard",
+          "쉮",
+          0.6274091005325317
+        ],
+        [
+          "noto_serif_kr",
+          "꿖",
+          0.6960107088088989
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\춲_T2_1_d62b549982a2302f.jpeg",
+      "target": "춲",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "췉",
+      "score": 0.6996210217475891,
+      "margin": 0.030944645404815674,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.03595724003887269,
+      "missing_ink": 0.11896485129393589,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뤙",
+          0.551784336566925
+        ],
+        [
+          "pretendard",
+          "퉝",
+          0.5524478554725647
+        ],
+        [
+          "noto_serif_kr",
+          "췉",
+          0.6996210217475891
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\춲_T2_2_02b7cd262570dd69.jpeg",
+      "target": "춲",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "춲",
+      "score": 0.8221694231033325,
+      "margin": 0.037472307682037354,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.001941747572815534,
+      "missing_ink": 0.011408512505484861,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "췪",
+          0.5980896949768066
+        ],
+        [
+          "pretendard",
+          "픢",
+          0.5717937350273132
+        ],
+        [
+          "noto_serif_kr",
+          "춲",
+          0.8221694231033325
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\푔_T2_1_34c0835202d266b1.jpeg",
+      "target": "푔",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "퀸",
+      "score": 0.6624190807342529,
+      "margin": 0.013078808784484863,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.17308563661078388,
+      "missing_ink": 0.13306085376930063,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "푕",
+          0.571495532989502
+        ],
+        [
+          "pretendard",
+          "뵝",
+          0.5512958765029907
+        ],
+        [
+          "noto_serif_kr",
+          "퀸",
+          0.6624190807342529
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\푔_T2_2_7ad3877eea8808c4.jpeg",
+      "target": "푔",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "꽠",
+      "score": 0.5166674852371216,
+      "margin": 0.002200305461883545,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.21515633280339164,
+      "missing_ink": 0.32504215851602025,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "괔",
+          0.4570237696170807
+        ],
+        [
+          "pretendard",
+          "봓",
+          0.44368210434913635
+        ],
+        [
+          "noto_serif_kr",
+          "꽠",
+          0.5166674852371216
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읚_T1_0_f9b2497eaedeb540.jpeg",
+      "target": "읚",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "읮",
+      "score": 0.8461424708366394,
+      "margin": 0.023164331912994385,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.012491781722550954,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "읮",
+          0.8461424708366394
+        ],
+        [
+          "pretendard",
+          "읮",
+          0.8010217547416687
+        ],
+        [
+          "noto_serif_kr",
+          "묓",
+          0.6328439712524414
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읚_T1_1_bb8e208048221f00.jpeg",
+      "target": "읚",
+      "coda_type": "simple_T",
+      "human_label": "extra_text",
+      "well_formed": false,
+      "predicted_char": "왇",
+      "score": 0.5627342462539673,
+      "margin": 0.0024361610412597656,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.060930232558139535,
+      "missing_ink": 0.2531686707832304,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "왇",
+          0.5429951548576355
+        ],
+        [
+          "pretendard",
+          "왇",
+          0.5627342462539673
+        ],
+        [
+          "noto_serif_kr",
+          "뿓",
+          0.520706057548523
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읚_T1_2_de3284ce22e1dcb4.jpeg",
+      "target": "읚",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "욎",
+      "score": 0.7972490787506104,
+      "margin": 0.003861844539642334,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0032585083272990588,
+      "missing_ink": 0.019890920757138275,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "욎",
+          0.7972490787506104
+        ],
+        [
+          "pretendard",
+          "욎",
+          0.7940934300422668
+        ],
+        [
+          "noto_serif_kr",
+          "읮",
+          0.6532540917396545
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읚_T2_0_2f8120669f213c71.jpeg",
+      "target": "읚",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "읚",
+      "score": 0.7441501617431641,
+      "margin": 0.007815718650817871,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.011698880976602238,
+      "missing_ink": 0.03687943262411347,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "븪",
+          0.5265563130378723
+        ],
+        [
+          "pretendard",
+          "틖",
+          0.513199508190155
+        ],
+        [
+          "noto_serif_kr",
+          "읚",
+          0.7441501617431641
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읚_T2_1_faaf2803bda89be9.jpeg",
+      "target": "읚",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "왘",
+      "score": 0.6525895595550537,
+      "margin": 0.0032599568367004395,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.07078384798099763,
+      "missing_ink": 0.12095032397408208,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "왂",
+          0.5748925805091858
+        ],
+        [
+          "pretendard",
+          "퐉",
+          0.5544873476028442
+        ],
+        [
+          "noto_serif_kr",
+          "왘",
+          0.6525895595550537
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\뢨_T1_0_5c61c30207b0b967.jpeg",
+      "target": "뢨",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "릠",
+      "score": 0.6605512499809265,
+      "margin": 0.004452168941497803,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.10836961780358007,
+      "missing_ink": 0.1152228763666947,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뢖",
+          0.5131346583366394
+        ],
+        [
+          "pretendard",
+          "꽧",
+          0.510553777217865
+        ],
+        [
+          "noto_serif_kr",
+          "릠",
+          0.6605512499809265
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\뢨_T1_1_9884b6f13595fe2e.jpeg",
+      "target": "뢨",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "홭",
+      "score": 0.6519418954849243,
+      "margin": 0.0014821887016296387,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.1843293492695883,
+      "missing_ink": 0.11744485820681753,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뽤",
+          0.6463051438331604
+        ],
+        [
+          "pretendard",
+          "홭",
+          0.6519418954849243
+        ],
+        [
+          "noto_serif_kr",
+          "뾻",
+          0.5860643982887268
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\뢨_T1_2_852ac4fac67afbf3.jpeg",
+      "target": "뢨",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "퐹",
+      "score": 0.602074921131134,
+      "margin": 0.004266679286956787,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.02536543422184007,
+      "missing_ink": 0.17611683848797252,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "퐹",
+          0.602074921131134
+        ],
+        [
+          "pretendard",
+          "뢩",
+          0.5991455316543579
+        ],
+        [
+          "noto_serif_kr",
+          "뵇",
+          0.5997145771980286
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\뢨_T2_1_63bc9c690d8cd6ed.jpeg",
+      "target": "뢨",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "룀",
+      "score": 0.6891393065452576,
+      "margin": 0.0008012056350708008,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.02106318956870612,
+      "missing_ink": 0.08370947886746,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뢳",
+          0.5123522877693176
+        ],
+        [
+          "pretendard",
+          "쾫",
+          0.524774432182312
+        ],
+        [
+          "noto_serif_kr",
+          "룀",
+          0.6891393065452576
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\뢨_T2_2_4dd390c83c4b0963.jpeg",
+      "target": "뢨",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "릥",
+      "score": 0.6821338534355164,
+      "margin": 0.00574183464050293,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.13535791757049892,
+      "missing_ink": 0.09452954048140044,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "췏",
+          0.5058627724647522
+        ],
+        [
+          "pretendard",
+          "꽧",
+          0.503844678401947
+        ],
+        [
+          "noto_serif_kr",
+          "릥",
+          0.6821338534355164
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\띘_T1_2_3149764df342b681.jpeg",
+      "target": "띘",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뙸",
+      "score": 0.7987682223320007,
+      "margin": 0.031865596771240234,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.008026267785479753,
+      "missing_ink": 0.04195573174760489,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뙸",
+          0.746921181678772
+        ],
+        [
+          "pretendard",
+          "뙸",
+          0.7987682223320007
+        ],
+        [
+          "noto_serif_kr",
+          "띘",
+          0.6326767802238464
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\띘_T2_0_0a764d4618eaddc6.jpeg",
+      "target": "띘",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "띘",
+      "score": 0.7647289633750916,
+      "margin": 0.027676701545715332,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.03250611674239776,
+      "missing_ink": 0.006869901245169601,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "픴",
+          0.6818709969520569
+        ],
+        [
+          "pretendard",
+          "픴",
+          0.6601504683494568
+        ],
+        [
+          "noto_serif_kr",
+          "띘",
+          0.7647289633750916
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\띘_T2_1_14a1124ed9dccd5a.jpeg",
+      "target": "띘",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "띘",
+      "score": 0.7710611820220947,
+      "margin": 0.025839269161224365,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.005519779208831647,
+      "missing_ink": 0.019321597252039503,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "븫",
+          0.5602377653121948
+        ],
+        [
+          "pretendard",
+          "븫",
+          0.5627408027648926
+        ],
+        [
+          "noto_serif_kr",
+          "띘",
+          0.7710611820220947
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\띘_T2_2_9f0b40db95b10d19.jpeg",
+      "target": "띘",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "띘",
+      "score": 0.8110203742980957,
+      "margin": 0.02206355333328247,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.010776829815895825,
+      "missing_ink": 0.006440532417346501,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "픣",
+          0.586780309677124
+        ],
+        [
+          "pretendard",
+          "픴",
+          0.5809503197669983
+        ],
+        [
+          "noto_serif_kr",
+          "띘",
+          0.8110203742980957
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쀆_T1_0_12be241a55fe350f.jpeg",
+      "target": "쀆",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쀅",
+      "score": 0.8159342408180237,
+      "margin": 0.0039757490158081055,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.06552786334360124,
+      "missing_ink": 0.016250376166114956,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쀅",
+          0.8159342408180237
+        ],
+        [
+          "pretendard",
+          "쀆",
+          0.794103741645813
+        ],
+        [
+          "noto_serif_kr",
+          "쮂",
+          0.6801199913024902
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쀆_T1_1_64b39ae7167a7fb7.jpeg",
+      "target": "쀆",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "쀆",
+      "score": 0.6742227077484131,
+      "margin": 0.012822628021240234,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.01937046004842615,
+      "missing_ink": 0.1225587319558449,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쀆",
+          0.6742227077484131
+        ],
+        [
+          "pretendard",
+          "췎",
+          0.6712520122528076
+        ],
+        [
+          "noto_serif_kr",
+          "쮂",
+          0.6169044971466064
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쀆_T1_2_3be62ecb607fa209.jpeg",
+      "target": "쀆",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쮂",
+      "score": 0.7194029092788696,
+      "margin": 0.0058290958404541016,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.08818565400843882,
+      "missing_ink": 0.06889915319476521,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쀅",
+          0.6103457808494568
+        ],
+        [
+          "pretendard",
+          "췍",
+          0.5864834189414978
+        ],
+        [
+          "noto_serif_kr",
+          "쮂",
+          0.7194029092788696
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쀆_T2_0_ce2751b069e39ced.jpeg",
+      "target": "쀆",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쀆",
+      "score": 0.765899658203125,
+      "margin": 0.022054016590118408,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.05228531855955679,
+      "missing_ink": 0.03533697632058288,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뿪",
+          0.6289164423942566
+        ],
+        [
+          "pretendard",
+          "쀢",
+          0.6156152486801147
+        ],
+        [
+          "noto_serif_kr",
+          "쀆",
+          0.765899658203125
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쀆_T2_1_686dff9393b27ea1.jpeg",
+      "target": "쀆",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "퀚",
+      "score": 0.7457859516143799,
+      "margin": 0.001841425895690918,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.1238908971409793,
+      "missing_ink": 0.013911620294599018,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쀅",
+          0.6983514428138733
+        ],
+        [
+          "pretendard",
+          "쀆",
+          0.6681050658226013
+        ],
+        [
+          "noto_serif_kr",
+          "퀚",
+          0.7457859516143799
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\콃_T2_0_1c90c9d8b8011cee.jpeg",
+      "target": "콃",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "삪",
+      "score": 0.5796172022819519,
+      "margin": 0.0025318264961242676,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.11658962506420134,
+      "missing_ink": 0.2726248591813744,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "켃",
+          0.46827322244644165
+        ],
+        [
+          "pretendard",
+          "멗",
+          0.46637922525405884
+        ],
+        [
+          "noto_serif_kr",
+          "삪",
+          0.5796172022819519
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\탢_T1_2_0d7ccb9db47cd978.jpeg",
+      "target": "탢",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "됂",
+      "score": 0.6908246278762817,
+      "margin": 0.02814805507659912,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.07581967213114754,
+      "missing_ink": 0.1525035765379113,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "됂",
+          0.6908246278762817
+        ],
+        [
+          "pretendard",
+          "탦",
+          0.6779965162277222
+        ],
+        [
+          "noto_serif_kr",
+          "밾",
+          0.5578245520591736
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\탢_T2_0_afedea48e3526fc3.jpeg",
+      "target": "탢",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "르",
+      "score": 0.1285690814256668,
+      "margin": 0.0001731961965560913,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.2831541218637993,
+      "missing_ink": 0.7822014051522248,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "사",
+          0.10917267203330994
+        ],
+        [
+          "pretendard",
+          "카",
+          0.10965127497911453
+        ],
+        [
+          "noto_serif_kr",
+          "르",
+          0.1285690814256668
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\탢_T2_1_55ee987e8267b439.jpeg",
+      "target": "탢",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "팮",
+      "score": 0.7397321462631226,
+      "margin": 0.003964900970458984,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.053012967200610224,
+      "missing_ink": 0.08089563019140483,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "팮",
+          0.6016796231269836
+        ],
+        [
+          "pretendard",
+          "놶",
+          0.6157085299491882
+        ],
+        [
+          "noto_serif_kr",
+          "팮",
+          0.7397321462631226
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\탢_T2_2_e32ea692ce988d82.jpeg",
+      "target": "탢",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "펞",
+      "score": 0.7456802129745483,
+      "margin": 0.002665221691131592,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.04897801774006942,
+      "missing_ink": 0.07386990077177508,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "핺",
+          0.6272602677345276
+        ],
+        [
+          "pretendard",
+          "놶",
+          0.6328516602516174
+        ],
+        [
+          "noto_serif_kr",
+          "펞",
+          0.7456802129745483
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\값_T2_0_d5ebb34403a90de7.jpeg",
+      "target": "값",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "갋",
+      "score": 0.6202417612075806,
+      "margin": 0.0015322566032409668,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.07534597642234751,
+      "missing_ink": 0.18860759493670887,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갑",
+          0.5718814730644226
+        ],
+        [
+          "pretendard",
+          "갑",
+          0.5397031903266907
+        ],
+        [
+          "noto_serif_kr",
+          "갋",
+          0.6202417612075806
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읽_T1_1_d4eb4285f4fa5a53.jpeg",
+      "target": "읽",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "꽑",
+      "score": 0.5825209617614746,
+      "margin": 0.00464099645614624,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.2580877066858375,
+      "missing_ink": 0.18247298919567828,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "왉",
+          0.5722410678863525
+        ],
+        [
+          "pretendard",
+          "흏",
+          0.5625644326210022
+        ],
+        [
+          "noto_serif_kr",
+          "꽑",
+          0.5825209617614746
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읽_T2_0_a9b06a32003f8ba3.jpeg",
+      "target": "읽",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "훅",
+      "score": 0.1979004293680191,
+      "margin": 0.0006855875253677368,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.18588235294117647,
+      "missing_ink": 0.7302302302302303,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "괵",
+          0.14660781621932983
+        ],
+        [
+          "pretendard",
+          "쾩",
+          0.1487833559513092
+        ],
+        [
+          "noto_serif_kr",
+          "훅",
+          0.1979004293680191
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\떐_T1_0_f99a3cd1681acf02.jpeg",
+      "target": "떐",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뗴",
+      "score": 0.809473991394043,
+      "margin": 0.020197629928588867,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.033073929961089495,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뗴",
+          0.7637796401977539
+        ],
+        [
+          "pretendard",
+          "뗴",
+          0.809473991394043
+        ],
+        [
+          "noto_serif_kr",
+          "쫴",
+          0.6060759425163269
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\떐_T1_1_819897223b952862.jpeg",
+      "target": "떐",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뗙",
+      "score": 0.5987721681594849,
+      "margin": 0.018234968185424805,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.15203426124197003,
+      "missing_ink": 0.23575221238938054,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뗙",
+          0.5987721681594849
+        ],
+        [
+          "pretendard",
+          "틱",
+          0.5772528648376465
+        ],
+        [
+          "noto_serif_kr",
+          "뗙",
+          0.5761560201644897
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\떐_T1_2_a0e272eb5d8445a9.jpeg",
+      "target": "떐",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뗴",
+      "score": 0.7655931115150452,
+      "margin": 0.03412395715713501,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.02236106543900033,
+      "missing_ink": 0.02994955863808323,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뗴",
+          0.7655931115150452
+        ],
+        [
+          "pretendard",
+          "뗴",
+          0.718411922454834
+        ],
+        [
+          "noto_serif_kr",
+          "톄",
+          0.5929816961288452
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\떐_T2_0_a47c90ce6ec898d8.jpeg",
+      "target": "떐",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "땔",
+      "score": 0.7027977108955383,
+      "margin": 0.006055355072021484,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.04997807978956598,
+      "missing_ink": 0.07343574372424129,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "폓",
+          0.5353202223777771
+        ],
+        [
+          "pretendard",
+          "폓",
+          0.552166759967804
+        ],
+        [
+          "noto_serif_kr",
+          "땔",
+          0.7027977108955383
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\떐_T2_1_3e385c412dde94f9.jpeg",
+      "target": "떐",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뗸",
+      "score": 0.7517248392105103,
+      "margin": 0.008758902549743652,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.01471861471861472,
+      "missing_ink": 0.04286246738725308,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뗀",
+          0.5287630558013916
+        ],
+        [
+          "pretendard",
+          "볜",
+          0.523300051689148
+        ],
+        [
+          "noto_serif_kr",
+          "뗸",
+          0.7517248392105103
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\떐_T2_2_b8f118349191d6e7.jpeg",
+      "target": "떐",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "뗻",
+      "score": 0.743377149105072,
+      "margin": 0.03294283151626587,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.036605657237936774,
+      "missing_ink": 0.08207024029574861,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "펜",
+          0.5762077569961548
+        ],
+        [
+          "pretendard",
+          "펜",
+          0.5825014710426331
+        ],
+        [
+          "noto_serif_kr",
+          "뗻",
+          0.743377149105072
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쩶_T1_0_b22c1969d8023660.jpeg",
+      "target": "쩶",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쩻",
+      "score": 0.7541565299034119,
+      "margin": 0.014337599277496338,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.00825643516270034,
+      "missing_ink": 0.06807804068078041,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쏏",
+          0.5702792406082153
+        ],
+        [
+          "pretendard",
+          "쏏",
+          0.580621600151062
+        ],
+        [
+          "noto_serif_kr",
+          "쩻",
+          0.7541565299034119
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쩶_T1_2_16b8ba4d36150a8e.jpeg",
+      "target": "쩶",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "쨩",
+      "score": 0.7435104846954346,
+      "margin": 0.011374294757843018,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.051430517711171665,
+      "missing_ink": 0.06434400502197113,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쨩",
+          0.7415987849235535
+        ],
+        [
+          "pretendard",
+          "쨩",
+          0.7435104846954346
+        ],
+        [
+          "noto_serif_kr",
+          "퉎",
+          0.5520005822181702
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쩶_T2_0_91daced23d0b401e.jpeg",
+      "target": "쩶",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쪃",
+      "score": 0.6616431474685669,
+      "margin": 0.0007138848304748535,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.10237988325101033,
+      "missing_ink": 0.1927186387020182,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "껭",
+          0.5588108897209167
+        ],
+        [
+          "pretendard",
+          "꼥",
+          0.5346121191978455
+        ],
+        [
+          "noto_serif_kr",
+          "쪃",
+          0.6616431474685669
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쩶_T2_1_c7dad23d593bca38.jpeg",
+      "target": "쩶",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쨆",
+      "score": 0.7773477435112,
+      "margin": 0.0001195669174194336,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.020825444907232107,
+      "missing_ink": 0.042282571330354075,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꿸",
+          0.5959992408752441
+        ],
+        [
+          "pretendard",
+          "쳴",
+          0.5856563448905945
+        ],
+        [
+          "noto_serif_kr",
+          "쨆",
+          0.7773477435112
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쩶_T2_2_a6437e91f1a74905.jpeg",
+      "target": "쩶",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "뭙",
+      "score": 0.5752771496772766,
+      "margin": 0.0005959868431091309,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.236750651607298,
+      "missing_ink": 0.2561516740621218,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뷝",
+          0.544063150882721
+        ],
+        [
+          "pretendard",
+          "횕",
+          0.5409021973609924
+        ],
+        [
+          "noto_serif_kr",
+          "뭙",
+          0.5752771496772766
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\폐_T1_2_416f8266f7e2efd0.jpeg",
+      "target": "폐",
+      "coda_type": "no_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "렣",
+      "score": 0.5940849184989929,
+      "margin": 0.0005649924278259277,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.12305099030762748,
+      "missing_ink": 0.21271997530101883,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "렣",
+          0.5940849184989929
+        ],
+        [
+          "pretendard",
+          "삫",
+          0.5873737335205078
+        ],
+        [
+          "noto_serif_kr",
+          "뭫",
+          0.5595143437385559
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\폐_T2_2_f61b88cbddb583e1.jpeg",
+      "target": "폐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "패",
+      "score": 0.750755250453949,
+      "margin": 0.0035857558250427246,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.06224066390041494,
+      "missing_ink": 0.06560986349625715,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쳬",
+          0.5934178233146667
+        ],
+        [
+          "pretendard",
+          "메",
+          0.5675519108772278
+        ],
+        [
+          "noto_serif_kr",
+          "패",
+          0.750755250453949
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\태_T2_0_4cb89156077a0a71.jpeg",
+      "target": "태",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "대",
+      "score": 0.7328322529792786,
+      "margin": 0.0072234272956848145,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.076162215628091,
+      "missing_ink": 0.01988360814742968,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "넥",
+          0.5404373407363892
+        ],
+        [
+          "pretendard",
+          "넥",
+          0.5296623110771179
+        ],
+        [
+          "noto_serif_kr",
+          "대",
+          0.7328322529792786
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\태_T2_1_2bf5d81bdcf22d65.jpeg",
+      "target": "태",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "데",
+      "score": 0.7519634962081909,
+      "margin": 0.0005671977996826172,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.05396527451900516,
+      "missing_ink": 0.034026465028355386,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "넥",
+          0.556047797203064
+        ],
+        [
+          "pretendard",
+          "넥",
+          0.5587584376335144
+        ],
+        [
+          "noto_serif_kr",
+          "데",
+          0.7519634962081909
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\태_T2_2_e1bfe5caa68189d4.jpeg",
+      "target": "태",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "스",
+      "score": 0.14460580050945282,
+      "margin": 0.015364855527877808,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.359504132231405,
+      "missing_ink": 0.7585931254996003,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "스",
+          0.10354898124933243
+        ],
+        [
+          "pretendard",
+          "스",
+          0.10443617403507233
+        ],
+        [
+          "noto_serif_kr",
+          "스",
+          0.14460580050945282
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\가_T1_0_502294e463efa141.jpeg",
+      "target": "가",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "카",
+      "score": 0.7196604013442993,
+      "margin": 0.003940284252166748,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.015126050420168067,
+      "missing_ink": 0.08685306365258774,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "가",
+          0.5525277256965637
+        ],
+        [
+          "pretendard",
+          "가",
+          0.5361297130584717
+        ],
+        [
+          "noto_serif_kr",
+          "카",
+          0.7196604013442993
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쟤_T2_2_badcfe9d1b463c4c.jpeg",
+      "target": "쟤",
+      "coda_type": "no_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "꽎",
+      "score": 0.46266791224479675,
+      "margin": 0.003713250160217285,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.2926078028747433,
+      "missing_ink": 0.3990790483499616,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "흖",
+          0.4228973090648651
+        ],
+        [
+          "pretendard",
+          "흖",
+          0.42881736159324646
+        ],
+        [
+          "noto_serif_kr",
+          "꽎",
+          0.46266791224479675
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\깨_T1_0_041fa854db4d3ca3.jpeg",
+      "target": "깨",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "째",
+      "score": 0.7393050193786621,
+      "margin": 0.0010901689529418945,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.05627705627705628,
+      "missing_ink": 0.1061486693178342,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "째",
+          0.7393050193786621
+        ],
+        [
+          "pretendard",
+          "꺠",
+          0.7346822023391724
+        ],
+        [
+          "noto_serif_kr",
+          "꼐",
+          0.6273782849311829
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\깨_T1_1_1ec7f5cdbe9de50b.jpeg",
+      "target": "깨",
+      "coda_type": "no_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "쨔",
+      "score": 0.5652469992637634,
+      "margin": 0.022980809211730957,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.23816985271074897,
+      "missing_ink": 0.1453168044077135,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쨔",
+          0.5584021806716919
+        ],
+        [
+          "pretendard",
+          "쨔",
+          0.5652469992637634
+        ],
+        [
+          "noto_serif_kr",
+          "봲",
+          0.5309748649597168
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\깨_T1_2_47675931288a343b.jpeg",
+      "target": "깨",
+      "coda_type": "no_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "깳",
+      "score": 0.6367185115814209,
+      "margin": 0.00999593734741211,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.13550036523009495,
+      "missing_ink": 0.14516708587854832,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쏌",
+          0.5957805514335632
+        ],
+        [
+          "pretendard",
+          "쎔",
+          0.6045325398445129
+        ],
+        [
+          "noto_serif_kr",
+          "깳",
+          0.6367185115814209
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\깨_T2_1_e8f789e09d9b83b6.jpeg",
+      "target": "깨",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쨰",
+      "score": 0.631991982460022,
+      "margin": 0.001722097396850586,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.16350877192982455,
+      "missing_ink": 0.09157808667211774,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꼐",
+          0.585578203201294
+        ],
+        [
+          "pretendard",
+          "뼉",
+          0.5594151616096497
+        ],
+        [
+          "noto_serif_kr",
+          "쨰",
+          0.631991982460022
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\깨_T2_2_877dec620014f2d2.jpeg",
+      "target": "깨",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "매",
+      "score": 0.6724319458007812,
+      "margin": 0.021328866481781006,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.11958946898705936,
+      "missing_ink": 0.13805970149253732,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꼐",
+          0.5543231964111328
+        ],
+        [
+          "pretendard",
+          "벡",
+          0.5436405539512634
+        ],
+        [
+          "noto_serif_kr",
+          "매",
+          0.6724319458007812
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\떄_T1_2_e07d89630833b5fe.jpeg",
+      "target": "떄",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "땨",
+      "score": 0.6504014730453491,
+      "margin": 0.05252712965011597,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.23585295332507228,
+      "missing_ink": 0.04902451225612806,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "떼",
+          0.4897348880767822
+        ],
+        [
+          "pretendard",
+          "떼",
+          0.5185773968696594
+        ],
+        [
+          "noto_serif_kr",
+          "땨",
+          0.6504014730453491
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\떄_T2_2_168de1a23bddbb8c.jpeg",
+      "target": "떄",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "턭",
+      "score": 0.7060940265655518,
+      "margin": 0.003943741321563721,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.08247422680412371,
+      "missing_ink": 0.06666666666666667,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "퍺",
+          0.5800963044166565
+        ],
+        [
+          "pretendard",
+          "폓",
+          0.5756099224090576
+        ],
+        [
+          "noto_serif_kr",
+          "턭",
+          0.7060940265655518
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\켰_T1_2_e0f5111a226981a0.jpeg",
+      "target": "켰",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "콌",
+      "score": 0.740885317325592,
+      "margin": 0.039227187633514404,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.005160778086542279,
+      "missing_ink": 0.05459057071960298,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "콌",
+          0.740885317325592
+        ],
+        [
+          "pretendard",
+          "콌",
+          0.7218886017799377
+        ],
+        [
+          "noto_serif_kr",
+          "쳈",
+          0.601798951625824
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\촜_T1_0_c50125bd9a2af13a.jpeg",
+      "target": "촜",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "촘",
+      "score": 0.760456383228302,
+      "margin": 0.0035076141357421875,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.04991680532445923,
+      "missing_ink": 0.033893034825870645,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "촘",
+          0.760456383228302
+        ],
+        [
+          "pretendard",
+          "총",
+          0.7567294836044312
+        ],
+        [
+          "noto_serif_kr",
+          "촖",
+          0.6426296830177307
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\촜_T1_1_83f88994aa11478f.jpeg",
+      "target": "촜",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "췅",
+      "score": 0.7738164663314819,
+      "margin": 0.019045114517211914,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.058165548098434,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "슁",
+          0.757882297039032
+        ],
+        [
+          "pretendard",
+          "췅",
+          0.7738164663314819
+        ],
+        [
+          "noto_serif_kr",
+          "큄",
+          0.6112997531890869
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\촜_T1_2_286341b235c89102.jpeg",
+      "target": "촜",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "뾓",
+      "score": 0.6094411015510559,
+      "margin": 0.011073410511016846,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.16079632465543645,
+      "missing_ink": 0.1982564679415073,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뾓",
+          0.5983151793479919
+        ],
+        [
+          "pretendard",
+          "뾓",
+          0.6094411015510559
+        ],
+        [
+          "noto_serif_kr",
+          "휕",
+          0.5968480110168457
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\촜_T2_0_16a38f5a585cb965.jpeg",
+      "target": "촜",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "촜",
+      "score": 0.7551144361495972,
+      "margin": 0.05948394536972046,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.006746237675142709,
+      "missing_ink": 0.05413732394366197,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "촜",
+          0.5495776534080505
+        ],
+        [
+          "pretendard",
+          "촜",
+          0.5560051202774048
+        ],
+        [
+          "noto_serif_kr",
+          "촜",
+          0.7551144361495972
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\촜_T2_1_e4e1425a62e9507d.jpeg",
+      "target": "촜",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "뺾",
+      "score": 0.5092487931251526,
+      "margin": 0.0017751455307006836,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.24281150159744408,
+      "missing_ink": 0.34205607476635513,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뻏",
+          0.492199182510376
+        ],
+        [
+          "pretendard",
+          "뻏",
+          0.49858665466308594
+        ],
+        [
+          "noto_serif_kr",
+          "뺾",
+          0.5092487931251526
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\촜_T2_2_0bf0106f613706ee.jpeg",
+      "target": "촜",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "촜",
+      "score": 0.8042625784873962,
+      "margin": 0.08382755517959595,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0010604453870625664,
+      "missing_ink": 0.027288732394366196,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "촜",
+          0.558570146560669
+        ],
+        [
+          "pretendard",
+          "촜",
+          0.5724332332611084
+        ],
+        [
+          "noto_serif_kr",
+          "촜",
+          0.8042625784873962
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갂_T1_0_b8cf15c058793077.jpeg",
+      "target": "갂",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갂",
+      "score": 0.7610007524490356,
+      "margin": 0.04355978965759277,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.015320910973084885,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갂",
+          0.7610007524490356
+        ],
+        [
+          "pretendard",
+          "갂",
+          0.7307935953140259
+        ],
+        [
+          "noto_serif_kr",
+          "갂",
+          0.6441933512687683
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갂_T1_1_25925964bf0cf14d.jpeg",
+      "target": "갂",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갂",
+      "score": 0.8006463050842285,
+      "margin": 0.057562947273254395,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.011875511875511875,
+      "missing_ink": 0.008917197452229299,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갂",
+          0.7724475264549255
+        ],
+        [
+          "pretendard",
+          "갂",
+          0.8006463050842285
+        ],
+        [
+          "noto_serif_kr",
+          "끆",
+          0.5196168422698975
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갂_T1_2_b63dae7b96f7d534.jpeg",
+      "target": "갂",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갂",
+      "score": 0.8884005546569824,
+      "margin": 0.11082565784454346,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갂",
+          0.8884005546569824
+        ],
+        [
+          "pretendard",
+          "갂",
+          0.8111994862556458
+        ],
+        [
+          "noto_serif_kr",
+          "갺",
+          0.5959467887878418
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갂_T2_0_9be0e5f14d58924e.jpeg",
+      "target": "갂",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갂",
+      "score": 0.7579909563064575,
+      "margin": 0.038796842098236084,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.019758507135016465,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "칶",
+          0.4433307945728302
+        ],
+        [
+          "pretendard",
+          "라",
+          0.4291173219680786
+        ],
+        [
+          "noto_serif_kr",
+          "갂",
+          0.7579909563064575
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갂_T2_1_f7f8640db937a37f.jpeg",
+      "target": "갂",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갂",
+      "score": 0.8516905903816223,
+      "margin": 0.09267854690551758,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0005889281507656066,
+      "missing_ink": 0.00823271130625686,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갂",
+          0.5103840827941895
+        ],
+        [
+          "pretendard",
+          "갂",
+          0.4878133237361908
+        ],
+        [
+          "noto_serif_kr",
+          "갂",
+          0.8516905903816223
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갂_T2_2_ada1492328e0de1c.jpeg",
+      "target": "갂",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갂",
+      "score": 0.7632432579994202,
+      "margin": 0.034313082695007324,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.006918238993710692,
+      "missing_ink": 0.025246981339187707,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갂",
+          0.5036553740501404
+        ],
+        [
+          "pretendard",
+          "갂",
+          0.4833762049674988
+        ],
+        [
+          "noto_serif_kr",
+          "갂",
+          0.7632432579994202
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\띢_T1_0_bba7c66b3915f884.jpeg",
+      "target": "띢",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "럤",
+      "score": 0.759459376335144,
+      "margin": 0.011453688144683838,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.05285285285285285,
+      "missing_ink": 0.05964585274930102,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "럤",
+          0.759459376335144
+        ],
+        [
+          "pretendard",
+          "럤",
+          0.7431458234786987
+        ],
+        [
+          "noto_serif_kr",
+          "렜",
+          0.600696861743927
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\띢_T1_1_560defc00e62617a.jpeg",
+      "target": "띢",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "띢",
+      "score": 0.765378475189209,
+      "margin": 0.0395129919052124,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.010706638115631691,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "띢",
+          0.765378475189209
+        ],
+        [
+          "pretendard",
+          "띢",
+          0.7470685839653015
+        ],
+        [
+          "noto_serif_kr",
+          "띢",
+          0.6373812556266785
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\띢_T1_2_89ef25c1e57c1c89.jpeg",
+      "target": "띢",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "퀚",
+      "score": 0.6636667251586914,
+      "margin": 0.00808185338973999,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.11355599214145383,
+      "missing_ink": 0.09574468085106383,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "롂",
+          0.6440820693969727
+        ],
+        [
+          "pretendard",
+          "롂",
+          0.6351656317710876
+        ],
+        [
+          "noto_serif_kr",
+          "퀚",
+          0.6636667251586914
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\띢_T2_0_7c7a205d9fd8ed0a.jpeg",
+      "target": "띢",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "띢",
+      "score": 0.681682825088501,
+      "margin": 0.021186351776123047,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.08402662229617304,
+      "missing_ink": 0.0480225988700565,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "틲",
+          0.6644339561462402
+        ],
+        [
+          "pretendard",
+          "틲",
+          0.6488784551620483
+        ],
+        [
+          "noto_serif_kr",
+          "띢",
+          0.681682825088501
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\띢_T2_1_ce66b65d3b0cd179.jpeg",
+      "target": "띢",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "즈",
+      "score": 0.14819514751434326,
+      "margin": 0.0031074583530426025,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.3059210526315789,
+      "missing_ink": 0.7679844458846403,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "솟",
+          0.10902799665927887
+        ],
+        [
+          "pretendard",
+          "셱",
+          0.11055426299571991
+        ],
+        [
+          "noto_serif_kr",
+          "즈",
+          0.14819514751434326
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\띢_T2_2_9ce13b8c33e32b8d.jpeg",
+      "target": "띢",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "띢",
+      "score": 0.8212224841117859,
+      "margin": 0.03308612108230591,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.008415147265077139,
+      "missing_ink": 0.009887005649717515,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "빅",
+          0.5564496517181396
+        ],
+        [
+          "pretendard",
+          "빅",
+          0.5481446981430054
+        ],
+        [
+          "noto_serif_kr",
+          "띢",
+          0.8212224841117859
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쪆_T1_1_ef653a6f38abbca1.jpeg",
+      "target": "쪆",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쪆",
+      "score": 0.7737650275230408,
+      "margin": 0.018952608108520508,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.006922592825676526,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쪆",
+          0.7737650275230408
+        ],
+        [
+          "pretendard",
+          "쪆",
+          0.7602760791778564
+        ],
+        [
+          "noto_serif_kr",
+          "쪆",
+          0.679921567440033
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쪆_T1_2_2836f4bc7b55172b.jpeg",
+      "target": "쪆",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쪆",
+      "score": 0.8121963739395142,
+      "margin": 0.033734261989593506,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.006885245901639345,
+      "missing_ink": 0.007551919446192574,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쪆",
+          0.8121963739395142
+        ],
+        [
+          "pretendard",
+          "쪆",
+          0.7528521418571472
+        ],
+        [
+          "noto_serif_kr",
+          "쪆",
+          0.6480180025100708
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쪆_T2_0_636c7a4fc42c4fa4.jpeg",
+      "target": "쪆",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쪆",
+      "score": 0.8343005776405334,
+      "margin": 0.054107487201690674,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.0004833252779120348,
+      "missing_ink": 0.014035087719298246,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "썪",
+          0.5762542486190796
+        ],
+        [
+          "pretendard",
+          "쎢",
+          0.5664739012718201
+        ],
+        [
+          "noto_serif_kr",
+          "쪆",
+          0.8343005776405334
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쪆_T2_1_7c2d0c786368c39d.jpeg",
+      "target": "쪆",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쪆",
+      "score": 0.8315300941467285,
+      "margin": 0.016797780990600586,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0054525627044711015,
+      "missing_ink": 0.007551919446192574,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쪆",
+          0.8315300941467285
+        ],
+        [
+          "pretendard",
+          "쪆",
+          0.8121728301048279
+        ],
+        [
+          "noto_serif_kr",
+          "쪆",
+          0.633223295211792
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쪆_T2_2_37ef039db3d11795.jpeg",
+      "target": "쪆",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "쯻",
+      "score": 0.6481878161430359,
+      "margin": 0.014623761177062988,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.1301518438177874,
+      "missing_ink": 0.14934836209933075,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뢰",
+          0.5984897613525391
+        ],
+        [
+          "pretendard",
+          "쵪",
+          0.5748065114021301
+        ],
+        [
+          "noto_serif_kr",
+          "쯻",
+          0.6481878161430359
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\간_T2_2_415dd776021d095d.jpeg",
+      "target": "간",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "후",
+      "score": 0.2113765925168991,
+      "margin": 0.004155397415161133,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.17539863325740318,
+      "missing_ink": 0.7413606911447084,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "수",
+          0.15633098781108856
+        ],
+        [
+          "pretendard",
+          "쾩",
+          0.15540552139282227
+        ],
+        [
+          "noto_serif_kr",
+          "후",
+          0.2113765925168991
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갈_T2_2_e2f78d3ca4298578.jpeg",
+      "target": "갈",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "후",
+      "score": 0.3320523500442505,
+      "margin": 0.01357954740524292,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.3094688221709007,
+      "missing_ink": 0.5998920086393088,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "흑",
+          0.26114603877067566
+        ],
+        [
+          "pretendard",
+          "흑",
+          0.2583865523338318
+        ],
+        [
+          "noto_serif_kr",
+          "후",
+          0.3320523500442505
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\감_T2_1_c5d8d511c6fe6cc7.jpeg",
+      "target": "감",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "우",
+      "score": 0.08648452162742615,
+      "margin": 0.0037712231278419495,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.20689655172413793,
+      "missing_ink": 0.8410636982065554,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "눗",
+          0.06174716725945473
+        ],
+        [
+          "pretendard",
+          "눅",
+          0.061833422631025314
+        ],
+        [
+          "noto_serif_kr",
+          "우",
+          0.08648452162742615
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\감_T2_2_75fb185f930c903b.jpeg",
+      "target": "감",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "강",
+      "score": 0.6618232727050781,
+      "margin": 0.03658825159072876,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.043213014743263854,
+      "missing_ink": 0.09543413173652694,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "강",
+          0.6618232727050781
+        ],
+        [
+          "pretendard",
+          "강",
+          0.6594464182853699
+        ],
+        [
+          "noto_serif_kr",
+          "감",
+          0.6153622269630432
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갑_T2_2_2094dac967974a69.jpeg",
+      "target": "갑",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "갘",
+      "score": 0.6491788625717163,
+      "margin": 0.0408400297164917,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.10314465408805032,
+      "missing_ink": 0.10310421286031042,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갘",
+          0.4224342107772827
+        ],
+        [
+          "pretendard",
+          "갘",
+          0.4007652699947357
+        ],
+        [
+          "noto_serif_kr",
+          "갘",
+          0.6491788625717163
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갔_T1_0_ef733e013ed648d9.jpeg",
+      "target": "갔",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "캈",
+      "score": 0.7997506856918335,
+      "margin": 0.016452372074127197,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.002663825253063399,
+      "missing_ink": 0.08759124087591241,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캈",
+          0.5740923285484314
+        ],
+        [
+          "pretendard",
+          "캈",
+          0.5390063524246216
+        ],
+        [
+          "noto_serif_kr",
+          "캈",
+          0.7997506856918335
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갔_T2_2_c200cf8c5160a965.jpeg",
+      "target": "갔",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "흫",
+      "score": 0.22105738520622253,
+      "margin": 0.003295615315437317,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.1523809523809524,
+      "missing_ink": 0.762962962962963,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "뀌",
+          0.17082175612449646
+        ],
+        [
+          "pretendard",
+          "쾩",
+          0.17143365740776062
+        ],
+        [
+          "noto_serif_kr",
+          "흫",
+          0.22105738520622253
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\개_T1_1_6051e73d057708b1.jpeg",
+      "target": "개",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "계",
+      "score": 0.6185463070869446,
+      "margin": 0.00045937299728393555,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.07044749667700487,
+      "missing_ink": 0.13658908813429987,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "째",
+          0.5675869584083557
+        ],
+        [
+          "pretendard",
+          "계",
+          0.6185463070869446
+        ],
+        [
+          "noto_serif_kr",
+          "체",
+          0.5315921306610107
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\개_T2_2_10bb61780fbc5430.jpeg",
+      "target": "개",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "게",
+      "score": 0.7914280891418457,
+      "margin": 0.017319977283477783,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.052606177606177605,
+      "missing_ink": 0.06998069498069498,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "계",
+          0.631446897983551
+        ],
+        [
+          "pretendard",
+          "개",
+          0.6334863901138306
+        ],
+        [
+          "noto_serif_kr",
+          "게",
+          0.7914280891418457
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갵_T1_1_04f6aaaf05a0e2ff.jpeg",
+      "target": "갵",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갵",
+      "score": 0.80563884973526,
+      "margin": 0.03721851110458374,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.017699115044247787,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갵",
+          0.764009416103363
+        ],
+        [
+          "pretendard",
+          "갵",
+          0.80563884973526
+        ],
+        [
+          "noto_serif_kr",
+          "갩",
+          0.6421028971672058
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갵_T1_2_d8616cf86d6efe1a.jpeg",
+      "target": "갵",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "감",
+      "score": 0.6799867749214172,
+      "margin": 0.004928171634674072,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.08974358974358974,
+      "missing_ink": 0.09235315847801995,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "감",
+          0.6685428619384766
+        ],
+        [
+          "pretendard",
+          "감",
+          0.6799867749214172
+        ],
+        [
+          "noto_serif_kr",
+          "짏",
+          0.5019980072975159
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갵_T2_0_6211b99eb4f729e6.jpeg",
+      "target": "갵",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갵",
+      "score": 0.7053329944610596,
+      "margin": 0.001972675323486328,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.06448508180943215,
+      "missing_ink": 0.0034349506225848005,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갶",
+          0.610301673412323
+        ],
+        [
+          "pretendard",
+          "갶",
+          0.6050494909286499
+        ],
+        [
+          "noto_serif_kr",
+          "갵",
+          0.7053329944610596
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갵_T2_1_7e5c3cb2e5d9da34.jpeg",
+      "target": "갵",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갵",
+      "score": 0.7734137773513794,
+      "margin": 0.04012024402618408,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.0020887728459530026,
+      "missing_ink": 0.036066981537140406,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "겎",
+          0.5004448294639587
+        ],
+        [
+          "pretendard",
+          "갶",
+          0.4976506233215332
+        ],
+        [
+          "noto_serif_kr",
+          "갵",
+          0.7734137773513794
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\걗_T1_0_f2118ba7995d9202.jpeg",
+      "target": "걗",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "겫",
+      "score": 0.6295409798622131,
+      "margin": 0.024266600608825684,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.14499732477260568,
+      "missing_ink": 0.13486513486513488,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "삓",
+          0.47344067692756653
+        ],
+        [
+          "pretendard",
+          "벣",
+          0.4750983417034149
+        ],
+        [
+          "noto_serif_kr",
+          "겫",
+          0.6295409798622131
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\걗_T2_0_3737235e0fa19e35.jpeg",
+      "target": "걗",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "걗",
+      "score": 0.7786058187484741,
+      "margin": 0.025642454624176025,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.00851063829787234,
+      "missing_ink": 0.014479638009049774,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "겏",
+          0.5779179930686951
+        ],
+        [
+          "pretendard",
+          "걗",
+          0.5796641707420349
+        ],
+        [
+          "noto_serif_kr",
+          "걗",
+          0.7786058187484741
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\걗_T2_1_3f7f4cf68baefe49.jpeg",
+      "target": "걗",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "곂",
+      "score": 0.7161436080932617,
+      "margin": 0.024475812911987305,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.053912507701786815,
+      "missing_ink": 0.08276972624798712,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "곂",
+          0.7127531170845032
+        ],
+        [
+          "pretendard",
+          "곂",
+          0.7161436080932617
+        ],
+        [
+          "noto_serif_kr",
+          "졑",
+          0.5507624745368958
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\걗_T2_2_f566fc9d789c803e.jpeg",
+      "target": "걗",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "걗",
+      "score": 0.7274118661880493,
+      "margin": 0.02056884765625,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.0017626321974148062,
+      "missing_ink": 0.02986425339366516,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "겏",
+          0.49788954854011536
+        ],
+        [
+          "pretendard",
+          "갟",
+          0.5056263208389282
+        ],
+        [
+          "noto_serif_kr",
+          "걗",
+          0.7274118661880493
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\걨_T1_1_535598a78711895b.jpeg",
+      "target": "걨",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "걤",
+      "score": 0.9008339047431946,
+      "margin": 0.04840606451034546,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.0012610340479192938,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "걤",
+          0.8350204229354858
+        ],
+        [
+          "pretendard",
+          "걤",
+          0.9008339047431946
+        ],
+        [
+          "noto_serif_kr",
+          "컒",
+          0.5809333920478821
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\걨_T2_0_f5580c58c2ba3e33.jpeg",
+      "target": "걨",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "컎",
+      "score": 0.5802795886993408,
+      "margin": 0.021362781524658203,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.12731958762886597,
+      "missing_ink": 0.2880579931323922,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "겐",
+          0.4696582853794098
+        ],
+        [
+          "pretendard",
+          "걘",
+          0.4613434672355652
+        ],
+        [
+          "noto_serif_kr",
+          "컎",
+          0.5802795886993408
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\걨_T2_1_9b1daac41ae755b1.jpeg",
+      "target": "걨",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "곇",
+      "score": 0.6195481419563293,
+      "margin": 0.0235595703125,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.16910420475319926,
+      "missing_ink": 0.1678539626001781,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "곇",
+          0.5566009283065796
+        ],
+        [
+          "pretendard",
+          "곇",
+          0.5341709852218628
+        ],
+        [
+          "noto_serif_kr",
+          "곇",
+          0.6195481419563293
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\게_T1_0_fe8c2352ffb0df45.jpeg",
+      "target": "게",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "개",
+      "score": 0.7389542460441589,
+      "margin": 0.011742889881134033,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.031487513572204126,
+      "missing_ink": 0.03359683794466403,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "게",
+          0.6196731925010681
+        ],
+        [
+          "pretendard",
+          "게",
+          0.565696656703949
+        ],
+        [
+          "noto_serif_kr",
+          "개",
+          0.7389542460441589
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\게_T1_1_008b64c523ab93d8.jpeg",
+      "target": "게",
+      "coda_type": "no_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "걔",
+      "score": 0.6667762994766235,
+      "margin": 0.025355517864227295,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.05364511691884457,
+      "missing_ink": 0.12056184159188452,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "걔",
+          0.6667762994766235
+        ],
+        [
+          "pretendard",
+          "걔",
+          0.6347589492797852
+        ],
+        [
+          "noto_serif_kr",
+          "걔",
+          0.584701418876648
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\게_T2_0_a02ecce9e6293f47.jpeg",
+      "target": "게",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "개",
+      "score": 0.7898362874984741,
+      "margin": 0.011812984943389893,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.031788079470198675,
+      "missing_ink": 0.010375494071146246,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "게",
+          0.6588456630706787
+        ],
+        [
+          "pretendard",
+          "걔",
+          0.61299067735672
+        ],
+        [
+          "noto_serif_kr",
+          "개",
+          0.7898362874984741
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\게_T2_1_adc2a826a2f4c848.jpeg",
+      "target": "게",
+      "coda_type": "no_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "겍",
+      "score": 0.6961506605148315,
+      "margin": 0.019692659378051758,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.11632947976878613,
+      "missing_ink": 0.09129267357115459,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "겍",
+          0.6961506605148315
+        ],
+        [
+          "pretendard",
+          "럐",
+          0.6298357248306274
+        ],
+        [
+          "noto_serif_kr",
+          "럐",
+          0.6404064297676086
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\계_T1_0_a2a6831ba9b01aa3.jpeg",
+      "target": "계",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "게",
+      "score": 0.8236230611801147,
+      "margin": 0.004661142826080322,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.06098654708520179,
+      "missing_ink": 0.041023166023166024,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "계",
+          0.760002076625824
+        ],
+        [
+          "pretendard",
+          "계",
+          0.7170044183731079
+        ],
+        [
+          "noto_serif_kr",
+          "게",
+          0.8236230611801147
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\계_T2_1_29dc8aa81d9c393e.jpeg",
+      "target": "계",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "개",
+      "score": 0.7664268612861633,
+      "margin": 0.01371777057647705,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.06224809673085535,
+      "missing_ink": 0.014822134387351778,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "계",
+          0.6385270357131958
+        ],
+        [
+          "pretendard",
+          "걔",
+          0.5822689533233643
+        ],
+        [
+          "noto_serif_kr",
+          "개",
+          0.7664268612861633
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\계_T2_2_fd45d91a8b72552b.jpeg",
+      "target": "계",
+      "coda_type": "no_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "빠",
+      "score": 0.49458757042884827,
+      "margin": 0.014562129974365234,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.15474642392717816,
+      "missing_ink": 0.39697542533081287,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "빠",
+          0.4807785451412201
+        ],
+        [
+          "pretendard",
+          "빠",
+          0.49458757042884827
+        ],
+        [
+          "noto_serif_kr",
+          "빠",
+          0.4666731357574463
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\곥_T2_1_735de428643d213b.jpeg",
+      "target": "곥",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "곥",
+      "score": 0.8597992062568665,
+      "margin": 0.10885727405548096,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0030316154179298397,
+      "missing_ink": 0.00043782837127845885,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "곥",
+          0.6152904629707336
+        ],
+        [
+          "pretendard",
+          "곥",
+          0.6119922995567322
+        ],
+        [
+          "noto_serif_kr",
+          "곥",
+          0.8597992062568665
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\곥_T2_2_81cd349b8c225d0a.jpeg",
+      "target": "곥",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "곥",
+      "score": 0.7444373369216919,
+      "margin": 0.029337823390960693,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.03067993366500829,
+      "missing_ink": 0.006567425569176883,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "곥",
+          0.5879621505737305
+        ],
+        [
+          "pretendard",
+          "곥",
+          0.581770122051239
+        ],
+        [
+          "noto_serif_kr",
+          "곥",
+          0.7444373369216919
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\곩_T1_0_79084ed8deb4fa99.jpeg",
+      "target": "곩",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "꾥",
+      "score": 0.785815954208374,
+      "margin": 0.04409182071685791,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.006168359941944848,
+      "missing_ink": 0.05880551301684533,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꾥",
+          0.7652977108955383
+        ],
+        [
+          "pretendard",
+          "꾥",
+          0.785815954208374
+        ],
+        [
+          "noto_serif_kr",
+          "꼵",
+          0.6390023827552795
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\곩_T1_1_8cf72db39c2f76ca.jpeg",
+      "target": "곩",
+      "coda_type": "cluster_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "곍",
+      "score": 0.5523009896278381,
+      "margin": 0.002504706382751465,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.2572909915748542,
+      "missing_ink": 0.220494923857868,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "걝",
+          0.5453982353210449
+        ],
+        [
+          "pretendard",
+          "곍",
+          0.5523009896278381
+        ],
+        [
+          "noto_serif_kr",
+          "꾪",
+          0.4549095630645752
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\곩_T2_0_072d073fe9ca3317.jpeg",
+      "target": "곩",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "곩",
+      "score": 0.8019561171531677,
+      "margin": 0.07595479488372803,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.003131991051454139,
+      "missing_ink": 0.013071895424836602,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "곩",
+          0.5949450135231018
+        ],
+        [
+          "pretendard",
+          "곩",
+          0.566419780254364
+        ],
+        [
+          "noto_serif_kr",
+          "곩",
+          0.8019561171531677
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\곩_T2_1_9f1fe8ca6d8f1248.jpeg",
+      "target": "곩",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "졛",
+      "score": 0.6441079378128052,
+      "margin": 0.01984584331512451,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.09353673223604977,
+      "missing_ink": 0.14355828220858896,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "곋",
+          0.6040570139884949
+        ],
+        [
+          "pretendard",
+          "곞",
+          0.6050395369529724
+        ],
+        [
+          "noto_serif_kr",
+          "졛",
+          0.6441079378128052
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\곩_T2_2_309cdfbcf5e65e8f.jpeg",
+      "target": "곩",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "곩",
+      "score": 0.7551528215408325,
+      "margin": 0.0364108681678772,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.005154639175257732,
+      "missing_ink": 0.009586056644880174,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "곩",
+          0.6035021543502808
+        ],
+        [
+          "pretendard",
+          "곩",
+          0.5732298493385315
+        ],
+        [
+          "noto_serif_kr",
+          "곩",
+          0.7551528215408325
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\퉑_T2_1_ff4d65d8ace0c5e2.jpeg",
+      "target": "퉑",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "툭",
+      "score": 0.7337605357170105,
+      "margin": 0.06713229417800903,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.029621503017004936,
+      "missing_ink": 0.0552286102308737,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "틓",
+          0.48655563592910767
+        ],
+        [
+          "pretendard",
+          "틓",
+          0.49002400040626526
+        ],
+        [
+          "noto_serif_kr",
+          "툭",
+          0.7337605357170105
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쾌_T1_0_28ff88922087fe31.jpeg",
+      "target": "쾌",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쾌",
+      "score": 0.7988344430923462,
+      "margin": 0.03354036808013916,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0011273957158962795,
+      "missing_ink": 0.02021563342318059,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쾌",
+          0.7518540024757385
+        ],
+        [
+          "pretendard",
+          "쾌",
+          0.7988344430923462
+        ],
+        [
+          "noto_serif_kr",
+          "홰",
+          0.6793569326400757
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쾌_T1_1_f213a829a5934c88.jpeg",
+      "target": "쾌",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쾌",
+      "score": 0.7611657381057739,
+      "margin": 0.038217782974243164,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.026235509456985967,
+      "missing_ink": 0.00033692722371967657,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쾌",
+          0.7448800802230835
+        ],
+        [
+          "pretendard",
+          "쾌",
+          0.7611657381057739
+        ],
+        [
+          "noto_serif_kr",
+          "홰",
+          0.6291185617446899
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쾌_T1_2_11aa6f61a86a94b6.jpeg",
+      "target": "쾌",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쾌",
+      "score": 0.6767842173576355,
+      "margin": 0.011806786060333252,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.06852667645619187,
+      "missing_ink": 0.10095159288374017,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "괘",
+          0.6171267032623291
+        ],
+        [
+          "pretendard",
+          "쾌",
+          0.6127467751502991
+        ],
+        [
+          "noto_serif_kr",
+          "쾌",
+          0.6767842173576355
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쾌_T2_2_f6230ab5dcd90e52.jpeg",
+      "target": "쾌",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쾌",
+      "score": 0.7200482487678528,
+      "margin": 0.05918067693710327,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.027545909849749584,
+      "missing_ink": 0.059164253206454284,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쩨",
+          0.5769134163856506
+        ],
+        [
+          "pretendard",
+          "꽤",
+          0.5878042578697205
+        ],
+        [
+          "noto_serif_kr",
+          "쾌",
+          0.7200482487678528
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\와_T1_0_5d5b2b69c9e45d54.jpeg",
+      "target": "와",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "와",
+      "score": 0.7630736231803894,
+      "margin": 0.06004500389099121,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.036720142602495544,
+      "missing_ink": 0.0367112810707457,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "와",
+          0.7503517270088196
+        ],
+        [
+          "pretendard",
+          "와",
+          0.7630736231803894
+        ],
+        [
+          "noto_serif_kr",
+          "엺",
+          0.5025163292884827
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\와_T1_1_6518706129298994.jpeg",
+      "target": "와",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "와",
+      "score": 0.6955397725105286,
+      "margin": 0.029376864433288574,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.019345238095238096,
+      "missing_ink": 0.07963594994311718,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "와",
+          0.6955397725105286
+        ],
+        [
+          "pretendard",
+          "와",
+          0.6942691206932068
+        ],
+        [
+          "noto_serif_kr",
+          "와",
+          0.624631941318512
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\와_T1_2_8af77b215948d182.jpeg",
+      "target": "와",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "와",
+      "score": 0.7345806956291199,
+      "margin": 0.029041290283203125,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0577568838146407,
+      "missing_ink": 0.029958285930982178,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "와",
+          0.7345806956291199
+        ],
+        [
+          "pretendard",
+          "와",
+          0.7173274159431458
+        ],
+        [
+          "noto_serif_kr",
+          "와",
+          0.6477857828140259
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\와_T2_0_0f6eb31be9e71535.jpeg",
+      "target": "와",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "와",
+      "score": 0.6953942179679871,
+      "margin": 0.017014801502227783,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.07618613138686131,
+      "missing_ink": 0.025616239729337846,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "와",
+          0.588085412979126
+        ],
+        [
+          "pretendard",
+          "와",
+          0.5748679637908936
+        ],
+        [
+          "noto_serif_kr",
+          "와",
+          0.6953942179679871
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\와_T2_1_ce81272040084446.jpeg",
+      "target": "와",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "와",
+      "score": 0.651458740234375,
+      "margin": 0.00044083595275878906,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.08199902959728288,
+      "missing_ink": 0.06718221362977284,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "와",
+          0.6043927073478699
+        ],
+        [
+          "pretendard",
+          "와",
+          0.592123806476593
+        ],
+        [
+          "noto_serif_kr",
+          "와",
+          0.651458740234375
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\왜_T1_0_b2d0f2dead5a93e1.jpeg",
+      "target": "왜",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "왜",
+      "score": 0.8308762907981873,
+      "margin": 0.04831200838088989,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0026338893766461808,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "왜",
+          0.7913907766342163
+        ],
+        [
+          "pretendard",
+          "왜",
+          0.8308762907981873
+        ],
+        [
+          "noto_serif_kr",
+          "뫠",
+          0.6113949418067932
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\왜_T1_1_9236831264d4c262.jpeg",
+      "target": "왜",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "왜",
+      "score": 0.837195098400116,
+      "margin": 0.008272886276245117,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.004609622587150677,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "왜",
+          0.837195098400116
+        ],
+        [
+          "pretendard",
+          "왜",
+          0.8327623009681702
+        ],
+        [
+          "noto_serif_kr",
+          "뫠",
+          0.6209349632263184
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\왜_T2_0_38a1c0735b634255.jpeg",
+      "target": "왜",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "왜",
+      "score": 0.7145854830741882,
+      "margin": 0.010575354099273682,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.01751959428307976,
+      "missing_ink": 0.05192231470471661,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "왜",
+          0.616340160369873
+        ],
+        [
+          "pretendard",
+          "왜",
+          0.598419189453125
+        ],
+        [
+          "noto_serif_kr",
+          "왜",
+          0.7145854830741882
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\왜_T2_1_562b3ae1d6c668a3.jpeg",
+      "target": "왜",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "왜",
+      "score": 0.8177601099014282,
+      "margin": 0.05335581302642822,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.002707581227436823,
+      "missing_ink": 0.0019817677368212444,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꽤",
+          0.6394665241241455
+        ],
+        [
+          "pretendard",
+          "꽤",
+          0.6253000497817993
+        ],
+        [
+          "noto_serif_kr",
+          "왜",
+          0.8177601099014282
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\왜_T2_2_0159ed729e51d8c6.jpeg",
+      "target": "왜",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "왜",
+      "score": 0.8423688411712646,
+      "margin": 0.03973424434661865,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0017152658662092624,
+      "missing_ink": 0.005152596115735236,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꽤",
+          0.661708652973175
+        ],
+        [
+          "pretendard",
+          "꽤",
+          0.6436954736709595
+        ],
+        [
+          "noto_serif_kr",
+          "왜",
+          0.8423688411712646
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쬐_T1_2_d02be8c22beae67e.jpeg",
+      "target": "쬐",
+      "coda_type": "no_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "쬔",
+      "score": 0.636010468006134,
+      "margin": 0.015643179416656494,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.04895397489539749,
+      "missing_ink": 0.12204119274515832,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쬔",
+          0.636010468006134
+        ],
+        [
+          "pretendard",
+          "쐰",
+          0.6159867644309998
+        ],
+        [
+          "noto_serif_kr",
+          "쬔",
+          0.6273167729377747
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쐐_T1_1_442e641e3b507fac.jpeg",
+      "target": "쐐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쐐",
+      "score": 0.7189222574234009,
+      "margin": 0.053850650787353516,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0908875177978168,
+      "missing_ink": 0.00030674846625766873,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쐐",
+          0.7189222574234009
+        ],
+        [
+          "pretendard",
+          "쐐",
+          0.6950382590293884
+        ],
+        [
+          "noto_serif_kr",
+          "쐐",
+          0.5473743677139282
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쐐_T1_2_61ff0b6c2bd32277.jpeg",
+      "target": "쐐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쐐",
+      "score": 0.8239815831184387,
+      "margin": 0.10187160968780518,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.004804804804804805,
+      "missing_ink": 0.0018404907975460123,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쐐",
+          0.8239815831184387
+        ],
+        [
+          "pretendard",
+          "쐐",
+          0.7973106503486633
+        ],
+        [
+          "noto_serif_kr",
+          "쐐",
+          0.6594957113265991
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쐐_T2_0_45962f50671bd53d.jpeg",
+      "target": "쐐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쐐",
+      "score": 0.832044780254364,
+      "margin": 0.09781885147094727,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.011710239651416121,
+      "missing_ink": 0.003067484662576687,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쐐",
+          0.832044780254364
+        ],
+        [
+          "pretendard",
+          "쐐",
+          0.7682599425315857
+        ],
+        [
+          "noto_serif_kr",
+          "쐐",
+          0.6350336074829102
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쐐_T2_1_5b6e37648d793370.jpeg",
+      "target": "쐐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쐐",
+      "score": 0.7835448384284973,
+      "margin": 0.01238870620727539,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.026220614828209764,
+      "missing_ink": 0.007668711656441718,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쐐",
+          0.7835448384284973
+        ],
+        [
+          "pretendard",
+          "쐐",
+          0.7375941276550293
+        ],
+        [
+          "noto_serif_kr",
+          "쐐",
+          0.6640053987503052
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쐐_T2_2_691f3ca3fa5fd85c.jpeg",
+      "target": "쐐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쐐",
+      "score": 0.8002328276634216,
+      "margin": 0.024028897285461426,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.003153153153153153,
+      "missing_ink": 0.0056657223796034,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쐐",
+          0.6033963561058044
+        ],
+        [
+          "pretendard",
+          "꽤",
+          0.5881286263465881
+        ],
+        [
+          "noto_serif_kr",
+          "쐐",
+          0.8002328276634216
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읚_T2_2_43a706b2ec13d6f9.jpeg",
+      "target": "읚",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "있",
+      "score": 0.7471437454223633,
+      "margin": 0.032122910022735596,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.03472770323599053,
+      "missing_ink": 0.04611280487804878,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "있",
+          0.7471437454223633
+        ],
+        [
+          "pretendard",
+          "빘",
+          0.6727707386016846
+        ],
+        [
+          "noto_serif_kr",
+          "있",
+          0.6991437673568726
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\값_T1_0_cde0d01dae6038a4.jpeg",
+      "target": "값",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "값",
+      "score": 0.798098087310791,
+      "margin": 0.011431872844696045,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.014255383682135275,
+      "missing_ink": 0.004524886877828055,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "값",
+          0.798098087310791
+        ],
+        [
+          "pretendard",
+          "값",
+          0.7526562809944153
+        ],
+        [
+          "noto_serif_kr",
+          "값",
+          0.5507380366325378
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\값_T1_2_921c5c2d5829670d.jpeg",
+      "target": "값",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "값",
+      "score": 0.7500095367431641,
+      "margin": 0.033187150955200195,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.018963922294172063,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "값",
+          0.4766799509525299
+        ],
+        [
+          "pretendard",
+          "값",
+          0.46260684728622437
+        ],
+        [
+          "noto_serif_kr",
+          "값",
+          0.7500095367431641
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\값_T2_1_045b4360ebb3f7a9.jpeg",
+      "target": "값",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "값",
+      "score": 0.832977831363678,
+      "margin": 0.06042760610580444,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "값",
+          0.5111592411994934
+        ],
+        [
+          "pretendard",
+          "값",
+          0.49456533789634705
+        ],
+        [
+          "noto_serif_kr",
+          "값",
+          0.832977831363678
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\값_T2_2_49b01ec573062350.jpeg",
+      "target": "값",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "값",
+      "score": 0.7194982767105103,
+      "margin": 0.023059606552124023,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.03577064702788006,
+      "missing_ink": 0.07678075855689177,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캈",
+          0.45722633600234985
+        ],
+        [
+          "pretendard",
+          "캈",
+          0.43786221742630005
+        ],
+        [
+          "noto_serif_kr",
+          "값",
+          0.7194982767105103
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읽_T1_0_07f54de7609833b3.jpeg",
+      "target": "읽",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "읽",
+      "score": 0.8569034337997437,
+      "margin": 0.032081425189971924,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0014545454545454545,
+      "missing_ink": 0.004872955099199443,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "읽",
+          0.8445252776145935
+        ],
+        [
+          "pretendard",
+          "읽",
+          0.8569034337997437
+        ],
+        [
+          "noto_serif_kr",
+          "밁",
+          0.5809378623962402
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읽_T1_2_1b5dd297fe56965a.jpeg",
+      "target": "읽",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "읽",
+      "score": 0.7716201543807983,
+      "margin": 0.02198117971420288,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.029750836742283376,
+      "missing_ink": 0.044204664114166375,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "읽",
+          0.7624481320381165
+        ],
+        [
+          "pretendard",
+          "읽",
+          0.7716201543807983
+        ],
+        [
+          "noto_serif_kr",
+          "밁",
+          0.5423817038536072
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읽_T2_1_f4dbd1262e92135d.jpeg",
+      "target": "읽",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "읽",
+      "score": 0.8128279447555542,
+      "margin": 0.043782830238342285,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0048567265662943174,
+      "missing_ink": 0.018474656560871626,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "밁",
+          0.5747256278991699
+        ],
+        [
+          "pretendard",
+          "밁",
+          0.5531131029129028
+        ],
+        [
+          "noto_serif_kr",
+          "읽",
+          0.8128279447555542
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\읽_T2_2_b8449a13407912e1.jpeg",
+      "target": "읽",
+      "coda_type": "cluster_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "읽",
+      "score": 0.7423795461654663,
+      "margin": 0.020229220390319824,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.010385756676557863,
+      "missing_ink": 0.026054002842254856,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "읽",
+          0.6157221794128418
+        ],
+        [
+          "pretendard",
+          "밁",
+          0.6197466254234314
+        ],
+        [
+          "noto_serif_kr",
+          "읽",
+          0.7423795461654663
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\폐_T1_0_9ba78bd2d0eae3e7.jpeg",
+      "target": "폐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "폐",
+      "score": 0.8078550100326538,
+      "margin": 0.018997788429260254,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.019133937562940583,
+      "missing_ink": 0.030215364834458372,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쪠",
+          0.7779185175895691
+        ],
+        [
+          "pretendard",
+          "폐",
+          0.8078550100326538
+        ],
+        [
+          "noto_serif_kr",
+          "뙈",
+          0.6259942650794983
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\폐_T1_1_58f3424d79c03cfe.jpeg",
+      "target": "폐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "평",
+      "score": 0.6729977130889893,
+      "margin": 0.018626153469085693,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.12821288176595103,
+      "missing_ink": 0.07324740647595096,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "평",
+          0.6729977130889893
+        ],
+        [
+          "pretendard",
+          "평",
+          0.6446737051010132
+        ],
+        [
+          "noto_serif_kr",
+          "휈",
+          0.5907658338546753
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\폐_T2_0_35b3b81ec2ae80af.jpeg",
+      "target": "폐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "폐",
+      "score": 0.740104615688324,
+      "margin": 0.030138611793518066,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.018238434163701068,
+      "missing_ink": 0.030133448127421438,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꼐",
+          0.5749360918998718
+        ],
+        [
+          "pretendard",
+          "볙",
+          0.5637526512145996
+        ],
+        [
+          "noto_serif_kr",
+          "폐",
+          0.740104615688324
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\폐_T2_1_bcf6745969b5e702.jpeg",
+      "target": "폐",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "폐",
+      "score": 0.8394566178321838,
+      "margin": 0.04876720905303955,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.005770816158285243,
+      "missing_ink": 0.0038743004735256135,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꼐",
+          0.6403892636299133
+        ],
+        [
+          "pretendard",
+          "몌",
+          0.5906074643135071
+        ],
+        [
+          "noto_serif_kr",
+          "폐",
+          0.8394566178321838
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\태_T1_0_c7f3fa6338c028b2.jpeg",
+      "target": "태",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "태",
+      "score": 0.770801305770874,
+      "margin": 0.03368467092514038,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.015413533834586466,
+      "missing_ink": 0.006398537477148081,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "해",
+          0.650445818901062
+        ],
+        [
+          "pretendard",
+          "해",
+          0.6419129371643066
+        ],
+        [
+          "noto_serif_kr",
+          "태",
+          0.770801305770874
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\태_T1_1_a9958c6a1e1c76cd.jpeg",
+      "target": "태",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "태",
+      "score": 0.8740319609642029,
+      "margin": 0.056741535663604736,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.002040122407344441,
+      "missing_ink": 0.0018162005085361425,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "대",
+          0.8409261703491211
+        ],
+        [
+          "pretendard",
+          "태",
+          0.8740319609642029
+        ],
+        [
+          "noto_serif_kr",
+          "래",
+          0.6148595213890076
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\태_T1_2_61b4f290d95e518b.jpeg",
+      "target": "태",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "태",
+      "score": 0.7797896265983582,
+      "margin": 0.052576541900634766,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.002905920813657828,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "테",
+          0.7280319929122925
+        ],
+        [
+          "pretendard",
+          "태",
+          0.7797896265983582
+        ],
+        [
+          "noto_serif_kr",
+          "태",
+          0.6073683500289917
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\가_T1_1_1a15160976f265fa.jpeg",
+      "target": "가",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "가",
+      "score": 0.8395314812660217,
+      "margin": 0.0751388669013977,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.02711111111111111,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "가",
+          0.7952486276626587
+        ],
+        [
+          "pretendard",
+          "가",
+          0.8395314812660217
+        ],
+        [
+          "noto_serif_kr",
+          "쫘",
+          0.4961017966270447
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\가_T1_2_f8cdc88e75272d7b.jpeg",
+      "target": "가",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "가",
+      "score": 0.7815191745758057,
+      "margin": 0.0892953872680664,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0006257822277847309,
+      "missing_ink": 0.007095793208312215,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "가",
+          0.7258028388023376
+        ],
+        [
+          "pretendard",
+          "가",
+          0.7815191745758057
+        ],
+        [
+          "noto_serif_kr",
+          "차",
+          0.46434977650642395
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\가_T2_0_85bb288df8f0973b.jpeg",
+      "target": "가",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "가",
+      "score": 0.7163270711898804,
+      "margin": 0.004720747470855713,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.05385896724042199,
+      "missing_ink": 0.005239030779305829,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "가",
+          0.5248243808746338
+        ],
+        [
+          "pretendard",
+          "가",
+          0.5061502456665039
+        ],
+        [
+          "noto_serif_kr",
+          "가",
+          0.7163270711898804
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\가_T2_1_171871e6f87c58e4.jpeg",
+      "target": "가",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "가",
+      "score": 0.740118145942688,
+      "margin": 0.08336859941482544,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.06238779174147217,
+      "missing_ink": 0.04061895551257253,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "가",
+          0.740118145942688
+        ],
+        [
+          "pretendard",
+          "가",
+          0.7242097854614258
+        ],
+        [
+          "noto_serif_kr",
+          "자",
+          0.5652841329574585
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쟤_T1_1_0646038e64110489.jpeg",
+      "target": "쟤",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쟤",
+      "score": 0.8184700608253479,
+      "margin": 0.007707118988037109,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.002774887270204648,
+      "missing_ink": 0.016853932584269662,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쟤",
+          0.8184700608253479
+        ],
+        [
+          "pretendard",
+          "쟤",
+          0.8025138974189758
+        ],
+        [
+          "noto_serif_kr",
+          "쟤",
+          0.6251280903816223
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쟤_T1_2_417835858aeb35e6.jpeg",
+      "target": "쟤",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쟤",
+      "score": 0.8558703660964966,
+      "margin": 0.055340349674224854,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.0021134202183867557,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쟤",
+          0.8226816654205322
+        ],
+        [
+          "pretendard",
+          "쟤",
+          0.8558703660964966
+        ],
+        [
+          "noto_serif_kr",
+          "쟤",
+          0.6207562685012817
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쟤_T2_0_bb352c18b3f4604b.jpeg",
+      "target": "쟤",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쟤",
+      "score": 0.8665963411331177,
+      "margin": 0.0626184344291687,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.006045340050377834,
+      "missing_ink": 0.011105969458583989,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "계",
+          0.6054015755653381
+        ],
+        [
+          "pretendard",
+          "걔",
+          0.5887514352798462
+        ],
+        [
+          "noto_serif_kr",
+          "쟤",
+          0.8665963411331177
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\쟤_T2_1_3064197f67f74712.jpeg",
+      "target": "쟤",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "쨰",
+      "score": 0.7352543473243713,
+      "margin": 0.01903820037841797,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.02883799830364716,
+      "missing_ink": 0.04006541291905151,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "쳬",
+          0.6049653887748718
+        ],
+        [
+          "pretendard",
+          "쾍",
+          0.5600912570953369
+        ],
+        [
+          "noto_serif_kr",
+          "쨰",
+          0.7352543473243713
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\깨_T2_0_5f6696a8cd76cbcb.jpeg",
+      "target": "깨",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "꺠",
+      "score": 0.6057274341583252,
+      "margin": 0.010628700256347656,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.13294276701216765,
+      "missing_ink": 0.12335600907029479,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "꺠",
+          0.5347414016723633
+        ],
+        [
+          "pretendard",
+          "썌",
+          0.5503078103065491
+        ],
+        [
+          "noto_serif_kr",
+          "꺠",
+          0.6057274341583252
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\떄_T2_1_ed6174f4b278d36b.jpeg",
+      "target": "떄",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "떄",
+      "score": 0.7866202592849731,
+      "margin": 0.06431198120117188,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.012958963282937365,
+      "missing_ink": 0.013612217795484728,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "떄",
+          0.7604090571403503
+        ],
+        [
+          "pretendard",
+          "떄",
+          0.7866202592849731
+        ],
+        [
+          "noto_serif_kr",
+          "좨",
+          0.5749080181121826
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\켰_T2_0_a4399543d75e25ae.jpeg",
+      "target": "켰",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "컸",
+      "score": 0.7713437676429749,
+      "margin": 0.015675246715545654,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.02081268582755203,
+      "missing_ink": 0.04066985645933014,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "킧",
+          0.5330133438110352
+        ],
+        [
+          "pretendard",
+          "컧",
+          0.5294055342674255
+        ],
+        [
+          "noto_serif_kr",
+          "컸",
+          0.7713437676429749
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\켰_T2_1_6f295c33c45312ff.jpeg",
+      "target": "켰",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "컸",
+      "score": 0.8323813676834106,
+      "margin": 0.02936035394668579,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.006545820745216516,
+      "missing_ink": 0.01722488038277512,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "푔",
+          0.5080463290214539
+        ],
+        [
+          "pretendard",
+          "쌄",
+          0.5056646466255188
+        ],
+        [
+          "noto_serif_kr",
+          "컸",
+          0.8323813676834106
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\켰_T2_2_89b0ae920410db91.jpeg",
+      "target": "켰",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "컸",
+      "score": 0.7258774042129517,
+      "margin": 0.021010994911193848,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.011448196908986834,
+      "missing_ink": 0.04019138755980861,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "싻",
+          0.4724541902542114
+        ],
+        [
+          "pretendard",
+          "쌄",
+          0.4698100686073303
+        ],
+        [
+          "noto_serif_kr",
+          "컸",
+          0.7258774042129517
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\각_T1_0_5fbc998581fb4023.jpeg",
+      "target": "각",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "각",
+      "score": 0.8364529609680176,
+      "margin": 0.08102667331695557,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.007133592736705577,
+      "missing_ink": 0.03209876543209877,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "각",
+          0.4842533767223358
+        ],
+        [
+          "pretendard",
+          "칵",
+          0.46143338084220886
+        ],
+        [
+          "noto_serif_kr",
+          "각",
+          0.8364529609680176
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\각_T1_1_91f42eccacb04eff.jpeg",
+      "target": "각",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "각",
+      "score": 0.908053994178772,
+      "margin": 0.08075565099716187,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.0004714757190004715,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "각",
+          0.908053994178772
+        ],
+        [
+          "pretendard",
+          "각",
+          0.868925154209137
+        ],
+        [
+          "noto_serif_kr",
+          "갂",
+          0.4983370900154114
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\각_T1_2_e6de9269dda7be89.jpeg",
+      "target": "각",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "각",
+      "score": 0.8584454655647278,
+      "margin": 0.06726205348968506,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.005312084993359893,
+      "missing_ink": 0.020987654320987655,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "칵",
+          0.48317283391952515
+        ],
+        [
+          "pretendard",
+          "칵",
+          0.4631683826446533
+        ],
+        [
+          "noto_serif_kr",
+          "각",
+          0.8584454655647278
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\각_T2_0_734598d5fd7e20a0.jpeg",
+      "target": "각",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "각",
+      "score": 0.7844966650009155,
+      "margin": 0.04505699872970581,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.025554808338937456,
+      "missing_ink": 0.046296296296296294,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "칵",
+          0.5194577574729919
+        ],
+        [
+          "pretendard",
+          "칵",
+          0.5000566244125366
+        ],
+        [
+          "noto_serif_kr",
+          "각",
+          0.7844966650009155
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\각_T2_1_1a5e295f03931fac.jpeg",
+      "target": "각",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "각",
+      "score": 0.8131467700004578,
+      "margin": 0.06497019529342651,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.014402003757044458,
+      "missing_ink": 0.030864197530864196,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "라",
+          0.480998694896698
+        ],
+        [
+          "pretendard",
+          "라",
+          0.43941357731819153
+        ],
+        [
+          "noto_serif_kr",
+          "각",
+          0.8131467700004578
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\각_T2_2_9fcc53c4a5dde507.jpeg",
+      "target": "각",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "각",
+      "score": 0.7859275341033936,
+      "margin": 0.03753399848937988,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.01137123745819398,
+      "missing_ink": 0.04197530864197531,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "라",
+          0.4511079490184784
+        ],
+        [
+          "pretendard",
+          "라",
+          0.42369088530540466
+        ],
+        [
+          "noto_serif_kr",
+          "각",
+          0.7859275341033936
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\간_T1_0_15c4f231e6003fdf.jpeg",
+      "target": "간",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "간",
+      "score": 0.8109450340270996,
+      "margin": 0.07868051528930664,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.009373458312777503,
+      "missing_ink": 0.027777777777777776,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "간",
+          0.8109450340270996
+        ],
+        [
+          "pretendard",
+          "간",
+          0.7951998710632324
+        ],
+        [
+          "noto_serif_kr",
+          "킪",
+          0.5141137838363647
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\간_T1_1_0a29c00cd886adff.jpeg",
+      "target": "간",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "간",
+      "score": 0.8908278346061707,
+      "margin": 0.06833279132843018,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0004046944556859571,
+      "missing_ink": 0.005434782608695652,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "간",
+          0.8631479144096375
+        ],
+        [
+          "pretendard",
+          "간",
+          0.8908278346061707
+        ],
+        [
+          "noto_serif_kr",
+          "킪",
+          0.4819987714290619
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\간_T1_2_ce79ecc8d7136543.jpeg",
+      "target": "간",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "간",
+      "score": 0.9108468294143677,
+      "margin": 0.08984172344207764,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.0008361204013377926,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "간",
+          0.8900662064552307
+        ],
+        [
+          "pretendard",
+          "간",
+          0.9108468294143677
+        ],
+        [
+          "noto_serif_kr",
+          "킪",
+          0.5085759162902832
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\간_T2_0_f96e3bcf97fc3682.jpeg",
+      "target": "간",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "간",
+      "score": 0.814319908618927,
+      "margin": 0.09055691957473755,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0038888888888888888,
+      "missing_ink": 0.018548827059465357,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "칸",
+          0.4537251889705658
+        ],
+        [
+          "pretendard",
+          "칸",
+          0.4254395067691803
+        ],
+        [
+          "noto_serif_kr",
+          "간",
+          0.814319908618927
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\간_T2_1_2cbeed7756cd6a27.jpeg",
+      "target": "간",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "간",
+      "score": 0.7287466526031494,
+      "margin": 0.03362119197845459,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.05546580506192784,
+      "missing_ink": 0.042007637752318604,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갼",
+          0.45156583189964294
+        ],
+        [
+          "pretendard",
+          "갼",
+          0.4237462282180786
+        ],
+        [
+          "noto_serif_kr",
+          "간",
+          0.7287466526031494
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갈_T1_0_864ff5a2bf66d74a.jpeg",
+      "target": "갈",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갈",
+      "score": 0.8738992214202881,
+      "margin": 0.046636223793029785,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.00032615786040443573,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갈",
+          0.8738992214202881
+        ],
+        [
+          "pretendard",
+          "갈",
+          0.8554378747940063
+        ],
+        [
+          "noto_serif_kr",
+          "짏",
+          0.5514354705810547
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갈_T1_1_738bfebf1c10a4eb.jpeg",
+      "target": "갈",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갈",
+      "score": 0.7506036162376404,
+      "margin": 0.03096163272857666,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.005418422636965683,
+      "missing_ink": 0.03880317905563347,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "같",
+          0.45264527201652527
+        ],
+        [
+          "pretendard",
+          "같",
+          0.4335508346557617
+        ],
+        [
+          "noto_serif_kr",
+          "갈",
+          0.7506036162376404
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갈_T1_2_2d4112f5948acc4d.jpeg",
+      "target": "갈",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갈",
+      "score": 0.8108828663825989,
+      "margin": 0.026859402656555176,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.01845585973546601,
+      "missing_ink": 0.0016914749661705007,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갈",
+          0.8108828663825989
+        ],
+        [
+          "pretendard",
+          "갈",
+          0.7834182977676392
+        ],
+        [
+          "noto_serif_kr",
+          "잛",
+          0.5617682933807373
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갈_T2_0_2ca4e8380cacb248.jpeg",
+      "target": "갈",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갈",
+      "score": 0.7597852349281311,
+      "margin": 0.023620188236236572,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.03472803347280335,
+      "missing_ink": 0.031790556334735855,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "같",
+          0.5327157378196716
+        ],
+        [
+          "pretendard",
+          "같",
+          0.514376699924469
+        ],
+        [
+          "noto_serif_kr",
+          "갈",
+          0.7597852349281311
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갈_T2_1_0fd00b45085759e6.jpeg",
+      "target": "갈",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갈",
+      "score": 0.7774173021316528,
+      "margin": 0.05182623863220215,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.008484162895927601,
+      "missing_ink": 0.039738195418419824,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "같",
+          0.4865962564945221
+        ],
+        [
+          "pretendard",
+          "같",
+          0.46647000312805176
+        ],
+        [
+          "noto_serif_kr",
+          "갈",
+          0.7774173021316528
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\감_T1_0_054718aa3c9cab54.jpeg",
+      "target": "감",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "감",
+      "score": 0.854736328125,
+      "margin": 0.0503804087638855,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.009539473684210526,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "감",
+          0.854736328125
+        ],
+        [
+          "pretendard",
+          "감",
+          0.82392817735672
+        ],
+        [
+          "noto_serif_kr",
+          "짏",
+          0.5413129329681396
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\감_T1_1_4c5cc4a5f635edb1.jpeg",
+      "target": "감",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "감",
+      "score": 0.7523931264877319,
+      "margin": 0.05838555097579956,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.046300302899177845,
+      "missing_ink": 0.012987012987012988,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "강",
+          0.6025816798210144
+        ],
+        [
+          "pretendard",
+          "강",
+          0.571198046207428
+        ],
+        [
+          "noto_serif_kr",
+          "감",
+          0.7523931264877319
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\감_T1_2_c8a8d6953c1bf3fd.jpeg",
+      "target": "감",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "감",
+      "score": 0.8853819966316223,
+      "margin": 0.04791975021362305,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0003386386725364037,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "감",
+          0.8853819966316223
+        ],
+        [
+          "pretendard",
+          "감",
+          0.8445145487785339
+        ],
+        [
+          "noto_serif_kr",
+          "졇",
+          0.5360152125358582
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\감_T2_0_fcf2912bb65b361e.jpeg",
+      "target": "감",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "감",
+      "score": 0.7470372915267944,
+      "margin": 0.03915083408355713,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.12268831754623365,
+      "missing_ink": 0.02097902097902098,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "강",
+          0.5042933225631714
+        ],
+        [
+          "pretendard",
+          "뱧",
+          0.49003884196281433
+        ],
+        [
+          "noto_serif_kr",
+          "감",
+          0.7470372915267944
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갑_T1_0_176f084f6e9ccef6.jpeg",
+      "target": "갑",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갑",
+      "score": 0.7113040685653687,
+      "margin": 0.04245418310165405,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.002719238613188307,
+      "missing_ink": 0.030496802754549926,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갔",
+          0.4248477816581726
+        ],
+        [
+          "pretendard",
+          "갃",
+          0.42648521065711975
+        ],
+        [
+          "noto_serif_kr",
+          "갑",
+          0.7113040685653687
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갑_T1_1_7a7e26f3ae3634bb.jpeg",
+      "target": "갑",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갑",
+      "score": 0.7436478734016418,
+      "margin": 0.0330846905708313,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.0037105751391465678,
+      "missing_ink": 0.04230201672405312,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캈",
+          0.4385121762752533
+        ],
+        [
+          "pretendard",
+          "갃",
+          0.44146859645843506
+        ],
+        [
+          "noto_serif_kr",
+          "갑",
+          0.7436478734016418
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갑_T1_2_6b4017332abfa75e.jpeg",
+      "target": "갑",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갑",
+      "score": 0.675266444683075,
+      "margin": 0.007472038269042969,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.07863383637807785,
+      "missing_ink": 0.03689129365469749,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갑",
+          0.6173686981201172
+        ],
+        [
+          "pretendard",
+          "갑",
+          0.5857354998588562
+        ],
+        [
+          "noto_serif_kr",
+          "갑",
+          0.675266444683075
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갑_T2_0_5b17b5257cbee722.jpeg",
+      "target": "갑",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갑",
+      "score": 0.7790737152099609,
+      "margin": 0.03261476755142212,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.016040523427606587,
+      "missing_ink": 0.019183472700442697,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갛",
+          0.5174367427825928
+        ],
+        [
+          "pretendard",
+          "갛",
+          0.5017251968383789
+        ],
+        [
+          "noto_serif_kr",
+          "갑",
+          0.7790737152099609
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갑_T2_1_dc9caf31014ac83c.jpeg",
+      "target": "갑",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갑",
+      "score": 0.6703928709030151,
+      "margin": 0.018602192401885986,
+      "font_agreement": 0.3333333333333333,
+      "unexplained_ink": 0.022249690976514216,
+      "missing_ink": 0.12739793408755534,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캈",
+          0.41820329427719116
+        ],
+        [
+          "pretendard",
+          "갃",
+          0.4036314785480499
+        ],
+        [
+          "noto_serif_kr",
+          "갑",
+          0.6703928709030151
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갓_T1_0_22f1481ccbeb25ca.jpeg",
+      "target": "갓",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갓",
+      "score": 0.7042920589447021,
+      "margin": 0.036345064640045166,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.07578616352201258,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갓",
+          0.6951450109481812
+        ],
+        [
+          "pretendard",
+          "갓",
+          0.7042920589447021
+        ],
+        [
+          "noto_serif_kr",
+          "걋",
+          0.4785114526748657
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갓_T1_1_7d608d1d05622091.jpeg",
+      "target": "갓",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갓",
+      "score": 0.7307045459747314,
+      "margin": 0.025071918964385986,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.033585222502099076,
+      "missing_ink": 0.02668416447944007,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캇",
+          0.7222098708152771
+        ],
+        [
+          "pretendard",
+          "갓",
+          0.7307045459747314
+        ],
+        [
+          "noto_serif_kr",
+          "갓",
+          0.6279066801071167
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갓_T1_2_7d262efcfae465fe.jpeg",
+      "target": "갓",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갓",
+      "score": 0.840596616268158,
+      "margin": 0.06991636753082275,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.010465116279069767,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "갓",
+          0.7879990935325623
+        ],
+        [
+          "pretendard",
+          "갓",
+          0.840596616268158
+        ],
+        [
+          "noto_serif_kr",
+          "갓",
+          0.5117939710617065
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갓_T2_0_18c564c48b564091.jpeg",
+      "target": "갓",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갓",
+      "score": 0.7784717082977295,
+      "margin": 0.04021310806274414,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.028280018544274456,
+      "missing_ink": 0.008183306055646482,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캇",
+          0.5262510776519775
+        ],
+        [
+          "pretendard",
+          "캇",
+          0.505501925945282
+        ],
+        [
+          "noto_serif_kr",
+          "갓",
+          0.7784717082977295
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갓_T2_1_37c548b7532ded10.jpeg",
+      "target": "갓",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갓",
+      "score": 0.8747356534004211,
+      "margin": 0.08063143491744995,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0006002400960384153,
+      "missing_ink": 0.002182214948172395,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캇",
+          0.4953455626964569
+        ],
+        [
+          "pretendard",
+          "갓",
+          0.47726336121559143
+        ],
+        [
+          "noto_serif_kr",
+          "갓",
+          0.8747356534004211
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갓_T2_2_3b30b16f549532ed.jpeg",
+      "target": "갓",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갓",
+      "score": 0.8185704946517944,
+      "margin": 0.0736013650894165,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.010365521003818877,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캇",
+          0.49923738837242126
+        ],
+        [
+          "pretendard",
+          "갓",
+          0.48386821150779724
+        ],
+        [
+          "noto_serif_kr",
+          "갓",
+          0.8185704946517944
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갔_T1_1_11d1687b3f2b08f7.jpeg",
+      "target": "갔",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갔",
+      "score": 0.7586445808410645,
+      "margin": 0.027105510234832764,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.013415892672858616,
+      "missing_ink": 0.0210688591983556,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캈",
+          0.618096649646759
+        ],
+        [
+          "pretendard",
+          "캈",
+          0.5888378620147705
+        ],
+        [
+          "noto_serif_kr",
+          "갔",
+          0.7586445808410645
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갔_T1_2_8e2070e96b6f74c1.jpeg",
+      "target": "갔",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갔",
+      "score": 0.7667630910873413,
+      "margin": 0.031099438667297363,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.0012158054711246201,
+      "missing_ink": 0.030832476875642344,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캈",
+          0.5447680950164795
+        ],
+        [
+          "pretendard",
+          "캈",
+          0.5157556533813477
+        ],
+        [
+          "noto_serif_kr",
+          "갔",
+          0.7667630910873413
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갔_T2_0_29ba7a3db0a286f4.jpeg",
+      "target": "갔",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갔",
+      "score": 0.8310638070106506,
+      "margin": 0.0196264386177063,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.012042147516307075,
+      "missing_ink": 0.013360739979445015,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캈",
+          0.5281598567962646
+        ],
+        [
+          "pretendard",
+          "캈",
+          0.4942600131034851
+        ],
+        [
+          "noto_serif_kr",
+          "갔",
+          0.8310638070106506
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갔_T2_1_896f7a59b4129712.jpeg",
+      "target": "갔",
+      "coda_type": "simple_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "갔",
+      "score": 0.8449703454971313,
+      "margin": 0.04492819309234619,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.005558643690939411,
+      "missing_ink": 0.012332990750256937,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캈",
+          0.5284183621406555
+        ],
+        [
+          "pretendard",
+          "캈",
+          0.49522754549980164
+        ],
+        [
+          "noto_serif_kr",
+          "갔",
+          0.8449703454971313
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\개_T1_0_241d7bad39c7b18a.jpeg",
+      "target": "개",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "개",
+      "score": 0.856849193572998,
+      "margin": 0.04485505819320679,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.004046944556859571,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "개",
+          0.856849193572998
+        ],
+        [
+          "pretendard",
+          "개",
+          0.7905294299125671
+        ],
+        [
+          "noto_serif_kr",
+          "개",
+          0.7210320234298706
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\개_T1_2_0cfa4777b839a772.jpeg",
+      "target": "개",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "개",
+      "score": 0.7893306016921997,
+      "margin": 0.013297021389007568,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.01305909239307868,
+      "missing_ink": 0.0004046944556859571,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "개",
+          0.7893306016921997
+        ],
+        [
+          "pretendard",
+          "개",
+          0.7420997023582458
+        ],
+        [
+          "noto_serif_kr",
+          "개",
+          0.6363746523857117
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\개_T2_0_92aed95395a6d06b.jpeg",
+      "target": "개",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "개",
+      "score": 0.7821031808853149,
+      "margin": 0.016262710094451904,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.008,
+      "missing_ink": 0.005928853754940711,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "개",
+          0.6293171048164368
+        ],
+        [
+          "pretendard",
+          "개",
+          0.6162242889404297
+        ],
+        [
+          "noto_serif_kr",
+          "개",
+          0.7821031808853149
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\개_T2_1_8af65967fd4a836d.jpeg",
+      "target": "개",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "개",
+      "score": 0.8434528112411499,
+      "margin": 0.042160212993621826,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "개",
+          0.8321689963340759
+        ],
+        [
+          "pretendard",
+          "개",
+          0.8434528112411499
+        ],
+        [
+          "noto_serif_kr",
+          "개",
+          0.661683976650238
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갵_T1_0_fe329c8a7c40cb31.jpeg",
+      "target": "갵",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "갔",
+      "score": 0.6621590852737427,
+      "margin": 0.006306886672973633,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.11805902951475739,
+      "missing_ink": 0.09558067831449127,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "캈",
+          0.6149187684059143
+        ],
+        [
+          "pretendard",
+          "캈",
+          0.5835973620414734
+        ],
+        [
+          "noto_serif_kr",
+          "갔",
+          0.6621590852737427
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\갵_T2_2_1ae1ff8d783dec45.jpeg",
+      "target": "갵",
+      "coda_type": "simple_T",
+      "human_label": "illegible",
+      "well_formed": false,
+      "predicted_char": "갬",
+      "score": 0.7715617418289185,
+      "margin": 0.033612608909606934,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.08599167822468794,
+      "missing_ink": 0.025732031943212066,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "겎",
+          0.5590574741363525
+        ],
+        [
+          "pretendard",
+          "겎",
+          0.5641017556190491
+        ],
+        [
+          "noto_serif_kr",
+          "갬",
+          0.7715617418289185
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\게_T1_2_13a08387c9549f6d.jpeg",
+      "target": "게",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "게",
+      "score": 0.8081716299057007,
+      "margin": 0.015072405338287354,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.008403361344537815,
+      "missing_ink": 0.0,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "게",
+          0.8081716299057007
+        ],
+        [
+          "pretendard",
+          "걔",
+          0.7361498475074768
+        ],
+        [
+          "noto_serif_kr",
+          "게",
+          0.6318473219871521
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\게_T2_2_a9b7054031090433.jpeg",
+      "target": "게",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "게",
+      "score": 0.743450403213501,
+      "margin": 0.0064032673835754395,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.027276542173730593,
+      "missing_ink": 0.04156275976724855,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "계",
+          0.6531747579574585
+        ],
+        [
+          "pretendard",
+          "게",
+          0.743450403213501
+        ],
+        [
+          "noto_serif_kr",
+          "게",
+          0.6330558657646179
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\계_T1_1_75e543a45b0d60d9.jpeg",
+      "target": "계",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "계",
+      "score": 0.7090543508529663,
+      "margin": 0.05400770902633667,
+      "font_agreement": 0.6666666666666666,
+      "unexplained_ink": 0.001015744032503809,
+      "missing_ink": 0.03015814637734461,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "계",
+          0.7090543508529663
+        ],
+        [
+          "pretendard",
+          "계",
+          0.7067310810089111
+        ],
+        [
+          "noto_serif_kr",
+          "켸",
+          0.6822587251663208
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\계_T1_2_75a32c7adfc9f1ba.jpeg",
+      "target": "계",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "계",
+      "score": 0.8507626056671143,
+      "margin": 0.05037355422973633,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.0016251354279523294,
+      "missing_ink": 0.008641382621219395,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "계",
+          0.6313744783401489
+        ],
+        [
+          "pretendard",
+          "계",
+          0.607630729675293
+        ],
+        [
+          "noto_serif_kr",
+          "계",
+          0.8507626056671143
+        ]
+      ]
+    },
+    {
+      "image_path": "results\\pilot\\images\\계_T2_0_732ecda74e46ec32.jpeg",
+      "target": "계",
+      "coda_type": "no_T",
+      "human_label": "text",
+      "well_formed": true,
+      "predicted_char": "계",
+      "score": 0.8292041420936584,
+      "margin": 0.030203640460968018,
+      "font_agreement": 1.0,
+      "unexplained_ink": 0.012147505422993492,
+      "missing_ink": 0.012962073931829092,
+      "per_font": [
+        [
+          "noto_sans_kr",
+          "계",
+          0.6997175812721252
+        ],
+        [
+          "pretendard",
+          "계",
+          0.634966254234314
+        ],
+        [
+          "noto_serif_kr",
+          "계",
+          0.8292041420936584
+        ]
+      ]
+    }
+  ]
+}

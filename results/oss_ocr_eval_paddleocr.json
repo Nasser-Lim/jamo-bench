@@ -1,0 +1,2410 @@
+{
+  "engine": "paddleocr",
+  "n": 300,
+  "n_valid": 235,
+  "n_invalid": 65,
+  "silent_any_rate": 0.7846153846153846,
+  "silent_high_conf_rate": 0.26153846153846155,
+  "rows": [
+    {
+      "path": "results\\pilot\\images\\퐋_T1_0_4896c0e60618497b.jpeg",
+      "target": "퐋",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "꽝",
+      "engine_confidence": 0.46336790919303894
+    },
+    {
+      "path": "results\\pilot\\images\\퐋_T1_1_765ea641ec9fd943.jpeg",
+      "target": "퐋",
+      "human_valid": true,
+      "human_reading": "퐏",
+      "engine_reading": "팥",
+      "engine_confidence": 0.5907595157623291
+    },
+    {
+      "path": "results\\pilot\\images\\퐋_T1_2_5e825365166fe6d8.jpeg",
+      "target": "퐋",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "폭",
+      "engine_confidence": 0.8897435665130615
+    },
+    {
+      "path": "results\\pilot\\images\\퐋_T2_0_f0e63dafec1cc58d.jpeg",
+      "target": "퐋",
+      "human_valid": true,
+      "human_reading": "퐐",
+      "engine_reading": "팔",
+      "engine_confidence": 0.9587690830230713
+    },
+    {
+      "path": "results\\pilot\\images\\퐋_T2_1_07baace06de0347c.jpeg",
+      "target": "퐋",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "팔",
+      "engine_confidence": 0.8511326909065247
+    },
+    {
+      "path": "results\\pilot\\images\\퐋_T2_2_92d96575495d09d2.jpeg",
+      "target": "퐋",
+      "human_valid": true,
+      "human_reading": "퐋",
+      "engine_reading": "꽝",
+      "engine_confidence": 0.5178495645523071
+    },
+    {
+      "path": "results\\pilot\\images\\퉑_T1_0_e14972a876bafb92.jpeg",
+      "target": "퉑",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "틸",
+      "engine_confidence": 0.22880207002162933
+    },
+    {
+      "path": "results\\pilot\\images\\퉑_T1_1_5de0f51a93955557.jpeg",
+      "target": "퉑",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "월",
+      "engine_confidence": 0.9722026586532593
+    },
+    {
+      "path": "results\\pilot\\images\\퉑_T1_2_fcec3bfe6fa931c1.jpeg",
+      "target": "퉑",
+      "human_valid": true,
+      "human_reading": "퉑",
+      "engine_reading": "뒤",
+      "engine_confidence": 0.4164932370185852
+    },
+    {
+      "path": "results\\pilot\\images\\퉑_T2_0_ffc0232a69406e2c.jpeg",
+      "target": "퉑",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "튤",
+      "engine_confidence": 0.19820600748062134
+    },
+    {
+      "path": "results\\pilot\\images\\퉑_T2_1_ff4d65d8ace0c5e2.jpeg",
+      "target": "퉑",
+      "human_valid": true,
+      "human_reading": "툭",
+      "engine_reading": "툭",
+      "engine_confidence": 0.3252522945404053
+    },
+    {
+      "path": "results\\pilot\\images\\퉑_T2_2_8225ff77fc8748d2.jpeg",
+      "target": "퉑",
+      "human_valid": true,
+      "human_reading": "퉑",
+      "engine_reading": "틸",
+      "engine_confidence": 0.4199119508266449
+    },
+    {
+      "path": "results\\pilot\\images\\죇_T1_0_ffceb6be2141f6f8.jpeg",
+      "target": "죇",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "잘",
+      "engine_confidence": 0.439189076423645
+    },
+    {
+      "path": "results\\pilot\\images\\죇_T1_1_ad77d7699ea7886e.jpeg",
+      "target": "죇",
+      "human_valid": true,
+      "human_reading": "죙",
+      "engine_reading": "죄",
+      "engine_confidence": 0.45400717854499817
+    },
+    {
+      "path": "results\\pilot\\images\\죇_T1_2_0cb09ac686fcefb9.jpeg",
+      "target": "죇",
+      "human_valid": true,
+      "human_reading": "졍",
+      "engine_reading": "정",
+      "engine_confidence": 0.9673354029655457
+    },
+    {
+      "path": "results\\pilot\\images\\죇_T2_0_a02b7d1eee249ab2.jpeg",
+      "target": "죇",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "줬",
+      "engine_confidence": 0.6314620971679688
+    },
+    {
+      "path": "results\\pilot\\images\\죇_T2_1_c513e0e27adcf379.jpeg",
+      "target": "죇",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\죇_T2_2_b93daba7ff097ba0.jpeg",
+      "target": "죇",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "줬",
+      "engine_confidence": 0.5591080784797668
+    },
+    {
+      "path": "results\\pilot\\images\\뷦_T1_0_6a11134f1f84705e.jpeg",
+      "target": "뷦",
+      "human_valid": true,
+      "human_reading": "뷦",
+      "engine_reading": "뿐",
+      "engine_confidence": 0.2945384383201599
+    },
+    {
+      "path": "results\\pilot\\images\\뷦_T1_1_d3644e21f743d43a.jpeg",
+      "target": "뷦",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "윗",
+      "engine_confidence": 0.9935739636421204
+    },
+    {
+      "path": "results\\pilot\\images\\뷦_T1_2_670fd4f7cc8d4acd.jpeg",
+      "target": "뷦",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "발",
+      "engine_confidence": 0.5448428988456726
+    },
+    {
+      "path": "results\\pilot\\images\\뷦_T2_0_467a6ebbe55d7679.jpeg",
+      "target": "뷦",
+      "human_valid": true,
+      "human_reading": "뷦",
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\뷦_T2_1_27b73295b18f26a6.jpeg",
+      "target": "뷦",
+      "human_valid": true,
+      "human_reading": "뷤",
+      "engine_reading": "붐",
+      "engine_confidence": 0.6806631088256836
+    },
+    {
+      "path": "results\\pilot\\images\\뷦_T2_2_6d30037f9d24c263.jpeg",
+      "target": "뷦",
+      "human_valid": true,
+      "human_reading": "뷦",
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\쬙_T1_0_087ece133dcc793d.jpeg",
+      "target": "쬙",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "그",
+      "engine_confidence": 0.28265395760536194
+    },
+    {
+      "path": "results\\pilot\\images\\쬙_T1_1_fe68e8f07340d6a3.jpeg",
+      "target": "쬙",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\쬙_T1_2_1f635557119c69f0.jpeg",
+      "target": "쬙",
+      "human_valid": true,
+      "human_reading": "쬙",
+      "engine_reading": "짧",
+      "engine_confidence": 0.187529519200325
+    },
+    {
+      "path": "results\\pilot\\images\\쬙_T2_0_c9d2edd4e1d46983.jpeg",
+      "target": "쬙",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "짧",
+      "engine_confidence": 0.35456129908561707
+    },
+    {
+      "path": "results\\pilot\\images\\쬙_T2_1_0b86e4128fd1c94a.jpeg",
+      "target": "쬙",
+      "human_valid": true,
+      "human_reading": "쬙",
+      "engine_reading": "짧",
+      "engine_confidence": 0.32767584919929504
+    },
+    {
+      "path": "results\\pilot\\images\\쬙_T2_2_7a28b83c2ce4d0ef.jpeg",
+      "target": "쬙",
+      "human_valid": true,
+      "human_reading": "쬙",
+      "engine_reading": "찢",
+      "engine_confidence": 0.3019791841506958
+    },
+    {
+      "path": "results\\pilot\\images\\똵_T1_0_58168292652395a3.jpeg",
+      "target": "똵",
+      "human_valid": true,
+      "human_reading": "똵",
+      "engine_reading": "닭",
+      "engine_confidence": 0.3069956302642822
+    },
+    {
+      "path": "results\\pilot\\images\\똵_T1_1_3141a1ba6e1e18db.jpeg",
+      "target": "똵",
+      "human_valid": true,
+      "human_reading": "똵",
+      "engine_reading": "뜩",
+      "engine_confidence": 0.27191972732543945
+    },
+    {
+      "path": "results\\pilot\\images\\똵_T1_2_d5a7d6f6dda458a0.jpeg",
+      "target": "똵",
+      "human_valid": true,
+      "human_reading": "똵",
+      "engine_reading": "똑",
+      "engine_confidence": 0.591643750667572
+    },
+    {
+      "path": "results\\pilot\\images\\똵_T2_0_0fc7b9a5ba7dc5c7.jpeg",
+      "target": "똵",
+      "human_valid": true,
+      "human_reading": "똵",
+      "engine_reading": "닭",
+      "engine_confidence": 0.3034154772758484
+    },
+    {
+      "path": "results\\pilot\\images\\똵_T2_1_1f3662ab61910fa2.jpeg",
+      "target": "똵",
+      "human_valid": true,
+      "human_reading": "뙁",
+      "engine_reading": "땅",
+      "engine_confidence": 0.9064862132072449
+    },
+    {
+      "path": "results\\pilot\\images\\똵_T2_2_50201440ebbc7d50.jpeg",
+      "target": "똵",
+      "human_valid": true,
+      "human_reading": "똵",
+      "engine_reading": "딸",
+      "engine_confidence": 0.6787450909614563
+    },
+    {
+      "path": "results\\pilot\\images\\쾌_T1_0_28ff88922087fe31.jpeg",
+      "target": "쾌",
+      "human_valid": true,
+      "human_reading": "쾌",
+      "engine_reading": "쾌",
+      "engine_confidence": 0.9991825222969055
+    },
+    {
+      "path": "results\\pilot\\images\\쾌_T1_1_f213a829a5934c88.jpeg",
+      "target": "쾌",
+      "human_valid": true,
+      "human_reading": "쾌",
+      "engine_reading": "쾌",
+      "engine_confidence": 0.9997289776802063
+    },
+    {
+      "path": "results\\pilot\\images\\쾌_T1_2_11aa6f61a86a94b6.jpeg",
+      "target": "쾌",
+      "human_valid": true,
+      "human_reading": "쾌",
+      "engine_reading": "쾌",
+      "engine_confidence": 0.987006664276123
+    },
+    {
+      "path": "results\\pilot\\images\\쾌_T2_0_088e355e04e452a4.jpeg",
+      "target": "쾌",
+      "human_valid": true,
+      "human_reading": "쾡",
+      "engine_reading": "괭",
+      "engine_confidence": 0.9187254309654236
+    },
+    {
+      "path": "results\\pilot\\images\\쾌_T2_1_d09114313cf2dc90.jpeg",
+      "target": "쾌",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "애",
+      "engine_confidence": 0.9943887591362
+    },
+    {
+      "path": "results\\pilot\\images\\쾌_T2_2_f6230ab5dcd90e52.jpeg",
+      "target": "쾌",
+      "human_valid": true,
+      "human_reading": "쾌",
+      "engine_reading": "쾌",
+      "engine_confidence": 0.9992238283157349
+    },
+    {
+      "path": "results\\pilot\\images\\츼_T1_0_dd0bccd93d11edfa.jpeg",
+      "target": "츼",
+      "human_valid": true,
+      "human_reading": "칄",
+      "engine_reading": "칠",
+      "engine_confidence": 0.9999154806137085
+    },
+    {
+      "path": "results\\pilot\\images\\츼_T1_1_4ca31e407b30dc44.jpeg",
+      "target": "츼",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "친",
+      "engine_confidence": 0.9232321381568909
+    },
+    {
+      "path": "results\\pilot\\images\\츼_T1_2_7c36a9cfa179db79.jpeg",
+      "target": "츼",
+      "human_valid": true,
+      "human_reading": "칌",
+      "engine_reading": "침",
+      "engine_confidence": 0.9938029050827026
+    },
+    {
+      "path": "results\\pilot\\images\\츼_T2_0_4ab06d97b107e356.jpeg",
+      "target": "츼",
+      "human_valid": true,
+      "human_reading": "츼",
+      "engine_reading": "희",
+      "engine_confidence": 0.7129195332527161
+    },
+    {
+      "path": "results\\pilot\\images\\츼_T2_1_dbdedd4f7b00785f.jpeg",
+      "target": "츼",
+      "human_valid": true,
+      "human_reading": "츼",
+      "engine_reading": "칠",
+      "engine_confidence": 0.3222793638706207
+    },
+    {
+      "path": "results\\pilot\\images\\츼_T2_2_428532077b33f14e.jpeg",
+      "target": "츼",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "취",
+      "engine_confidence": 0.692959725856781
+    },
+    {
+      "path": "results\\pilot\\images\\와_T1_0_5d5b2b69c9e45d54.jpeg",
+      "target": "와",
+      "human_valid": true,
+      "human_reading": "와",
+      "engine_reading": "와",
+      "engine_confidence": 0.9976394176483154
+    },
+    {
+      "path": "results\\pilot\\images\\와_T1_1_6518706129298994.jpeg",
+      "target": "와",
+      "human_valid": true,
+      "human_reading": "와",
+      "engine_reading": "와",
+      "engine_confidence": 0.9978874325752258
+    },
+    {
+      "path": "results\\pilot\\images\\와_T1_2_8af77b215948d182.jpeg",
+      "target": "와",
+      "human_valid": true,
+      "human_reading": "와",
+      "engine_reading": "와",
+      "engine_confidence": 0.9995290040969849
+    },
+    {
+      "path": "results\\pilot\\images\\와_T2_0_0f6eb31be9e71535.jpeg",
+      "target": "와",
+      "human_valid": true,
+      "human_reading": "와",
+      "engine_reading": "와",
+      "engine_confidence": 0.9942769408226013
+    },
+    {
+      "path": "results\\pilot\\images\\와_T2_1_ce81272040084446.jpeg",
+      "target": "와",
+      "human_valid": true,
+      "human_reading": "와",
+      "engine_reading": "와",
+      "engine_confidence": 0.9971742630004883
+    },
+    {
+      "path": "results\\pilot\\images\\와_T2_2_17d30e6817e5a4cd.jpeg",
+      "target": "와",
+      "human_valid": true,
+      "human_reading": "왕",
+      "engine_reading": "왕",
+      "engine_confidence": 0.9935756325721741
+    },
+    {
+      "path": "results\\pilot\\images\\왜_T1_0_b2d0f2dead5a93e1.jpeg",
+      "target": "왜",
+      "human_valid": true,
+      "human_reading": "왜",
+      "engine_reading": "왜",
+      "engine_confidence": 0.9998117089271545
+    },
+    {
+      "path": "results\\pilot\\images\\왜_T1_1_9236831264d4c262.jpeg",
+      "target": "왜",
+      "human_valid": true,
+      "human_reading": "왜",
+      "engine_reading": "왜",
+      "engine_confidence": 0.9999111890792847
+    },
+    {
+      "path": "results\\pilot\\images\\왜_T1_2_6c41ac35743a5d23.jpeg",
+      "target": "왜",
+      "human_valid": true,
+      "human_reading": "왜",
+      "engine_reading": "왜",
+      "engine_confidence": 0.9998916387557983
+    },
+    {
+      "path": "results\\pilot\\images\\왜_T2_0_38a1c0735b634255.jpeg",
+      "target": "왜",
+      "human_valid": true,
+      "human_reading": "왜",
+      "engine_reading": "왜",
+      "engine_confidence": 0.9995750784873962
+    },
+    {
+      "path": "results\\pilot\\images\\왜_T2_1_562b3ae1d6c668a3.jpeg",
+      "target": "왜",
+      "human_valid": true,
+      "human_reading": "왜",
+      "engine_reading": "왜",
+      "engine_confidence": 0.9998718500137329
+    },
+    {
+      "path": "results\\pilot\\images\\왜_T2_2_0159ed729e51d8c6.jpeg",
+      "target": "왜",
+      "human_valid": true,
+      "human_reading": "왜",
+      "engine_reading": "왜",
+      "engine_confidence": 0.9998528957366943
+    },
+    {
+      "path": "results\\pilot\\images\\쬐_T1_0_49a9fc1d26b14db2.jpeg",
+      "target": "쬐",
+      "human_valid": true,
+      "human_reading": "쬐",
+      "engine_reading": "쪼",
+      "engine_confidence": 0.9927513599395752
+    },
+    {
+      "path": "results\\pilot\\images\\쬐_T1_1_206e102d19d6883e.jpeg",
+      "target": "쬐",
+      "human_valid": true,
+      "human_reading": "쫭",
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\쬐_T1_2_d02be8c22beae67e.jpeg",
+      "target": "쬐",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "떤",
+      "engine_confidence": 0.5429775714874268
+    },
+    {
+      "path": "results\\pilot\\images\\쬐_T2_0_e977a3fa2ea6b18b.jpeg",
+      "target": "쬐",
+      "human_valid": true,
+      "human_reading": "쬐",
+      "engine_reading": "죄",
+      "engine_confidence": 0.7371784448623657
+    },
+    {
+      "path": "results\\pilot\\images\\쬐_T2_1_20c8c654a1dd5387.jpeg",
+      "target": "쬐",
+      "human_valid": true,
+      "human_reading": "쬐",
+      "engine_reading": "죄",
+      "engine_confidence": 0.595466673374176
+    },
+    {
+      "path": "results\\pilot\\images\\쬐_T2_2_cc1b533696dd88e2.jpeg",
+      "target": "쬐",
+      "human_valid": true,
+      "human_reading": "쬐",
+      "engine_reading": "죄",
+      "engine_confidence": 0.7023093104362488
+    },
+    {
+      "path": "results\\pilot\\images\\쐐_T1_0_2cd22c0e22ca37dc.jpeg",
+      "target": "쐐",
+      "human_valid": true,
+      "human_reading": "썡",
+      "engine_reading": "쌍",
+      "engine_confidence": 0.48372945189476013
+    },
+    {
+      "path": "results\\pilot\\images\\쐐_T1_1_442e641e3b507fac.jpeg",
+      "target": "쐐",
+      "human_valid": true,
+      "human_reading": "쐐",
+      "engine_reading": "쐐",
+      "engine_confidence": 0.4134402275085449
+    },
+    {
+      "path": "results\\pilot\\images\\쐐_T1_2_61ff0b6c2bd32277.jpeg",
+      "target": "쐐",
+      "human_valid": true,
+      "human_reading": "쐐",
+      "engine_reading": "쐐",
+      "engine_confidence": 0.7345136404037476
+    },
+    {
+      "path": "results\\pilot\\images\\쐐_T2_0_45962f50671bd53d.jpeg",
+      "target": "쐐",
+      "human_valid": true,
+      "human_reading": "쐐",
+      "engine_reading": "쇄",
+      "engine_confidence": 0.4884311556816101
+    },
+    {
+      "path": "results\\pilot\\images\\쐐_T2_1_5b6e37648d793370.jpeg",
+      "target": "쐐",
+      "human_valid": true,
+      "human_reading": "쐐",
+      "engine_reading": "쐐",
+      "engine_confidence": 0.7771437168121338
+    },
+    {
+      "path": "results\\pilot\\images\\쐐_T2_2_691f3ca3fa5fd85c.jpeg",
+      "target": "쐐",
+      "human_valid": true,
+      "human_reading": "쐐",
+      "engine_reading": "쐐",
+      "engine_confidence": 0.8314169049263
+    },
+    {
+      "path": "results\\pilot\\images\\춲_T1_0_56a0022783e265ab.jpeg",
+      "target": "춲",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "휩",
+      "engine_confidence": 0.2072727531194687
+    },
+    {
+      "path": "results\\pilot\\images\\춲_T1_1_b4a8df59dad2283e.jpeg",
+      "target": "춲",
+      "human_valid": true,
+      "human_reading": "췀",
+      "engine_reading": "칡",
+      "engine_confidence": 0.43743622303009033
+    },
+    {
+      "path": "results\\pilot\\images\\춲_T1_2_ea559b287a05b698.jpeg",
+      "target": "춲",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "춤",
+      "engine_confidence": 0.40642765164375305
+    },
+    {
+      "path": "results\\pilot\\images\\춲_T2_0_7f460a007b280588.jpeg",
+      "target": "춲",
+      "human_valid": true,
+      "human_reading": "춲",
+      "engine_reading": "춰",
+      "engine_confidence": 0.9937642812728882
+    },
+    {
+      "path": "results\\pilot\\images\\춲_T2_1_d62b549982a2302f.jpeg",
+      "target": "춲",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "칡",
+      "engine_confidence": 0.6228757500648499
+    },
+    {
+      "path": "results\\pilot\\images\\춲_T2_2_02b7cd262570dd69.jpeg",
+      "target": "춲",
+      "human_valid": true,
+      "human_reading": "춲",
+      "engine_reading": "춰",
+      "engine_confidence": 0.9938952326774597
+    },
+    {
+      "path": "results\\pilot\\images\\푔_T1_0_7f42ffb7ffdee95d.jpeg",
+      "target": "푔",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "풍",
+      "engine_confidence": 0.9996583461761475
+    },
+    {
+      "path": "results\\pilot\\images\\푔_T1_1_3216b770d7ed1050.jpeg",
+      "target": "푔",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "푼",
+      "engine_confidence": 0.9892235994338989
+    },
+    {
+      "path": "results\\pilot\\images\\푔_T1_2_989050125c9e1ba2.jpeg",
+      "target": "푔",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\푔_T2_0_e6094436391a6a69.jpeg",
+      "target": "푔",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\푔_T2_1_34c0835202d266b1.jpeg",
+      "target": "푔",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "뛴",
+      "engine_confidence": 0.5282453298568726
+    },
+    {
+      "path": "results\\pilot\\images\\푔_T2_2_7ad3877eea8808c4.jpeg",
+      "target": "푔",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "핑",
+      "engine_confidence": 0.5197103023529053
+    },
+    {
+      "path": "results\\pilot\\images\\읚_T1_0_f9b2497eaedeb540.jpeg",
+      "target": "읚",
+      "human_valid": true,
+      "human_reading": "읮",
+      "engine_reading": "윗",
+      "engine_confidence": 0.5072755217552185
+    },
+    {
+      "path": "results\\pilot\\images\\읚_T1_1_bb8e208048221f00.jpeg",
+      "target": "읚",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "잎",
+      "engine_confidence": 0.5764243602752686
+    },
+    {
+      "path": "results\\pilot\\images\\읚_T1_2_de3284ce22e1dcb4.jpeg",
+      "target": "읚",
+      "human_valid": true,
+      "human_reading": "읮",
+      "engine_reading": "잊",
+      "engine_confidence": 0.5494909882545471
+    },
+    {
+      "path": "results\\pilot\\images\\읚_T2_0_2f8120669f213c71.jpeg",
+      "target": "읚",
+      "human_valid": true,
+      "human_reading": "읚",
+      "engine_reading": "위",
+      "engine_confidence": 0.5499738454818726
+    },
+    {
+      "path": "results\\pilot\\images\\읚_T2_1_faaf2803bda89be9.jpeg",
+      "target": "읚",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "앞",
+      "engine_confidence": 0.7375755906105042
+    },
+    {
+      "path": "results\\pilot\\images\\읚_T2_2_43a706b2ec13d6f9.jpeg",
+      "target": "읚",
+      "human_valid": true,
+      "human_reading": "있",
+      "engine_reading": "있",
+      "engine_confidence": 0.9996693134307861
+    },
+    {
+      "path": "results\\pilot\\images\\뢨_T1_0_5c61c30207b0b967.jpeg",
+      "target": "뢨",
+      "human_valid": true,
+      "human_reading": "뢤",
+      "engine_reading": "램",
+      "engine_confidence": 0.9936143755912781
+    },
+    {
+      "path": "results\\pilot\\images\\뢨_T1_1_9884b6f13595fe2e.jpeg",
+      "target": "뢨",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\뢨_T1_2_852ac4fac67afbf3.jpeg",
+      "target": "뢨",
+      "human_valid": true,
+      "human_reading": "뢩",
+      "engine_reading": "랭",
+      "engine_confidence": 0.5862890481948853
+    },
+    {
+      "path": "results\\pilot\\images\\뢨_T2_0_09c4db748a855a79.jpeg",
+      "target": "뢨",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\뢨_T2_1_63bc9c690d8cd6ed.jpeg",
+      "target": "뢨",
+      "human_valid": true,
+      "human_reading": "룀",
+      "engine_reading": "림",
+      "engine_confidence": 0.6935781836509705
+    },
+    {
+      "path": "results\\pilot\\images\\뢨_T2_2_4dd390c83c4b0963.jpeg",
+      "target": "뢨",
+      "human_valid": true,
+      "human_reading": "뢩",
+      "engine_reading": "괭",
+      "engine_confidence": 0.49034589529037476
+    },
+    {
+      "path": "results\\pilot\\images\\띘_T1_0_0c24902799dea288.jpeg",
+      "target": "띘",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\띘_T1_1_c99b47c1deaae532.jpeg",
+      "target": "띘",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "곧",
+      "engine_confidence": 0.5292407870292664
+    },
+    {
+      "path": "results\\pilot\\images\\띘_T1_2_3149764df342b681.jpeg",
+      "target": "띘",
+      "human_valid": true,
+      "human_reading": "띘",
+      "engine_reading": "뜻",
+      "engine_confidence": 0.5290508270263672
+    },
+    {
+      "path": "results\\pilot\\images\\띘_T2_0_0a764d4618eaddc6.jpeg",
+      "target": "띘",
+      "human_valid": true,
+      "human_reading": "띘",
+      "engine_reading": "뛴",
+      "engine_confidence": 0.712494432926178
+    },
+    {
+      "path": "results\\pilot\\images\\띘_T2_1_14a1124ed9dccd5a.jpeg",
+      "target": "띘",
+      "human_valid": true,
+      "human_reading": "띘",
+      "engine_reading": "쓰",
+      "engine_confidence": 0.9390976428985596
+    },
+    {
+      "path": "results\\pilot\\images\\띘_T2_2_9f0b40db95b10d19.jpeg",
+      "target": "띘",
+      "human_valid": true,
+      "human_reading": "띘",
+      "engine_reading": "떴",
+      "engine_confidence": 0.2723201513290405
+    },
+    {
+      "path": "results\\pilot\\images\\쀆_T1_0_12be241a55fe350f.jpeg",
+      "target": "쀆",
+      "human_valid": true,
+      "human_reading": "쀆",
+      "engine_reading": "뛸",
+      "engine_confidence": 0.39012786746025085
+    },
+    {
+      "path": "results\\pilot\\images\\쀆_T1_1_64b39ae7167a7fb7.jpeg",
+      "target": "쀆",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "뭐",
+      "engine_confidence": 0.20097783207893372
+    },
+    {
+      "path": "results\\pilot\\images\\쀆_T1_2_3be62ecb607fa209.jpeg",
+      "target": "쀆",
+      "human_valid": true,
+      "human_reading": "쀆",
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\쀆_T2_0_ce2751b069e39ced.jpeg",
+      "target": "쀆",
+      "human_valid": true,
+      "human_reading": "쀆",
+      "engine_reading": "빽",
+      "engine_confidence": 0.7414528131484985
+    },
+    {
+      "path": "results\\pilot\\images\\쀆_T2_1_686dff9393b27ea1.jpeg",
+      "target": "쀆",
+      "human_valid": true,
+      "human_reading": "쀆",
+      "engine_reading": "빽",
+      "engine_confidence": 0.3815107047557831
+    },
+    {
+      "path": "results\\pilot\\images\\쀆_T2_2_524f3dc407bdc741.jpeg",
+      "target": "쀆",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "왕",
+      "engine_confidence": 0.25748392939567566
+    },
+    {
+      "path": "results\\pilot\\images\\콃_T1_0_24afc29f299c98ef.jpeg",
+      "target": "콃",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "켤",
+      "engine_confidence": 0.37634018063545227
+    },
+    {
+      "path": "results\\pilot\\images\\콃_T1_1_c8a3aa1f3ad64b93.jpeg",
+      "target": "콃",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "켄",
+      "engine_confidence": 0.2208854705095291
+    },
+    {
+      "path": "results\\pilot\\images\\콃_T1_2_3c63e64fc6a55750.jpeg",
+      "target": "콃",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "켄",
+      "engine_confidence": 0.3679594397544861
+    },
+    {
+      "path": "results\\pilot\\images\\콃_T2_0_1c90c9d8b8011cee.jpeg",
+      "target": "콃",
+      "human_valid": true,
+      "human_reading": "콒",
+      "engine_reading": "켄",
+      "engine_confidence": 0.26106444001197815
+    },
+    {
+      "path": "results\\pilot\\images\\콃_T2_1_abaddac999d4b636.jpeg",
+      "target": "콃",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\콃_T2_2_2dc3ba24d870e833.jpeg",
+      "target": "콃",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "춥",
+      "engine_confidence": 0.3241617679595947
+    },
+    {
+      "path": "results\\pilot\\images\\탢_T1_0_f81e28aee49f009d.jpeg",
+      "target": "탢",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "타",
+      "engine_confidence": 0.5438879132270813
+    },
+    {
+      "path": "results\\pilot\\images\\탢_T1_1_707448f282ed8c59.jpeg",
+      "target": "탢",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "탄",
+      "engine_confidence": 0.7094833254814148
+    },
+    {
+      "path": "results\\pilot\\images\\탢_T1_2_0d7ccb9db47cd978.jpeg",
+      "target": "탢",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "탭",
+      "engine_confidence": 0.42627453804016113
+    },
+    {
+      "path": "results\\pilot\\images\\탢_T2_0_afedea48e3526fc3.jpeg",
+      "target": "탢",
+      "human_valid": true,
+      "human_reading": "탢",
+      "engine_reading": "태",
+      "engine_confidence": 0.3323681950569153
+    },
+    {
+      "path": "results\\pilot\\images\\탢_T2_1_55ee987e8267b439.jpeg",
+      "target": "탢",
+      "human_valid": true,
+      "human_reading": "탢",
+      "engine_reading": "태",
+      "engine_confidence": 0.5126060247421265
+    },
+    {
+      "path": "results\\pilot\\images\\탢_T2_2_e32ea692ce988d82.jpeg",
+      "target": "탢",
+      "human_valid": true,
+      "human_reading": "탢",
+      "engine_reading": "태",
+      "engine_confidence": 0.4092118442058563
+    },
+    {
+      "path": "results\\pilot\\images\\값_T1_0_cde0d01dae6038a4.jpeg",
+      "target": "값",
+      "human_valid": true,
+      "human_reading": "값",
+      "engine_reading": "값",
+      "engine_confidence": 0.9976897239685059
+    },
+    {
+      "path": "results\\pilot\\images\\값_T1_1_83ca92ef0c9b37f4.jpeg",
+      "target": "값",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "값",
+      "engine_confidence": 0.9969735145568848
+    },
+    {
+      "path": "results\\pilot\\images\\값_T1_2_921c5c2d5829670d.jpeg",
+      "target": "값",
+      "human_valid": true,
+      "human_reading": "값",
+      "engine_reading": "값",
+      "engine_confidence": 0.9960126876831055
+    },
+    {
+      "path": "results\\pilot\\images\\값_T2_0_d5ebb34403a90de7.jpeg",
+      "target": "값",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "값",
+      "engine_confidence": 0.9165567755699158
+    },
+    {
+      "path": "results\\pilot\\images\\값_T2_1_045b4360ebb3f7a9.jpeg",
+      "target": "값",
+      "human_valid": true,
+      "human_reading": "값",
+      "engine_reading": "값",
+      "engine_confidence": 0.4032597541809082
+    },
+    {
+      "path": "results\\pilot\\images\\값_T2_2_49b01ec573062350.jpeg",
+      "target": "값",
+      "human_valid": true,
+      "human_reading": "값",
+      "engine_reading": "값",
+      "engine_confidence": 0.9494738578796387
+    },
+    {
+      "path": "results\\pilot\\images\\읽_T1_0_07f54de7609833b3.jpeg",
+      "target": "읽",
+      "human_valid": true,
+      "human_reading": "읽",
+      "engine_reading": "읽",
+      "engine_confidence": 0.9960421323776245
+    },
+    {
+      "path": "results\\pilot\\images\\읽_T1_1_d4eb4285f4fa5a53.jpeg",
+      "target": "읽",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "읊",
+      "engine_confidence": 0.37363913655281067
+    },
+    {
+      "path": "results\\pilot\\images\\읽_T1_2_1b5dd297fe56965a.jpeg",
+      "target": "읽",
+      "human_valid": true,
+      "human_reading": "읽",
+      "engine_reading": "읽",
+      "engine_confidence": 0.987400233745575
+    },
+    {
+      "path": "results\\pilot\\images\\읽_T2_0_a9b06a32003f8ba3.jpeg",
+      "target": "읽",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "갉",
+      "engine_confidence": 0.3735693693161011
+    },
+    {
+      "path": "results\\pilot\\images\\읽_T2_1_f4dbd1262e92135d.jpeg",
+      "target": "읽",
+      "human_valid": true,
+      "human_reading": "읽",
+      "engine_reading": "읽",
+      "engine_confidence": 0.9989801049232483
+    },
+    {
+      "path": "results\\pilot\\images\\읽_T2_2_b8449a13407912e1.jpeg",
+      "target": "읽",
+      "human_valid": true,
+      "human_reading": "읽",
+      "engine_reading": "위",
+      "engine_confidence": 0.567977249622345
+    },
+    {
+      "path": "results\\pilot\\images\\떐_T1_0_f99a3cd1681acf02.jpeg",
+      "target": "떐",
+      "human_valid": true,
+      "human_reading": "뗴",
+      "engine_reading": "떼",
+      "engine_confidence": 0.9658707976341248
+    },
+    {
+      "path": "results\\pilot\\images\\떐_T1_1_819897223b952862.jpeg",
+      "target": "떐",
+      "human_valid": true,
+      "human_reading": "뗘",
+      "engine_reading": "떠",
+      "engine_confidence": 0.9760984778404236
+    },
+    {
+      "path": "results\\pilot\\images\\떐_T1_2_a0e272eb5d8445a9.jpeg",
+      "target": "떐",
+      "human_valid": true,
+      "human_reading": "뗴",
+      "engine_reading": "떼",
+      "engine_confidence": 0.9714393615722656
+    },
+    {
+      "path": "results\\pilot\\images\\떐_T2_0_a47c90ce6ec898d8.jpeg",
+      "target": "떐",
+      "human_valid": true,
+      "human_reading": "뗼",
+      "engine_reading": "뗄",
+      "engine_confidence": 0.6829163432121277
+    },
+    {
+      "path": "results\\pilot\\images\\떐_T2_1_3e385c412dde94f9.jpeg",
+      "target": "떐",
+      "human_valid": true,
+      "human_reading": "뗸",
+      "engine_reading": "뗀",
+      "engine_confidence": 0.936545729637146
+    },
+    {
+      "path": "results\\pilot\\images\\떐_T2_2_b8f118349191d6e7.jpeg",
+      "target": "떐",
+      "human_valid": true,
+      "human_reading": "뗸",
+      "engine_reading": "뗀",
+      "engine_confidence": 0.9463977217674255
+    },
+    {
+      "path": "results\\pilot\\images\\쩶_T1_0_b22c1969d8023660.jpeg",
+      "target": "쩶",
+      "human_valid": true,
+      "human_reading": "쩻",
+      "engine_reading": "것",
+      "engine_confidence": 0.903535008430481
+    },
+    {
+      "path": "results\\pilot\\images\\쩶_T1_1_304fd967bbb595da.jpeg",
+      "target": "쩶",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "쩔",
+      "engine_confidence": 0.8865418434143066
+    },
+    {
+      "path": "results\\pilot\\images\\쩶_T1_2_16b8ba4d36150a8e.jpeg",
+      "target": "쩶",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "짱",
+      "engine_confidence": 0.5244488716125488
+    },
+    {
+      "path": "results\\pilot\\images\\쩶_T2_0_91daced23d0b401e.jpeg",
+      "target": "쩶",
+      "human_valid": true,
+      "human_reading": "쩽",
+      "engine_reading": "쨍",
+      "engine_confidence": 0.7332062721252441
+    },
+    {
+      "path": "results\\pilot\\images\\쩶_T2_1_c7dad23d593bca38.jpeg",
+      "target": "쩶",
+      "human_valid": true,
+      "human_reading": "쩶",
+      "engine_reading": "짧",
+      "engine_confidence": 0.5444250106811523
+    },
+    {
+      "path": "results\\pilot\\images\\쩶_T2_2_a6437e91f1a74905.jpeg",
+      "target": "쩶",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\폐_T1_0_9ba78bd2d0eae3e7.jpeg",
+      "target": "폐",
+      "human_valid": true,
+      "human_reading": "폐",
+      "engine_reading": "폐",
+      "engine_confidence": 0.9998406171798706
+    },
+    {
+      "path": "results\\pilot\\images\\폐_T1_1_58f3424d79c03cfe.jpeg",
+      "target": "폐",
+      "human_valid": true,
+      "human_reading": "폥",
+      "engine_reading": "펭",
+      "engine_confidence": 0.7741209864616394
+    },
+    {
+      "path": "results\\pilot\\images\\폐_T1_2_416f8266f7e2efd0.jpeg",
+      "target": "폐",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\폐_T2_0_35b3b81ec2ae80af.jpeg",
+      "target": "폐",
+      "human_valid": true,
+      "human_reading": "폐",
+      "engine_reading": "폐",
+      "engine_confidence": 0.9894145727157593
+    },
+    {
+      "path": "results\\pilot\\images\\폐_T2_1_bcf6745969b5e702.jpeg",
+      "target": "폐",
+      "human_valid": true,
+      "human_reading": "폐",
+      "engine_reading": "폐",
+      "engine_confidence": 0.9978795051574707
+    },
+    {
+      "path": "results\\pilot\\images\\폐_T2_2_f61b88cbddb583e1.jpeg",
+      "target": "폐",
+      "human_valid": true,
+      "human_reading": "폐",
+      "engine_reading": "폐",
+      "engine_confidence": 0.9981886744499207
+    },
+    {
+      "path": "results\\pilot\\images\\태_T1_0_c7f3fa6338c028b2.jpeg",
+      "target": "태",
+      "human_valid": true,
+      "human_reading": "태",
+      "engine_reading": "태",
+      "engine_confidence": 0.9963085055351257
+    },
+    {
+      "path": "results\\pilot\\images\\태_T1_1_a9958c6a1e1c76cd.jpeg",
+      "target": "태",
+      "human_valid": true,
+      "human_reading": "태",
+      "engine_reading": "태",
+      "engine_confidence": 0.9978439807891846
+    },
+    {
+      "path": "results\\pilot\\images\\태_T1_2_61b4f290d95e518b.jpeg",
+      "target": "태",
+      "human_valid": true,
+      "human_reading": "태",
+      "engine_reading": "태",
+      "engine_confidence": 0.9987136125564575
+    },
+    {
+      "path": "results\\pilot\\images\\태_T2_0_4cb89156077a0a71.jpeg",
+      "target": "태",
+      "human_valid": true,
+      "human_reading": "태",
+      "engine_reading": "태",
+      "engine_confidence": 0.9524741172790527
+    },
+    {
+      "path": "results\\pilot\\images\\태_T2_1_2bf5d81bdcf22d65.jpeg",
+      "target": "태",
+      "human_valid": true,
+      "human_reading": "태",
+      "engine_reading": "태",
+      "engine_confidence": 0.9601607918739319
+    },
+    {
+      "path": "results\\pilot\\images\\태_T2_2_e1bfe5caa68189d4.jpeg",
+      "target": "태",
+      "human_valid": true,
+      "human_reading": "태",
+      "engine_reading": "태",
+      "engine_confidence": 0.9803455471992493
+    },
+    {
+      "path": "results\\pilot\\images\\가_T1_0_502294e463efa141.jpeg",
+      "target": "가",
+      "human_valid": true,
+      "human_reading": "가",
+      "engine_reading": "가",
+      "engine_confidence": 0.9998300075531006
+    },
+    {
+      "path": "results\\pilot\\images\\가_T1_1_1a15160976f265fa.jpeg",
+      "target": "가",
+      "human_valid": true,
+      "human_reading": "가",
+      "engine_reading": "가",
+      "engine_confidence": 0.9999183416366577
+    },
+    {
+      "path": "results\\pilot\\images\\가_T1_2_f8cdc88e75272d7b.jpeg",
+      "target": "가",
+      "human_valid": true,
+      "human_reading": "가",
+      "engine_reading": "가",
+      "engine_confidence": 0.9997362494468689
+    },
+    {
+      "path": "results\\pilot\\images\\가_T2_0_85bb288df8f0973b.jpeg",
+      "target": "가",
+      "human_valid": true,
+      "human_reading": "가",
+      "engine_reading": "가",
+      "engine_confidence": 0.9998663663864136
+    },
+    {
+      "path": "results\\pilot\\images\\가_T2_1_171871e6f87c58e4.jpeg",
+      "target": "가",
+      "human_valid": true,
+      "human_reading": "가",
+      "engine_reading": "가",
+      "engine_confidence": 0.9999305009841919
+    },
+    {
+      "path": "results\\pilot\\images\\가_T2_2_1b6e09bfe13ba21c.jpeg",
+      "target": "가",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\쟤_T1_0_df98c45fa6dc5914.jpeg",
+      "target": "쟤",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "내",
+      "engine_confidence": 0.477653831243515
+    },
+    {
+      "path": "results\\pilot\\images\\쟤_T1_1_0646038e64110489.jpeg",
+      "target": "쟤",
+      "human_valid": true,
+      "human_reading": "쟤",
+      "engine_reading": "재",
+      "engine_confidence": 0.9667736291885376
+    },
+    {
+      "path": "results\\pilot\\images\\쟤_T1_2_417835858aeb35e6.jpeg",
+      "target": "쟤",
+      "human_valid": true,
+      "human_reading": "쟤",
+      "engine_reading": "재",
+      "engine_confidence": 0.9288967251777649
+    },
+    {
+      "path": "results\\pilot\\images\\쟤_T2_0_bb352c18b3f4604b.jpeg",
+      "target": "쟤",
+      "human_valid": true,
+      "human_reading": "쟤",
+      "engine_reading": "재",
+      "engine_confidence": 0.9778550863265991
+    },
+    {
+      "path": "results\\pilot\\images\\쟤_T2_1_3064197f67f74712.jpeg",
+      "target": "쟤",
+      "human_valid": true,
+      "human_reading": "쨰",
+      "engine_reading": "째",
+      "engine_confidence": 0.9720536470413208
+    },
+    {
+      "path": "results\\pilot\\images\\쟤_T2_2_badcfe9d1b463c4c.jpeg",
+      "target": "쟤",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "쟁",
+      "engine_confidence": 0.34656718373298645
+    },
+    {
+      "path": "results\\pilot\\images\\깨_T1_0_041fa854db4d3ca3.jpeg",
+      "target": "깨",
+      "human_valid": true,
+      "human_reading": "꺠",
+      "engine_reading": "깨",
+      "engine_confidence": 0.9946871995925903
+    },
+    {
+      "path": "results\\pilot\\images\\깨_T1_1_1ec7f5cdbe9de50b.jpeg",
+      "target": "깨",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "깨",
+      "engine_confidence": 0.676380455493927
+    },
+    {
+      "path": "results\\pilot\\images\\깨_T1_2_47675931288a343b.jpeg",
+      "target": "깨",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "깰",
+      "engine_confidence": 0.9637635946273804
+    },
+    {
+      "path": "results\\pilot\\images\\깨_T2_0_5f6696a8cd76cbcb.jpeg",
+      "target": "깨",
+      "human_valid": true,
+      "human_reading": "꺠",
+      "engine_reading": "깨",
+      "engine_confidence": 0.9786527156829834
+    },
+    {
+      "path": "results\\pilot\\images\\깨_T2_1_e8f789e09d9b83b6.jpeg",
+      "target": "깨",
+      "human_valid": true,
+      "human_reading": "깨",
+      "engine_reading": "깨",
+      "engine_confidence": 0.9841914176940918
+    },
+    {
+      "path": "results\\pilot\\images\\깨_T2_2_877dec620014f2d2.jpeg",
+      "target": "깨",
+      "human_valid": true,
+      "human_reading": "깨",
+      "engine_reading": "깨",
+      "engine_confidence": 0.977707028388977
+    },
+    {
+      "path": "results\\pilot\\images\\떄_T1_0_b39ffcaa27f95191.jpeg",
+      "target": "떄",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "땀",
+      "engine_confidence": 0.6465240120887756
+    },
+    {
+      "path": "results\\pilot\\images\\떄_T1_1_1e85b7aa2f1b7b7c.jpeg",
+      "target": "떄",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "땐",
+      "engine_confidence": 0.600947380065918
+    },
+    {
+      "path": "results\\pilot\\images\\떄_T1_2_e07d89630833b5fe.jpeg",
+      "target": "떄",
+      "human_valid": true,
+      "human_reading": "떄",
+      "engine_reading": "때",
+      "engine_confidence": 0.9703359603881836
+    },
+    {
+      "path": "results\\pilot\\images\\떄_T2_0_fc24f1d7f599c854.jpeg",
+      "target": "떄",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\떄_T2_1_ed6174f4b278d36b.jpeg",
+      "target": "떄",
+      "human_valid": true,
+      "human_reading": "떄",
+      "engine_reading": "때",
+      "engine_confidence": 0.9951387643814087
+    },
+    {
+      "path": "results\\pilot\\images\\떄_T2_2_168de1a23bddbb8c.jpeg",
+      "target": "떄",
+      "human_valid": true,
+      "human_reading": "떝",
+      "engine_reading": "땐",
+      "engine_confidence": 0.39088472723960876
+    },
+    {
+      "path": "results\\pilot\\images\\켰_T1_0_7d38bba91316c055.jpeg",
+      "target": "켰",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "켠",
+      "engine_confidence": 0.9619951248168945
+    },
+    {
+      "path": "results\\pilot\\images\\켰_T1_1_64b5995208fd1189.jpeg",
+      "target": "켰",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "캔",
+      "engine_confidence": 0.8534619212150574
+    },
+    {
+      "path": "results\\pilot\\images\\켰_T1_2_e0f5111a226981a0.jpeg",
+      "target": "켰",
+      "human_valid": true,
+      "human_reading": "콌",
+      "engine_reading": "켓",
+      "engine_confidence": 0.42819157242774963
+    },
+    {
+      "path": "results\\pilot\\images\\켰_T2_0_a4399543d75e25ae.jpeg",
+      "target": "켰",
+      "human_valid": true,
+      "human_reading": "컸",
+      "engine_reading": "컸",
+      "engine_confidence": 0.5402424931526184
+    },
+    {
+      "path": "results\\pilot\\images\\켰_T2_1_6f295c33c45312ff.jpeg",
+      "target": "켰",
+      "human_valid": true,
+      "human_reading": "컸",
+      "engine_reading": "컸",
+      "engine_confidence": 0.5540965795516968
+    },
+    {
+      "path": "results\\pilot\\images\\켰_T2_2_89b0ae920410db91.jpeg",
+      "target": "켰",
+      "human_valid": true,
+      "human_reading": "컸",
+      "engine_reading": "컷",
+      "engine_confidence": 0.5538430213928223
+    },
+    {
+      "path": "results\\pilot\\images\\촜_T1_0_c50125bd9a2af13a.jpeg",
+      "target": "촜",
+      "human_valid": true,
+      "human_reading": "촘",
+      "engine_reading": "촘",
+      "engine_confidence": 0.8757999539375305
+    },
+    {
+      "path": "results\\pilot\\images\\촜_T1_1_83f88994aa11478f.jpeg",
+      "target": "촜",
+      "human_valid": true,
+      "human_reading": "췽",
+      "engine_reading": "충",
+      "engine_confidence": 0.9266740083694458
+    },
+    {
+      "path": "results\\pilot\\images\\촜_T1_2_286341b235c89102.jpeg",
+      "target": "촜",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "챌",
+      "engine_confidence": 0.9687384963035583
+    },
+    {
+      "path": "results\\pilot\\images\\촜_T2_0_16a38f5a585cb965.jpeg",
+      "target": "촜",
+      "human_valid": true,
+      "human_reading": "촜",
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\촜_T2_1_e4e1425a62e9507d.jpeg",
+      "target": "촜",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "글",
+      "engine_confidence": 0.8286080956459045
+    },
+    {
+      "path": "results\\pilot\\images\\촜_T2_2_0bf0106f613706ee.jpeg",
+      "target": "촜",
+      "human_valid": true,
+      "human_reading": "촜",
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\각_T1_0_5fbc998581fb4023.jpeg",
+      "target": "각",
+      "human_valid": true,
+      "human_reading": "각",
+      "engine_reading": "각",
+      "engine_confidence": 0.999653697013855
+    },
+    {
+      "path": "results\\pilot\\images\\각_T1_1_91f42eccacb04eff.jpeg",
+      "target": "각",
+      "human_valid": true,
+      "human_reading": "각",
+      "engine_reading": "각",
+      "engine_confidence": 0.9997583031654358
+    },
+    {
+      "path": "results\\pilot\\images\\각_T1_2_e6de9269dda7be89.jpeg",
+      "target": "각",
+      "human_valid": true,
+      "human_reading": "각",
+      "engine_reading": "각",
+      "engine_confidence": 0.9995835423469543
+    },
+    {
+      "path": "results\\pilot\\images\\각_T2_0_734598d5fd7e20a0.jpeg",
+      "target": "각",
+      "human_valid": true,
+      "human_reading": "각",
+      "engine_reading": "각",
+      "engine_confidence": 0.9975359439849854
+    },
+    {
+      "path": "results\\pilot\\images\\각_T2_1_1a5e295f03931fac.jpeg",
+      "target": "각",
+      "human_valid": true,
+      "human_reading": "각",
+      "engine_reading": "각",
+      "engine_confidence": 0.9975802898406982
+    },
+    {
+      "path": "results\\pilot\\images\\각_T2_2_9fcc53c4a5dde507.jpeg",
+      "target": "각",
+      "human_valid": true,
+      "human_reading": "각",
+      "engine_reading": "각",
+      "engine_confidence": 0.9980337023735046
+    },
+    {
+      "path": "results\\pilot\\images\\갂_T1_0_b8cf15c058793077.jpeg",
+      "target": "갂",
+      "human_valid": true,
+      "human_reading": "갂",
+      "engine_reading": "깎",
+      "engine_confidence": 0.43540477752685547
+    },
+    {
+      "path": "results\\pilot\\images\\갂_T1_1_25925964bf0cf14d.jpeg",
+      "target": "갂",
+      "human_valid": true,
+      "human_reading": "갂",
+      "engine_reading": "갉",
+      "engine_confidence": 0.68394935131073
+    },
+    {
+      "path": "results\\pilot\\images\\갂_T1_2_b63dae7b96f7d534.jpeg",
+      "target": "갂",
+      "human_valid": true,
+      "human_reading": "갂",
+      "engine_reading": "갉",
+      "engine_confidence": 0.44787248969078064
+    },
+    {
+      "path": "results\\pilot\\images\\갂_T2_0_9be0e5f14d58924e.jpeg",
+      "target": "갂",
+      "human_valid": true,
+      "human_reading": "갂",
+      "engine_reading": "갉",
+      "engine_confidence": 0.4484021067619324
+    },
+    {
+      "path": "results\\pilot\\images\\갂_T2_1_f7f8640db937a37f.jpeg",
+      "target": "갂",
+      "human_valid": true,
+      "human_reading": "갂",
+      "engine_reading": "갉",
+      "engine_confidence": 0.4386642873287201
+    },
+    {
+      "path": "results\\pilot\\images\\갂_T2_2_ada1492328e0de1c.jpeg",
+      "target": "갂",
+      "human_valid": true,
+      "human_reading": "갂",
+      "engine_reading": "가",
+      "engine_confidence": 0.34075579047203064
+    },
+    {
+      "path": "results\\pilot\\images\\띢_T1_0_bba7c66b3915f884.jpeg",
+      "target": "띢",
+      "human_valid": true,
+      "human_reading": "랬",
+      "engine_reading": "랬",
+      "engine_confidence": 0.5089349150657654
+    },
+    {
+      "path": "results\\pilot\\images\\띢_T1_1_560defc00e62617a.jpeg",
+      "target": "띢",
+      "human_valid": true,
+      "human_reading": "띢",
+      "engine_reading": "띠",
+      "engine_confidence": 0.9724901914596558
+    },
+    {
+      "path": "results\\pilot\\images\\띢_T1_2_89ef25c1e57c1c89.jpeg",
+      "target": "띢",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "램",
+      "engine_confidence": 0.8743588328361511
+    },
+    {
+      "path": "results\\pilot\\images\\띢_T2_0_7c7a205d9fd8ed0a.jpeg",
+      "target": "띢",
+      "human_valid": true,
+      "human_reading": "띢",
+      "engine_reading": "뛰",
+      "engine_confidence": 0.4220443665981293
+    },
+    {
+      "path": "results\\pilot\\images\\띢_T2_1_ce66b65d3b0cd179.jpeg",
+      "target": "띢",
+      "human_valid": true,
+      "human_reading": "딖",
+      "engine_reading": "뒤",
+      "engine_confidence": 0.5479864478111267
+    },
+    {
+      "path": "results\\pilot\\images\\띢_T2_2_9ce13b8c33e32b8d.jpeg",
+      "target": "띢",
+      "human_valid": true,
+      "human_reading": "띢",
+      "engine_reading": "뛰",
+      "engine_confidence": 0.6363612413406372
+    },
+    {
+      "path": "results\\pilot\\images\\쪆_T1_0_611b9ef0e7be6a96.jpeg",
+      "target": "쪆",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "쩍",
+      "engine_confidence": 0.6527552008628845
+    },
+    {
+      "path": "results\\pilot\\images\\쪆_T1_1_ef653a6f38abbca1.jpeg",
+      "target": "쪆",
+      "human_valid": true,
+      "human_reading": "쪆",
+      "engine_reading": "쩍",
+      "engine_confidence": 0.9097464084625244
+    },
+    {
+      "path": "results\\pilot\\images\\쪆_T1_2_2836f4bc7b55172b.jpeg",
+      "target": "쪆",
+      "human_valid": true,
+      "human_reading": "쪆",
+      "engine_reading": "쩍",
+      "engine_confidence": 0.8850996494293213
+    },
+    {
+      "path": "results\\pilot\\images\\쪆_T2_0_636c7a4fc42c4fa4.jpeg",
+      "target": "쪆",
+      "human_valid": true,
+      "human_reading": "쪆",
+      "engine_reading": "꺾",
+      "engine_confidence": 0.8083013296127319
+    },
+    {
+      "path": "results\\pilot\\images\\쪆_T2_1_7c2d0c786368c39d.jpeg",
+      "target": "쪆",
+      "human_valid": true,
+      "human_reading": "쪆",
+      "engine_reading": "쩍",
+      "engine_confidence": 0.4396216571331024
+    },
+    {
+      "path": "results\\pilot\\images\\쪆_T2_2_37ef039db3d11795.jpeg",
+      "target": "쪆",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "꺾",
+      "engine_confidence": 0.34664884209632874
+    },
+    {
+      "path": "results\\pilot\\images\\간_T1_0_15c4f231e6003fdf.jpeg",
+      "target": "간",
+      "human_valid": true,
+      "human_reading": "간",
+      "engine_reading": "간",
+      "engine_confidence": 0.9955686926841736
+    },
+    {
+      "path": "results\\pilot\\images\\간_T1_1_0a29c00cd886adff.jpeg",
+      "target": "간",
+      "human_valid": true,
+      "human_reading": "간",
+      "engine_reading": "간",
+      "engine_confidence": 0.9977993369102478
+    },
+    {
+      "path": "results\\pilot\\images\\간_T1_2_ce79ecc8d7136543.jpeg",
+      "target": "간",
+      "human_valid": true,
+      "human_reading": "간",
+      "engine_reading": "간",
+      "engine_confidence": 0.9970784187316895
+    },
+    {
+      "path": "results\\pilot\\images\\간_T2_0_f96e3bcf97fc3682.jpeg",
+      "target": "간",
+      "human_valid": true,
+      "human_reading": "간",
+      "engine_reading": "간",
+      "engine_confidence": 0.9497751593589783
+    },
+    {
+      "path": "results\\pilot\\images\\간_T2_1_2cbeed7756cd6a27.jpeg",
+      "target": "간",
+      "human_valid": true,
+      "human_reading": "간",
+      "engine_reading": "간",
+      "engine_confidence": 0.973301112651825
+    },
+    {
+      "path": "results\\pilot\\images\\간_T2_2_415dd776021d095d.jpeg",
+      "target": "간",
+      "human_valid": true,
+      "human_reading": "간",
+      "engine_reading": "간",
+      "engine_confidence": 0.9955156445503235
+    },
+    {
+      "path": "results\\pilot\\images\\갈_T1_0_864ff5a2bf66d74a.jpeg",
+      "target": "갈",
+      "human_valid": true,
+      "human_reading": "갈",
+      "engine_reading": "갈",
+      "engine_confidence": 0.9992377758026123
+    },
+    {
+      "path": "results\\pilot\\images\\갈_T1_1_738bfebf1c10a4eb.jpeg",
+      "target": "갈",
+      "human_valid": true,
+      "human_reading": "갈",
+      "engine_reading": "갈",
+      "engine_confidence": 0.9958992600440979
+    },
+    {
+      "path": "results\\pilot\\images\\갈_T1_2_2d4112f5948acc4d.jpeg",
+      "target": "갈",
+      "human_valid": true,
+      "human_reading": "갈",
+      "engine_reading": "갈",
+      "engine_confidence": 0.999357283115387
+    },
+    {
+      "path": "results\\pilot\\images\\갈_T2_0_2ca4e8380cacb248.jpeg",
+      "target": "갈",
+      "human_valid": true,
+      "human_reading": "갈",
+      "engine_reading": "갈",
+      "engine_confidence": 0.9937600493431091
+    },
+    {
+      "path": "results\\pilot\\images\\갈_T2_1_0fd00b45085759e6.jpeg",
+      "target": "갈",
+      "human_valid": true,
+      "human_reading": "갈",
+      "engine_reading": "갈",
+      "engine_confidence": 0.9917258024215698
+    },
+    {
+      "path": "results\\pilot\\images\\갈_T2_2_e2f78d3ca4298578.jpeg",
+      "target": "갈",
+      "human_valid": true,
+      "human_reading": "갈",
+      "engine_reading": "갈",
+      "engine_confidence": 0.9945151805877686
+    },
+    {
+      "path": "results\\pilot\\images\\감_T1_0_054718aa3c9cab54.jpeg",
+      "target": "감",
+      "human_valid": true,
+      "human_reading": "감",
+      "engine_reading": "감",
+      "engine_confidence": 0.999309778213501
+    },
+    {
+      "path": "results\\pilot\\images\\감_T1_1_4c5cc4a5f635edb1.jpeg",
+      "target": "감",
+      "human_valid": true,
+      "human_reading": "감",
+      "engine_reading": "감",
+      "engine_confidence": 0.9988033771514893
+    },
+    {
+      "path": "results\\pilot\\images\\감_T1_2_c8a8d6953c1bf3fd.jpeg",
+      "target": "감",
+      "human_valid": true,
+      "human_reading": "감",
+      "engine_reading": "감",
+      "engine_confidence": 0.9994416832923889
+    },
+    {
+      "path": "results\\pilot\\images\\감_T2_0_fcf2912bb65b361e.jpeg",
+      "target": "감",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "값",
+      "engine_confidence": 0.8689859509468079
+    },
+    {
+      "path": "results\\pilot\\images\\감_T2_1_c5d8d511c6fe6cc7.jpeg",
+      "target": "감",
+      "human_valid": true,
+      "human_reading": "감",
+      "engine_reading": "감",
+      "engine_confidence": 0.998296320438385
+    },
+    {
+      "path": "results\\pilot\\images\\감_T2_2_75fb185f930c903b.jpeg",
+      "target": "감",
+      "human_valid": true,
+      "human_reading": "감",
+      "engine_reading": "감",
+      "engine_confidence": 0.9979386925697327
+    },
+    {
+      "path": "results\\pilot\\images\\갑_T1_0_176f084f6e9ccef6.jpeg",
+      "target": "갑",
+      "human_valid": true,
+      "human_reading": "갑",
+      "engine_reading": "간",
+      "engine_confidence": 0.8420785665512085
+    },
+    {
+      "path": "results\\pilot\\images\\갑_T1_1_7a7e26f3ae3634bb.jpeg",
+      "target": "갑",
+      "human_valid": true,
+      "human_reading": "갑",
+      "engine_reading": "갑",
+      "engine_confidence": 0.9653342366218567
+    },
+    {
+      "path": "results\\pilot\\images\\갑_T1_2_6b4017332abfa75e.jpeg",
+      "target": "갑",
+      "human_valid": true,
+      "human_reading": "갑",
+      "engine_reading": "갑",
+      "engine_confidence": 0.9971522092819214
+    },
+    {
+      "path": "results\\pilot\\images\\갑_T2_0_5b17b5257cbee722.jpeg",
+      "target": "갑",
+      "human_valid": true,
+      "human_reading": "갑",
+      "engine_reading": "간",
+      "engine_confidence": 0.9865357279777527
+    },
+    {
+      "path": "results\\pilot\\images\\갑_T2_1_dc9caf31014ac83c.jpeg",
+      "target": "갑",
+      "human_valid": true,
+      "human_reading": "갑",
+      "engine_reading": "갑",
+      "engine_confidence": 0.9842850565910339
+    },
+    {
+      "path": "results\\pilot\\images\\갑_T2_2_2094dac967974a69.jpeg",
+      "target": "갑",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "감",
+      "engine_confidence": 0.8478675484657288
+    },
+    {
+      "path": "results\\pilot\\images\\갓_T1_0_22f1481ccbeb25ca.jpeg",
+      "target": "갓",
+      "human_valid": true,
+      "human_reading": "갓",
+      "engine_reading": "갓",
+      "engine_confidence": 0.9985657334327698
+    },
+    {
+      "path": "results\\pilot\\images\\갓_T1_1_7d608d1d05622091.jpeg",
+      "target": "갓",
+      "human_valid": true,
+      "human_reading": "갓",
+      "engine_reading": "갓",
+      "engine_confidence": 0.9970364570617676
+    },
+    {
+      "path": "results\\pilot\\images\\갓_T1_2_7d262efcfae465fe.jpeg",
+      "target": "갓",
+      "human_valid": true,
+      "human_reading": "갓",
+      "engine_reading": "갓",
+      "engine_confidence": 0.9943207502365112
+    },
+    {
+      "path": "results\\pilot\\images\\갓_T2_0_18c564c48b564091.jpeg",
+      "target": "갓",
+      "human_valid": true,
+      "human_reading": "갓",
+      "engine_reading": "갓",
+      "engine_confidence": 0.9962121248245239
+    },
+    {
+      "path": "results\\pilot\\images\\갓_T2_1_37c548b7532ded10.jpeg",
+      "target": "갓",
+      "human_valid": true,
+      "human_reading": "갓",
+      "engine_reading": "갓",
+      "engine_confidence": 0.9909239411354065
+    },
+    {
+      "path": "results\\pilot\\images\\갓_T2_2_3b30b16f549532ed.jpeg",
+      "target": "갓",
+      "human_valid": true,
+      "human_reading": "갓",
+      "engine_reading": "갓",
+      "engine_confidence": 0.9912918210029602
+    },
+    {
+      "path": "results\\pilot\\images\\갔_T1_0_ef733e013ed648d9.jpeg",
+      "target": "갔",
+      "human_valid": true,
+      "human_reading": "갔",
+      "engine_reading": "쓰",
+      "engine_confidence": 0.8048739433288574
+    },
+    {
+      "path": "results\\pilot\\images\\갔_T1_1_11d1687b3f2b08f7.jpeg",
+      "target": "갔",
+      "human_valid": true,
+      "human_reading": "갔",
+      "engine_reading": "쓰",
+      "engine_confidence": 0.792532742023468
+    },
+    {
+      "path": "results\\pilot\\images\\갔_T1_2_8e2070e96b6f74c1.jpeg",
+      "target": "갔",
+      "human_valid": true,
+      "human_reading": "갔",
+      "engine_reading": "값",
+      "engine_confidence": 0.7903776168823242
+    },
+    {
+      "path": "results\\pilot\\images\\갔_T2_0_29ba7a3db0a286f4.jpeg",
+      "target": "갔",
+      "human_valid": true,
+      "human_reading": "갔",
+      "engine_reading": "값",
+      "engine_confidence": 0.9169877171516418
+    },
+    {
+      "path": "results\\pilot\\images\\갔_T2_1_896f7a59b4129712.jpeg",
+      "target": "갔",
+      "human_valid": true,
+      "human_reading": "갔",
+      "engine_reading": "값",
+      "engine_confidence": 0.8834663033485413
+    },
+    {
+      "path": "results\\pilot\\images\\갔_T2_2_c200cf8c5160a965.jpeg",
+      "target": "갔",
+      "human_valid": true,
+      "human_reading": "갔",
+      "engine_reading": "갔",
+      "engine_confidence": 0.5251035690307617
+    },
+    {
+      "path": "results\\pilot\\images\\개_T1_0_241d7bad39c7b18a.jpeg",
+      "target": "개",
+      "human_valid": true,
+      "human_reading": "개",
+      "engine_reading": "개",
+      "engine_confidence": 0.999895453453064
+    },
+    {
+      "path": "results\\pilot\\images\\개_T1_1_6051e73d057708b1.jpeg",
+      "target": "개",
+      "human_valid": true,
+      "human_reading": "개",
+      "engine_reading": "개",
+      "engine_confidence": 0.9996925592422485
+    },
+    {
+      "path": "results\\pilot\\images\\개_T1_2_0cfa4777b839a772.jpeg",
+      "target": "개",
+      "human_valid": true,
+      "human_reading": "개",
+      "engine_reading": "개",
+      "engine_confidence": 0.9998438358306885
+    },
+    {
+      "path": "results\\pilot\\images\\개_T2_0_92aed95395a6d06b.jpeg",
+      "target": "개",
+      "human_valid": true,
+      "human_reading": "개",
+      "engine_reading": "개",
+      "engine_confidence": 0.9998705387115479
+    },
+    {
+      "path": "results\\pilot\\images\\개_T2_1_8af65967fd4a836d.jpeg",
+      "target": "개",
+      "human_valid": true,
+      "human_reading": "개",
+      "engine_reading": "개",
+      "engine_confidence": 0.9998581409454346
+    },
+    {
+      "path": "results\\pilot\\images\\개_T2_2_10bb61780fbc5430.jpeg",
+      "target": "개",
+      "human_valid": true,
+      "human_reading": "개",
+      "engine_reading": "개",
+      "engine_confidence": 0.9999052286148071
+    },
+    {
+      "path": "results\\pilot\\images\\갵_T1_0_fe329c8a7c40cb31.jpeg",
+      "target": "갵",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "갚",
+      "engine_confidence": 0.2538813054561615
+    },
+    {
+      "path": "results\\pilot\\images\\갵_T1_1_04f6aaaf05a0e2ff.jpeg",
+      "target": "갵",
+      "human_valid": true,
+      "human_reading": "갵",
+      "engine_reading": "곁",
+      "engine_confidence": 0.8047942519187927
+    },
+    {
+      "path": "results\\pilot\\images\\갵_T1_2_d8616cf86d6efe1a.jpeg",
+      "target": "갵",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "갈",
+      "engine_confidence": 0.9141978025436401
+    },
+    {
+      "path": "results\\pilot\\images\\갵_T2_0_6211b99eb4f729e6.jpeg",
+      "target": "갵",
+      "human_valid": true,
+      "human_reading": "갵",
+      "engine_reading": "곁",
+      "engine_confidence": 0.8505191206932068
+    },
+    {
+      "path": "results\\pilot\\images\\갵_T2_1_7e5c3cb2e5d9da34.jpeg",
+      "target": "갵",
+      "human_valid": true,
+      "human_reading": "갵",
+      "engine_reading": "곁",
+      "engine_confidence": 0.770641028881073
+    },
+    {
+      "path": "results\\pilot\\images\\갵_T2_2_1ae1ff8d783dec45.jpeg",
+      "target": "갵",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "겪",
+      "engine_confidence": 0.6266149878501892
+    },
+    {
+      "path": "results\\pilot\\images\\걗_T1_0_f2118ba7995d9202.jpeg",
+      "target": "걗",
+      "human_valid": true,
+      "human_reading": "걗",
+      "engine_reading": "겪",
+      "engine_confidence": 0.8343252539634705
+    },
+    {
+      "path": "results\\pilot\\images\\걗_T1_1_18b3faebcd4e8d9f.jpeg",
+      "target": "걗",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "겪",
+      "engine_confidence": 0.9775741696357727
+    },
+    {
+      "path": "results\\pilot\\images\\걗_T1_2_34acbef491dc4106.jpeg",
+      "target": "걗",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "겪",
+      "engine_confidence": 0.9423581957817078
+    },
+    {
+      "path": "results\\pilot\\images\\걗_T2_0_3737235e0fa19e35.jpeg",
+      "target": "걗",
+      "human_valid": true,
+      "human_reading": "걗",
+      "engine_reading": "겪",
+      "engine_confidence": 0.8157479166984558
+    },
+    {
+      "path": "results\\pilot\\images\\걗_T2_1_3f7f4cf68baefe49.jpeg",
+      "target": "걗",
+      "human_valid": true,
+      "human_reading": "겯",
+      "engine_reading": "곁",
+      "engine_confidence": 0.9310291409492493
+    },
+    {
+      "path": "results\\pilot\\images\\걗_T2_2_f566fc9d789c803e.jpeg",
+      "target": "걗",
+      "human_valid": true,
+      "human_reading": "걗",
+      "engine_reading": "겪",
+      "engine_confidence": 0.8448556661605835
+    },
+    {
+      "path": "results\\pilot\\images\\걨_T1_0_4df2f57c07a145b1.jpeg",
+      "target": "걨",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\걨_T1_1_535598a78711895b.jpeg",
+      "target": "걨",
+      "human_valid": true,
+      "human_reading": "걤",
+      "engine_reading": "겸",
+      "engine_confidence": 0.953672468662262
+    },
+    {
+      "path": "results\\pilot\\images\\걨_T1_2_ea097caab4fd2081.jpeg",
+      "target": "걨",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "겠",
+      "engine_confidence": 0.549945056438446
+    },
+    {
+      "path": "results\\pilot\\images\\걨_T2_0_f5580c58c2ba3e33.jpeg",
+      "target": "걨",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "걷",
+      "engine_confidence": 0.43661096692085266
+    },
+    {
+      "path": "results\\pilot\\images\\걨_T2_1_9b1daac41ae755b1.jpeg",
+      "target": "걨",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "겸",
+      "engine_confidence": 0.7396822571754456
+    },
+    {
+      "path": "results\\pilot\\images\\걨_T2_2_8fb4b233da5c8509.jpeg",
+      "target": "걨",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "쓰",
+      "engine_confidence": 0.6555323600769043
+    },
+    {
+      "path": "results\\pilot\\images\\게_T1_0_fe8c2352ffb0df45.jpeg",
+      "target": "게",
+      "human_valid": true,
+      "human_reading": "게",
+      "engine_reading": "게",
+      "engine_confidence": 0.999450147151947
+    },
+    {
+      "path": "results\\pilot\\images\\게_T1_1_008b64c523ab93d8.jpeg",
+      "target": "게",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "게",
+      "engine_confidence": 0.7945221066474915
+    },
+    {
+      "path": "results\\pilot\\images\\게_T1_2_13a08387c9549f6d.jpeg",
+      "target": "게",
+      "human_valid": true,
+      "human_reading": "게",
+      "engine_reading": "게",
+      "engine_confidence": 0.99993896484375
+    },
+    {
+      "path": "results\\pilot\\images\\게_T2_0_a02ecce9e6293f47.jpeg",
+      "target": "게",
+      "human_valid": true,
+      "human_reading": "게",
+      "engine_reading": "게",
+      "engine_confidence": 0.9997389912605286
+    },
+    {
+      "path": "results\\pilot\\images\\게_T2_1_adc2a826a2f4c848.jpeg",
+      "target": "게",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "겔",
+      "engine_confidence": 0.42547762393951416
+    },
+    {
+      "path": "results\\pilot\\images\\게_T2_2_a9b7054031090433.jpeg",
+      "target": "게",
+      "human_valid": true,
+      "human_reading": "게",
+      "engine_reading": "게",
+      "engine_confidence": 0.9999792575836182
+    },
+    {
+      "path": "results\\pilot\\images\\계_T1_0_a2a6831ba9b01aa3.jpeg",
+      "target": "계",
+      "human_valid": true,
+      "human_reading": "계",
+      "engine_reading": "계",
+      "engine_confidence": 0.9994914531707764
+    },
+    {
+      "path": "results\\pilot\\images\\계_T1_1_75e543a45b0d60d9.jpeg",
+      "target": "계",
+      "human_valid": true,
+      "human_reading": "계",
+      "engine_reading": "계",
+      "engine_confidence": 0.9996688365936279
+    },
+    {
+      "path": "results\\pilot\\images\\계_T1_2_75a32c7adfc9f1ba.jpeg",
+      "target": "계",
+      "human_valid": true,
+      "human_reading": "계",
+      "engine_reading": "계",
+      "engine_confidence": 0.99960857629776
+    },
+    {
+      "path": "results\\pilot\\images\\계_T2_0_732ecda74e46ec32.jpeg",
+      "target": "계",
+      "human_valid": true,
+      "human_reading": "계",
+      "engine_reading": "계",
+      "engine_confidence": 0.9991227984428406
+    },
+    {
+      "path": "results\\pilot\\images\\계_T2_1_29dc8aa81d9c393e.jpeg",
+      "target": "계",
+      "human_valid": true,
+      "human_reading": "계",
+      "engine_reading": "계",
+      "engine_confidence": 0.9992983341217041
+    },
+    {
+      "path": "results\\pilot\\images\\계_T2_2_fd45d91a8b72552b.jpeg",
+      "target": "계",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "예",
+      "engine_confidence": 0.831022322177887
+    },
+    {
+      "path": "results\\pilot\\images\\곥_T1_0_ddc962b93ef7079a.jpeg",
+      "target": "곥",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "곳",
+      "engine_confidence": 0.9221423268318176
+    },
+    {
+      "path": "results\\pilot\\images\\곥_T1_1_50b47ab8c3f8e6bd.jpeg",
+      "target": "곥",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "곳",
+      "engine_confidence": 0.9844896793365479
+    },
+    {
+      "path": "results\\pilot\\images\\곥_T1_2_90c1432f7ba98cb8.jpeg",
+      "target": "곥",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "곳",
+      "engine_confidence": 0.9520008563995361
+    },
+    {
+      "path": "results\\pilot\\images\\곥_T2_0_f37256dfff809703.jpeg",
+      "target": "곥",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": null,
+      "engine_confidence": 0.0
+    },
+    {
+      "path": "results\\pilot\\images\\곥_T2_1_735de428643d213b.jpeg",
+      "target": "곥",
+      "human_valid": true,
+      "human_reading": "곥",
+      "engine_reading": "곳",
+      "engine_confidence": 0.4762972295284271
+    },
+    {
+      "path": "results\\pilot\\images\\곥_T2_2_81cd349b8c225d0a.jpeg",
+      "target": "곥",
+      "human_valid": true,
+      "human_reading": "곥",
+      "engine_reading": "곳",
+      "engine_confidence": 0.5918291211128235
+    },
+    {
+      "path": "results\\pilot\\images\\곩_T1_0_79084ed8deb4fa99.jpeg",
+      "target": "곩",
+      "human_valid": true,
+      "human_reading": "꼵",
+      "engine_reading": "긁",
+      "engine_confidence": 0.3165898323059082
+    },
+    {
+      "path": "results\\pilot\\images\\곩_T1_1_8cf72db39c2f76ca.jpeg",
+      "target": "곩",
+      "human_valid": false,
+      "human_reading": null,
+      "engine_reading": "길",
+      "engine_confidence": 0.33342626690864563
+    },
+    {
+      "path": "results\\pilot\\images\\곩_T1_2_bd07587479153112.jpeg",
+      "target": "곩",
+      "human_valid": true,
+      "human_reading": null,
+      "engine_reading": "곬",
+      "engine_confidence": 0.7735939025878906
+    },
+    {
+      "path": "results\\pilot\\images\\곩_T2_0_072d073fe9ca3317.jpeg",
+      "target": "곩",
+      "human_valid": true,
+      "human_reading": "곩",
+      "engine_reading": "긁",
+      "engine_confidence": 0.4494543969631195
+    },
+    {
+      "path": "results\\pilot\\images\\곩_T2_1_9f1fe8ca6d8f1248.jpeg",
+      "target": "곩",
+      "human_valid": true,
+      "human_reading": "곋",
+      "engine_reading": "겔",
+      "engine_confidence": 0.45345425605773926
+    },
+    {
+      "path": "results\\pilot\\images\\곩_T2_2_309cdfbcf5e65e8f.jpeg",
+      "target": "곩",
+      "human_valid": true,
+      "human_reading": "곩",
+      "engine_reading": "굶",
+      "engine_confidence": 0.4486522078514099
+    }
+  ]
+}

@@ -1,0 +1,868 @@
+{
+  "n": 256,
+  "correct_tm": 133,
+  "correct_clova": 83,
+  "mismatches": [
+    {
+      "target": "퐋",
+      "pred": "퐏",
+      "score": 0.8612866401672363,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\퐋_T1_1_765ea641ec9fd943.jpeg"
+    },
+    {
+      "target": "퐋",
+      "pred": "퐐",
+      "score": 0.8785358667373657,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\퐋_T2_0_f0e63dafec1cc58d.jpeg"
+    },
+    {
+      "target": "퐋",
+      "pred": "뢀",
+      "score": 0.7080433964729309,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\퐋_T2_1_07baace06de0347c.jpeg"
+    },
+    {
+      "target": "퐋",
+      "pred": "늫",
+      "score": 0.2423204928636551,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\퐋_T2_2_92d96575495d09d2.jpeg"
+    },
+    {
+      "target": "퉑",
+      "pred": "툭",
+      "score": 0.7337605357170105,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\퉑_T2_1_ff4d65d8ace0c5e2.jpeg"
+    },
+    {
+      "target": "퉑",
+      "pred": "둵",
+      "score": 0.734529435634613,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\퉑_T2_2_8225ff77fc8748d2.jpeg"
+    },
+    {
+      "target": "죇",
+      "pred": "죙",
+      "score": 0.6979705691337585,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\죇_T1_1_ad77d7699ea7886e.jpeg"
+    },
+    {
+      "target": "죇",
+      "pred": "징",
+      "score": 0.8000776767730713,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\죇_T1_2_0cb09ac686fcefb9.jpeg"
+    },
+    {
+      "target": "죇",
+      "pred": "쟹",
+      "score": 0.6421566009521484,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\죇_T2_1_c513e0e27adcf379.jpeg"
+    },
+    {
+      "target": "뷦",
+      "pred": "뷧",
+      "score": 0.7180936932563782,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\뷦_T1_1_d3644e21f743d43a.jpeg"
+    },
+    {
+      "target": "뷦",
+      "pred": "붬",
+      "score": 0.6373488903045654,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\뷦_T2_1_27b73295b18f26a6.jpeg"
+    },
+    {
+      "target": "쬙",
+      "pred": "퇡",
+      "score": 0.5503110885620117,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\쬙_T1_0_087ece133dcc793d.jpeg"
+    },
+    {
+      "target": "쬙",
+      "pred": "뙑",
+      "score": 0.6421128511428833,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\쬙_T1_1_fe68e8f07340d6a3.jpeg"
+    },
+    {
+      "target": "똵",
+      "pred": "뽥",
+      "score": 0.6728271842002869,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\똵_T2_0_0fc7b9a5ba7dc5c7.jpeg"
+    },
+    {
+      "target": "똵",
+      "pred": "뙁",
+      "score": 0.764313817024231,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\똵_T2_1_1f3662ab61910fa2.jpeg"
+    },
+    {
+      "target": "쾌",
+      "pred": "꽾",
+      "score": 0.639878511428833,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\쾌_T2_0_088e355e04e452a4.jpeg"
+    },
+    {
+      "target": "츼",
+      "pred": "칕",
+      "score": 0.7979429364204407,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\츼_T1_0_dd0bccd93d11edfa.jpeg"
+    },
+    {
+      "target": "츼",
+      "pred": "췬",
+      "score": 0.6393206119537354,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\츼_T1_1_4ca31e407b30dc44.jpeg"
+    },
+    {
+      "target": "츼",
+      "pred": "췸",
+      "score": 0.8594422936439514,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\츼_T1_2_7c36a9cfa179db79.jpeg"
+    },
+    {
+      "target": "츼",
+      "pred": "즤",
+      "score": 0.6955277323722839,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\츼_T2_1_dbdedd4f7b00785f.jpeg"
+    },
+    {
+      "target": "와",
+      "pred": "퇑",
+      "score": 0.642899215221405,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\와_T2_2_17d30e6817e5a4cd.jpeg"
+    },
+    {
+      "target": "왜",
+      "pred": "뫠",
+      "score": 0.787602961063385,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\왜_T1_2_6c41ac35743a5d23.jpeg"
+    },
+    {
+      "target": "쬐",
+      "pred": "푀",
+      "score": 0.7007543444633484,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\쬐_T1_0_49a9fc1d26b14db2.jpeg"
+    },
+    {
+      "target": "쬐",
+      "pred": "꽝",
+      "score": 0.6838416457176208,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\쬐_T1_1_206e102d19d6883e.jpeg"
+    },
+    {
+      "target": "쬐",
+      "pred": "쬔",
+      "score": 0.636010468006134,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\쬐_T1_2_d02be8c22beae67e.jpeg"
+    },
+    {
+      "target": "쬐",
+      "pred": "쯰",
+      "score": 0.7497920393943787,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\쬐_T2_0_e977a3fa2ea6b18b.jpeg"
+    },
+    {
+      "target": "쐐",
+      "pred": "썥",
+      "score": 0.6428071856498718,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\쐐_T1_0_2cd22c0e22ca37dc.jpeg"
+    },
+    {
+      "target": "춲",
+      "pred": "춸",
+      "score": 0.7987529039382935,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\춲_T1_0_56a0022783e265ab.jpeg"
+    },
+    {
+      "target": "춲",
+      "pred": "췀",
+      "score": 0.734998881816864,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\춲_T1_1_b4a8df59dad2283e.jpeg"
+    },
+    {
+      "target": "춲",
+      "pred": "햠",
+      "score": 0.6959648132324219,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\춲_T1_2_ea559b287a05b698.jpeg"
+    },
+    {
+      "target": "춲",
+      "pred": "꿖",
+      "score": 0.6960107088088989,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\춲_T2_0_7f460a007b280588.jpeg"
+    },
+    {
+      "target": "춲",
+      "pred": "췉",
+      "score": 0.6996210217475891,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\춲_T2_1_d62b549982a2302f.jpeg"
+    },
+    {
+      "target": "푔",
+      "pred": "퀸",
+      "score": 0.6624190807342529,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\푔_T2_1_34c0835202d266b1.jpeg"
+    },
+    {
+      "target": "푔",
+      "pred": "꽠",
+      "score": 0.5166674852371216,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\푔_T2_2_7ad3877eea8808c4.jpeg"
+    },
+    {
+      "target": "읚",
+      "pred": "읮",
+      "score": 0.8461424708366394,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\읚_T1_0_f9b2497eaedeb540.jpeg"
+    },
+    {
+      "target": "읚",
+      "pred": "왇",
+      "score": 0.5627342462539673,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\읚_T1_1_bb8e208048221f00.jpeg"
+    },
+    {
+      "target": "읚",
+      "pred": "욎",
+      "score": 0.7972490787506104,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\읚_T1_2_de3284ce22e1dcb4.jpeg"
+    },
+    {
+      "target": "읚",
+      "pred": "왘",
+      "score": 0.6525895595550537,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\읚_T2_1_faaf2803bda89be9.jpeg"
+    },
+    {
+      "target": "읚",
+      "pred": "있",
+      "score": 0.7471437454223633,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\읚_T2_2_43a706b2ec13d6f9.jpeg"
+    },
+    {
+      "target": "뢨",
+      "pred": "릠",
+      "score": 0.6605512499809265,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\뢨_T1_0_5c61c30207b0b967.jpeg"
+    },
+    {
+      "target": "뢨",
+      "pred": "홭",
+      "score": 0.6519418954849243,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\뢨_T1_1_9884b6f13595fe2e.jpeg"
+    },
+    {
+      "target": "뢨",
+      "pred": "퐹",
+      "score": 0.602074921131134,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\뢨_T1_2_852ac4fac67afbf3.jpeg"
+    },
+    {
+      "target": "뢨",
+      "pred": "룀",
+      "score": 0.6891393065452576,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\뢨_T2_1_63bc9c690d8cd6ed.jpeg"
+    },
+    {
+      "target": "뢨",
+      "pred": "릥",
+      "score": 0.6821338534355164,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\뢨_T2_2_4dd390c83c4b0963.jpeg"
+    },
+    {
+      "target": "띘",
+      "pred": "뙸",
+      "score": 0.7987682223320007,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\띘_T1_2_3149764df342b681.jpeg"
+    },
+    {
+      "target": "쀆",
+      "pred": "쀅",
+      "score": 0.8159342408180237,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\쀆_T1_0_12be241a55fe350f.jpeg"
+    },
+    {
+      "target": "쀆",
+      "pred": "쮂",
+      "score": 0.7194029092788696,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\쀆_T1_2_3be62ecb607fa209.jpeg"
+    },
+    {
+      "target": "쀆",
+      "pred": "퀚",
+      "score": 0.7457859516143799,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\쀆_T2_1_686dff9393b27ea1.jpeg"
+    },
+    {
+      "target": "콃",
+      "pred": "삪",
+      "score": 0.5796172022819519,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\콃_T2_0_1c90c9d8b8011cee.jpeg"
+    },
+    {
+      "target": "탢",
+      "pred": "됂",
+      "score": 0.6908246278762817,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\탢_T1_2_0d7ccb9db47cd978.jpeg"
+    },
+    {
+      "target": "탢",
+      "pred": "르",
+      "score": 0.1285690814256668,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\탢_T2_0_afedea48e3526fc3.jpeg"
+    },
+    {
+      "target": "탢",
+      "pred": "팮",
+      "score": 0.7397321462631226,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\탢_T2_1_55ee987e8267b439.jpeg"
+    },
+    {
+      "target": "탢",
+      "pred": "펞",
+      "score": 0.7456802129745483,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\탢_T2_2_e32ea692ce988d82.jpeg"
+    },
+    {
+      "target": "값",
+      "pred": "갋",
+      "score": 0.6202417612075806,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\값_T2_0_d5ebb34403a90de7.jpeg"
+    },
+    {
+      "target": "읽",
+      "pred": "꽑",
+      "score": 0.5825209617614746,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\읽_T1_1_d4eb4285f4fa5a53.jpeg"
+    },
+    {
+      "target": "읽",
+      "pred": "훅",
+      "score": 0.1979004293680191,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\읽_T2_0_a9b06a32003f8ba3.jpeg"
+    },
+    {
+      "target": "떐",
+      "pred": "뗴",
+      "score": 0.809473991394043,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\떐_T1_0_f99a3cd1681acf02.jpeg"
+    },
+    {
+      "target": "떐",
+      "pred": "뗙",
+      "score": 0.5987721681594849,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\떐_T1_1_819897223b952862.jpeg"
+    },
+    {
+      "target": "떐",
+      "pred": "뗴",
+      "score": 0.7655931115150452,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\떐_T1_2_a0e272eb5d8445a9.jpeg"
+    },
+    {
+      "target": "떐",
+      "pred": "땔",
+      "score": 0.7027977108955383,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\떐_T2_0_a47c90ce6ec898d8.jpeg"
+    },
+    {
+      "target": "떐",
+      "pred": "뗸",
+      "score": 0.7517248392105103,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\떐_T2_1_3e385c412dde94f9.jpeg"
+    },
+    {
+      "target": "떐",
+      "pred": "뗻",
+      "score": 0.743377149105072,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\떐_T2_2_b8f118349191d6e7.jpeg"
+    },
+    {
+      "target": "쩶",
+      "pred": "쩻",
+      "score": 0.7541565299034119,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\쩶_T1_0_b22c1969d8023660.jpeg"
+    },
+    {
+      "target": "쩶",
+      "pred": "쨩",
+      "score": 0.7435104846954346,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\쩶_T1_2_16b8ba4d36150a8e.jpeg"
+    },
+    {
+      "target": "쩶",
+      "pred": "쪃",
+      "score": 0.6616431474685669,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\쩶_T2_0_91daced23d0b401e.jpeg"
+    },
+    {
+      "target": "쩶",
+      "pred": "쨆",
+      "score": 0.7773477435112,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\쩶_T2_1_c7dad23d593bca38.jpeg"
+    },
+    {
+      "target": "쩶",
+      "pred": "뭙",
+      "score": 0.5752771496772766,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\쩶_T2_2_a6437e91f1a74905.jpeg"
+    },
+    {
+      "target": "폐",
+      "pred": "평",
+      "score": 0.6729977130889893,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\폐_T1_1_58f3424d79c03cfe.jpeg"
+    },
+    {
+      "target": "폐",
+      "pred": "렣",
+      "score": 0.5940849184989929,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\폐_T1_2_416f8266f7e2efd0.jpeg"
+    },
+    {
+      "target": "폐",
+      "pred": "패",
+      "score": 0.750755250453949,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\폐_T2_2_f61b88cbddb583e1.jpeg"
+    },
+    {
+      "target": "태",
+      "pred": "대",
+      "score": 0.7328322529792786,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\태_T2_0_4cb89156077a0a71.jpeg"
+    },
+    {
+      "target": "태",
+      "pred": "데",
+      "score": 0.7519634962081909,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\태_T2_1_2bf5d81bdcf22d65.jpeg"
+    },
+    {
+      "target": "태",
+      "pred": "스",
+      "score": 0.14460580050945282,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\태_T2_2_e1bfe5caa68189d4.jpeg"
+    },
+    {
+      "target": "가",
+      "pred": "카",
+      "score": 0.7196604013442993,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\가_T1_0_502294e463efa141.jpeg"
+    },
+    {
+      "target": "쟤",
+      "pred": "쨰",
+      "score": 0.7352543473243713,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\쟤_T2_1_3064197f67f74712.jpeg"
+    },
+    {
+      "target": "쟤",
+      "pred": "꽎",
+      "score": 0.46266791224479675,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\쟤_T2_2_badcfe9d1b463c4c.jpeg"
+    },
+    {
+      "target": "깨",
+      "pred": "째",
+      "score": 0.7393050193786621,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\깨_T1_0_041fa854db4d3ca3.jpeg"
+    },
+    {
+      "target": "깨",
+      "pred": "쨔",
+      "score": 0.5652469992637634,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\깨_T1_1_1ec7f5cdbe9de50b.jpeg"
+    },
+    {
+      "target": "깨",
+      "pred": "깳",
+      "score": 0.6367185115814209,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\깨_T1_2_47675931288a343b.jpeg"
+    },
+    {
+      "target": "깨",
+      "pred": "꺠",
+      "score": 0.6057274341583252,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\깨_T2_0_5f6696a8cd76cbcb.jpeg"
+    },
+    {
+      "target": "깨",
+      "pred": "쨰",
+      "score": 0.631991982460022,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\깨_T2_1_e8f789e09d9b83b6.jpeg"
+    },
+    {
+      "target": "깨",
+      "pred": "매",
+      "score": 0.6724319458007812,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\깨_T2_2_877dec620014f2d2.jpeg"
+    },
+    {
+      "target": "떄",
+      "pred": "땨",
+      "score": 0.6504014730453491,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\떄_T1_2_e07d89630833b5fe.jpeg"
+    },
+    {
+      "target": "떄",
+      "pred": "턭",
+      "score": 0.7060940265655518,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\떄_T2_2_168de1a23bddbb8c.jpeg"
+    },
+    {
+      "target": "켰",
+      "pred": "콌",
+      "score": 0.740885317325592,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\켰_T1_2_e0f5111a226981a0.jpeg"
+    },
+    {
+      "target": "켰",
+      "pred": "컸",
+      "score": 0.7713437676429749,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\켰_T2_0_a4399543d75e25ae.jpeg"
+    },
+    {
+      "target": "켰",
+      "pred": "컸",
+      "score": 0.8323813676834106,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\켰_T2_1_6f295c33c45312ff.jpeg"
+    },
+    {
+      "target": "켰",
+      "pred": "컸",
+      "score": 0.7258774042129517,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\켰_T2_2_89b0ae920410db91.jpeg"
+    },
+    {
+      "target": "촜",
+      "pred": "촘",
+      "score": 0.760456383228302,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\촜_T1_0_c50125bd9a2af13a.jpeg"
+    },
+    {
+      "target": "촜",
+      "pred": "췅",
+      "score": 0.7738164663314819,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\촜_T1_1_83f88994aa11478f.jpeg"
+    },
+    {
+      "target": "촜",
+      "pred": "뾓",
+      "score": 0.6094411015510559,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\촜_T1_2_286341b235c89102.jpeg"
+    },
+    {
+      "target": "촜",
+      "pred": "뺾",
+      "score": 0.5092487931251526,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\촜_T2_1_e4e1425a62e9507d.jpeg"
+    },
+    {
+      "target": "띢",
+      "pred": "럤",
+      "score": 0.759459376335144,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\띢_T1_0_bba7c66b3915f884.jpeg"
+    },
+    {
+      "target": "띢",
+      "pred": "퀚",
+      "score": 0.6636667251586914,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\띢_T1_2_89ef25c1e57c1c89.jpeg"
+    },
+    {
+      "target": "띢",
+      "pred": "즈",
+      "score": 0.14819514751434326,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\띢_T2_1_ce66b65d3b0cd179.jpeg"
+    },
+    {
+      "target": "쪆",
+      "pred": "쯻",
+      "score": 0.6481878161430359,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\쪆_T2_2_37ef039db3d11795.jpeg"
+    },
+    {
+      "target": "간",
+      "pred": "후",
+      "score": 0.2113765925168991,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\간_T2_2_415dd776021d095d.jpeg"
+    },
+    {
+      "target": "갈",
+      "pred": "후",
+      "score": 0.3320523500442505,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\갈_T2_2_e2f78d3ca4298578.jpeg"
+    },
+    {
+      "target": "감",
+      "pred": "우",
+      "score": 0.08648452162742615,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\감_T2_1_c5d8d511c6fe6cc7.jpeg"
+    },
+    {
+      "target": "감",
+      "pred": "강",
+      "score": 0.6618232727050781,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\감_T2_2_75fb185f930c903b.jpeg"
+    },
+    {
+      "target": "갑",
+      "pred": "갘",
+      "score": 0.6491788625717163,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\갑_T2_2_2094dac967974a69.jpeg"
+    },
+    {
+      "target": "갔",
+      "pred": "캈",
+      "score": 0.7997506856918335,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\갔_T1_0_ef733e013ed648d9.jpeg"
+    },
+    {
+      "target": "갔",
+      "pred": "흫",
+      "score": 0.22105738520622253,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\갔_T2_2_c200cf8c5160a965.jpeg"
+    },
+    {
+      "target": "개",
+      "pred": "계",
+      "score": 0.6185463070869446,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\개_T1_1_6051e73d057708b1.jpeg"
+    },
+    {
+      "target": "개",
+      "pred": "게",
+      "score": 0.7914280891418457,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\개_T2_2_10bb61780fbc5430.jpeg"
+    },
+    {
+      "target": "갵",
+      "pred": "갔",
+      "score": 0.6621590852737427,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\갵_T1_0_fe329c8a7c40cb31.jpeg"
+    },
+    {
+      "target": "갵",
+      "pred": "감",
+      "score": 0.6799867749214172,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\갵_T1_2_d8616cf86d6efe1a.jpeg"
+    },
+    {
+      "target": "갵",
+      "pred": "갬",
+      "score": 0.7715617418289185,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\갵_T2_2_1ae1ff8d783dec45.jpeg"
+    },
+    {
+      "target": "걗",
+      "pred": "겫",
+      "score": 0.6295409798622131,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\걗_T1_0_f2118ba7995d9202.jpeg"
+    },
+    {
+      "target": "걗",
+      "pred": "곂",
+      "score": 0.7161436080932617,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\걗_T2_1_3f7f4cf68baefe49.jpeg"
+    },
+    {
+      "target": "걨",
+      "pred": "걤",
+      "score": 0.9008339047431946,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\걨_T1_1_535598a78711895b.jpeg"
+    },
+    {
+      "target": "걨",
+      "pred": "컎",
+      "score": 0.5802795886993408,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\걨_T2_0_f5580c58c2ba3e33.jpeg"
+    },
+    {
+      "target": "걨",
+      "pred": "곇",
+      "score": 0.6195481419563293,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\걨_T2_1_9b1daac41ae755b1.jpeg"
+    },
+    {
+      "target": "게",
+      "pred": "개",
+      "score": 0.7389542460441589,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\게_T1_0_fe8c2352ffb0df45.jpeg"
+    },
+    {
+      "target": "게",
+      "pred": "걔",
+      "score": 0.6667762994766235,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\게_T1_1_008b64c523ab93d8.jpeg"
+    },
+    {
+      "target": "게",
+      "pred": "개",
+      "score": 0.7898362874984741,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\게_T2_0_a02ecce9e6293f47.jpeg"
+    },
+    {
+      "target": "게",
+      "pred": "겍",
+      "score": 0.6961506605148315,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\게_T2_1_adc2a826a2f4c848.jpeg"
+    },
+    {
+      "target": "계",
+      "pred": "게",
+      "score": 0.8236230611801147,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\계_T1_0_a2a6831ba9b01aa3.jpeg"
+    },
+    {
+      "target": "계",
+      "pred": "개",
+      "score": 0.7664268612861633,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\계_T2_1_29dc8aa81d9c393e.jpeg"
+    },
+    {
+      "target": "계",
+      "pred": "빠",
+      "score": 0.49458757042884827,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\계_T2_2_fd45d91a8b72552b.jpeg"
+    },
+    {
+      "target": "곩",
+      "pred": "꾥",
+      "score": 0.785815954208374,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\곩_T1_0_79084ed8deb4fa99.jpeg"
+    },
+    {
+      "target": "곩",
+      "pred": "곍",
+      "score": 0.5523009896278381,
+      "template": "T1",
+      "image_path": "results\\pilot\\images\\곩_T1_1_8cf72db39c2f76ca.jpeg"
+    },
+    {
+      "target": "곩",
+      "pred": "졛",
+      "score": 0.6441079378128052,
+      "template": "T2",
+      "image_path": "results\\pilot\\images\\곩_T2_1_9f1fe8ca6d8f1248.jpeg"
+    }
+  ]
+}

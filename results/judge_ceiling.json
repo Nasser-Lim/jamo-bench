@@ -1,0 +1,6083 @@
+{
+  "judge_name": "clova_general",
+  "preprocess_recipe_version": "v1",
+  "n_syllables_per_cell": 5,
+  "n_degraded_per_target": 3,
+  "fonts": [
+    "noto_sans_kr",
+    "pretendard"
+  ],
+  "overall_clean_accuracy": 0.3277777777777778,
+  "overall_degraded_accuracy": 0.21296296296296297,
+  "excluded_cell_count": 18,
+  "excluded_cells": [
+    "simple_V|no_T|simple_O",
+    "simple_V|no_T|aspir_O",
+    "simple_V|no_T|tense_O",
+    "simple_V|simple_T|simple_O",
+    "simple_V|simple_T|aspir_O",
+    "simple_V|simple_T|tense_O",
+    "simple_V|cluster_T|simple_O",
+    "simple_V|cluster_T|aspir_O",
+    "simple_V|cluster_T|tense_O",
+    "complex_V|no_T|simple_O",
+    "complex_V|no_T|aspir_O",
+    "complex_V|no_T|tense_O",
+    "complex_V|simple_T|simple_O",
+    "complex_V|simple_T|aspir_O",
+    "complex_V|simple_T|tense_O",
+    "complex_V|cluster_T|simple_O",
+    "complex_V|cluster_T|aspir_O",
+    "complex_V|cluster_T|tense_O"
+  ],
+  "per_cell": {
+    "simple_V|no_T|simple_O": {
+      "chars": [
+        "가",
+        "쟤",
+        "게",
+        "제",
+        "개"
+      ],
+      "clean_accuracy": 0.9,
+      "degraded_accuracy": 0.5333333333333333,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "가",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "가",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "가",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "가",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "가",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "가",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "가",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "가",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쟤",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쟤",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쟤",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쟤",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쟤",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쟤",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쟤",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쟤",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "게",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "게",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "게",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "거",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "게",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "게",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "게",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "거",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "게",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "게",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "게",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "거",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "게",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "거",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "게",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "거",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "제",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "제",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "제",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "제",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "제",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "제",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "제",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "저",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "제",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "제",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "제",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "저",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "제",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "저",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "제",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "저",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "개",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "개",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "개",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "개",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "개",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "개",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "개",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "개",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "개",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "개",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "simple_V|no_T|aspir_O": {
+      "chars": [
+        "폐",
+        "태",
+        "퍠",
+        "채",
+        "페"
+      ],
+      "clean_accuracy": 0.4,
+      "degraded_accuracy": 0.3333333333333333,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "폐",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "폐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "펴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "폐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "펴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "폐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "폐",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "폐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "펴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "폐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "펴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "폐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "펴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "태",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "태",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "태",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "태",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "태",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "태",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "태",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "태",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "퍠",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "피",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퍠",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "패",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퍠",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "피",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퍠",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "피",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퍠",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "피",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퍠",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "피",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퍠",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "피",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퍠",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "피",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "채",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "채",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "채",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "채",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "채",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "차",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "채",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "차",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "채",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "채",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "채",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "채",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "채",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "채",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "채",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "채",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "페",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "페",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "페",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "페",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "페",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "페",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "페",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "페",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "퍼",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "simple_V|no_T|tense_O": {
+      "chars": [
+        "깨",
+        "떄",
+        "쌔",
+        "째",
+        "빼"
+      ],
+      "clean_accuracy": 0.9,
+      "degraded_accuracy": 0.6333333333333333,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "깨",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "깨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "깨",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "까",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "깨",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "깨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "깨",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "까",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "깨",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "깨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "깨",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "까",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "깨",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "깨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "깨",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "깨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "떄",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "떄",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "떄",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "떄",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "때",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "떄",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "떄",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "떄",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "떄",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쌔",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쌔",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쌔",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쌔",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쌔",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쌔",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쌔",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쌔",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쌔",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쌔",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쌔",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쌔",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쌔",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쌔",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쌔",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쌔",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "째",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "째",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "째",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "짜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "째",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "짜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "째",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "짜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "째",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "짜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "째",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "짜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "째",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "짜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "째",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "짜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "빼",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "빼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "빼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "빠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "빼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "빼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "빼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "빼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "빼",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "빼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "빼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "빼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "빼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "빼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "빼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "빼",
+          "matching_rule": "F0",
+          "correct": true
+        }
+      ]
+    },
+    "simple_V|simple_T|simple_O": {
+      "chars": [
+        "각",
+        "갂",
+        "간",
+        "갈",
+        "감"
+      ],
+      "clean_accuracy": 0.6,
+      "degraded_accuracy": 0.5666666666666667,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "각",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "각",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "각",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "각",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "각",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "각",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "각",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "각",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "각",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "각",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "각",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "각",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "각",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "각",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "각",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "각",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "갂",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "갂",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "갂",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "갂",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "갂",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "갂",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "갂",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "갂",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "간",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "간",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "간",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "간",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "간",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "간",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "간",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "간",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "갈",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "갈",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "갈",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "갈",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "갈",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "갈",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "갈",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "갈",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "갈",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "갈",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "갈",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "갈",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "갈",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "갈",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "갈",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "갈",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "감",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "감",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "감",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "감",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "김",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "감",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "감",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "감",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "감",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "감",
+          "matching_rule": "F0",
+          "correct": true
+        }
+      ]
+    },
+    "simple_V|simple_T|aspir_O": {
+      "chars": [
+        "켰",
+        "촜",
+        "홌",
+        "춖",
+        "팼"
+      ],
+      "clean_accuracy": 0.4,
+      "degraded_accuracy": 0.2,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "켰",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "켰",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "켰",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "켜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "켰",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "켰",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "켰",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "켰",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "켰",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "켰",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "켰",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "켰",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "켰",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "켰",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "켰",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "켰",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "촜",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "초",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "촜",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "촛",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "촜",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "촛",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "촜",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "촛",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "촜",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "촛",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "촜",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "촛",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "촜",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "촛",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "촜",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "촛",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "홌",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "홋",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "홌",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "호",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "홌",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "홋",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "홌",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "홋",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "홌",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "홋",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "홌",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "홋",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "홌",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "홋",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "홌",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "옷",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춖",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "축",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춖",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "축",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춖",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "축",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춖",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "축",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춖",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "축",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춖",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "축",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춖",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "축",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춖",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "축",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "팼",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "팼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "팼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "패",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "팼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "팼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "팼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "패",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "팼",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "팼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "팼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "패",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "팼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "패",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "팼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "패",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "simple_V|simple_T|tense_O": {
+      "chars": [
+        "띢",
+        "쪆",
+        "껶",
+        "꺆",
+        "씼"
+      ],
+      "clean_accuracy": 0.0,
+      "degraded_accuracy": 0.1,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "띢",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "띡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띢",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "띡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띢",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "띡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띢",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "띡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띢",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "띡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띢",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "띡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띢",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "띡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띢",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "띡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쪆",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "젹",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쪆",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "젹",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쪆",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "젹",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쪆",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "젹",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쪆",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "격",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쪆",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "젹",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쪆",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "젹",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쪆",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "젹",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "껶",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "껴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "껶",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "껴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "껶",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "껴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "껶",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "껴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "껶",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "껴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "껶",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "껴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "껶",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "껴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "껶",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "껴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "꺆",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "꺅",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "꺆",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "꺅",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "꺆",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "꺅",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "꺆",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "꺅",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "꺆",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "꺅",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "꺆",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "꺅",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "꺆",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "꺅",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "꺆",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "꺅",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "씼",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "씼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "씼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "씼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "씼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "씼",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "씼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "씼",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "씼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "씼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "씼",
+          "matching_rule": "F0",
+          "correct": true
+        }
+      ]
+    },
+    "simple_V|cluster_T|simple_O": {
+      "chars": [
+        "값",
+        "읽",
+        "섒",
+        "샚",
+        "쟰"
+      ],
+      "clean_accuracy": 0.2,
+      "degraded_accuracy": 0.2,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "값",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "값",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "값",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "값",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "값",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "값",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "값",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "값",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "가",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읽",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "읽",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "읽",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "읽",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "읽",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "읽",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "읽",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "읽",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "읽",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "읽",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "읽",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "읽",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "읽",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "읽",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "읽",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "읽",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "섒",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "섀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "섒",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "섀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "섒",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "섀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "섒",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "섀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "섒",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "섀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "섒",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "섀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "섒",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "섀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "섒",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "섀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "샚",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "새",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "샚",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "새",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "샚",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "새",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "샚",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "새",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "샚",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "새",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "샚",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "새",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "샚",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "새",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "샚",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "새",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쟰",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쟰",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "쟰",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "쟰",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쟰",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쟰",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "쟰",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "쟰",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쟤",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "simple_V|cluster_T|aspir_O": {
+      "chars": [
+        "콃",
+        "탢",
+        "톊",
+        "탡",
+        "햵"
+      ],
+      "clean_accuracy": 0.0,
+      "degraded_accuracy": 0.0,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "콃",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "컵",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "콃",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "켤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "콃",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "킬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "콃",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "계래",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "콃",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "컵",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "콃",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "컬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "콃",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "킬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "콃",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "켤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탢",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "탱",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탢",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "탱",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탢",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "탱",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탢",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탢",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "탱",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탢",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "탱",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탢",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탢",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "톊",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "테",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "톊",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "테",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "톊",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "테",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "톊",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "톄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "톊",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "테",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "톊",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "테",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "톊",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "톄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "톊",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "례",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탡",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "탯",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탡",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "캔",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탡",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "태",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탡",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "탬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탡",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "탯",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탡",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "탬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탡",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "탯",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "탡",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "캔",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "햵",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "햬리",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "햵",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "혁",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "햵",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "햬리",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "햵",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "핵",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "햵",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "햬리",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "햵",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "햬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "햵",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "학",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "햵",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "핵",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "simple_V|cluster_T|tense_O": {
+      "chars": [
+        "떐",
+        "쩶",
+        "쌠",
+        "뗁",
+        "쎏"
+      ],
+      "clean_accuracy": 0.0,
+      "degraded_accuracy": 0.0,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "떐",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "떐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "떐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "떐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "떐",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "떐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "떐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "떐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "떄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쩶",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쩨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쩶",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쩨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쩶",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쩨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쩶",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쩨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쩶",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쩨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쩶",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쩨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쩶",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쩨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쩶",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쩨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쌠",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쌩",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쌠",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쌔",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쌠",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쌩",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쌠",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쌩",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쌠",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쌩",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쌠",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쌩",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쌠",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쌩",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쌠",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쌩",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뗁",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뗁",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뗁",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뗁",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뗁",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "떼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뗁",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "떼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뗁",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "떼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뗁",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "떼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쎏",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쎄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쎏",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쎄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쎏",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쎈",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쎏",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쎄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쎏",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쎄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쎏",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쎄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쎏",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쎈",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쎏",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쎄",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "complex_V|no_T|simple_O": {
+      "chars": [
+        "와",
+        "왜",
+        "외",
+        "워",
+        "위"
+      ],
+      "clean_accuracy": 0.8,
+      "degraded_accuracy": 0.4666666666666667,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "와",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "와",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "와",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "오",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "와",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "와",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "와",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "와",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "와",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "와",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "와",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "와",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "와",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "와",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "와",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "와",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "왜",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "왜",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "왜",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "왜",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "왜",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "왜",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "왜",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "왜",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "왜",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "왜",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "왜",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "왜",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "왜",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "왜",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "왜",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "왜",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "외",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "오",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "외",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "오",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "외",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "오",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "외",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "오",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "외",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "오",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "외",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "오",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "외",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "오",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "외",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "오",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "워",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "워",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "워",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "우",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "워",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "우",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "워",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "우",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "워",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "워",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "워",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "우",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "워",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "워",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "워",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "워",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "위",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "위",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "위",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "우",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "위",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "우",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "위",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "우",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "위",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "위",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "위",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "우",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "위",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "우",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "위",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "위",
+          "matching_rule": "F0",
+          "correct": true
+        }
+      ]
+    },
+    "complex_V|no_T|aspir_O": {
+      "chars": [
+        "쾌",
+        "츼",
+        "최",
+        "퀴",
+        "회"
+      ],
+      "clean_accuracy": 0.6,
+      "degraded_accuracy": 0.23333333333333334,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "쾌",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "콰",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쾌",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "콰",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쾌",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "콰",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쾌",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쾌",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쾌",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쾌",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쾌",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "콰",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쾌",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "콰",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쾌",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쾌",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "츼",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "츠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "츼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "츠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "츼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "츠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "츼",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "츠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "츼",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "츠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "츼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "츠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "츼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "츠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "츼",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "츠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "최",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "최",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "최",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "최",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "최",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "초",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "최",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "초",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "최",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "최",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "최",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "초",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "최",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "최",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "최",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "초",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퀴",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퀴",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "퀴",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쿠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퀴",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쿠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퀴",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쿠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퀴",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "퀴",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "퀴",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쿠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퀴",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쿠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퀴",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쿠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "회",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "호",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "회",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "호",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "회",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "회",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "회",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "회",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "회",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "회",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "회",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "회",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "회",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "호",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "회",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "호",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "complex_V|no_T|tense_O": {
+      "chars": [
+        "쬐",
+        "쐐",
+        "쭤",
+        "띄",
+        "쒸"
+      ],
+      "clean_accuracy": 0.9,
+      "degraded_accuracy": 0.36666666666666664,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "쬐",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쬐",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쬐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쪼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쪼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쪼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬐",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쬐",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쬐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쪼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쪼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쪼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쐐",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쐐",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쐐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쐐",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쐐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쐐",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쐐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쐐",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쐐",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쐐",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쐐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쐐",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쐐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쐐",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쐐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쐐",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쭤",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쭤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쭤",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쭤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쭤",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쭈",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쭤",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쭤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쭤",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쭤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쭤",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쭤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쭤",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쭤",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쭤",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쭈",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띄",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "띠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띄",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뜨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띄",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "띄",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뜨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띄",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "띄",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "띄",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뜨",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띄",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "띄",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "쒸",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쒸",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쒸",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쑤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒸",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쑤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒸",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쑤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒸",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쒸",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "쒸",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쑤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒸",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쑤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒸",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쒸",
+          "matching_rule": "F0",
+          "correct": true
+        }
+      ]
+    },
+    "complex_V|simple_T|simple_O": {
+      "chars": [
+        "읚",
+        "뢨",
+        "뒜",
+        "륐",
+        "봮"
+      ],
+      "clean_accuracy": 0.2,
+      "degraded_accuracy": 0.2,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "읚",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "윽",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읚",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "윽",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읚",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "윽",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읚",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "윽",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읚",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "윽",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읚",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "윽",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읚",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "윽",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읚",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "윽",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뢨",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뢨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "뢨",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뢨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "뢨",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뢨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "뢨",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뢨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "뢨",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "뢨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "뢨",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뢨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "뢨",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뢨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "뢨",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뢨",
+          "matching_rule": "F0",
+          "correct": true
+        },
+        {
+          "char": "뒜",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뒀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뒜",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뒀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뒜",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뒀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뒜",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뒀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뒜",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "뒀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뒜",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뒀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뒜",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뒀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뒜",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뒀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "륐",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "룻",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "륐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뤘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "륐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "룄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "륐",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "룻",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "륐",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "루",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "륐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "루",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "륐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "루",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "륐",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "루",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봮",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "복색",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봮",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "복색",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봮",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "복색",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봮",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뵀",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봮",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "봬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봮",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "복색",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봮",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "복색",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봮",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뵀",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "complex_V|simple_T|aspir_O": {
+      "chars": [
+        "춲",
+        "푔",
+        "퇚",
+        "쵰",
+        "퇬"
+      ],
+      "clean_accuracy": 0.0,
+      "degraded_accuracy": 0.0,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "춲",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "춰",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춲",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "줘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춲",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "축",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춲",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "춰",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춲",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "춰",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춲",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "축",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춲",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "춰",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "춲",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "줘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "푔",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "폴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "푔",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "푄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "푔",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "푄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "푔",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "푄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "푔",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "푄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "푔",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "폴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "푔",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "퐁",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "푔",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "폴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇚",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "톡톡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇚",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퇘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇚",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퇘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇚",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "톡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇚",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "톡톡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇚",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "퇘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇚",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "퇘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇚",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "톡톡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쵰",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "죘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쵰",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "죘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쵰",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "죘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쵰",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "죘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쵰",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "죘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쵰",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "죘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쵰",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "죘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쵰",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "죘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇬",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "탔",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇬",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "탔",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇬",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "봤",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇬",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "탔",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇬",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "퇘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇬",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "탔",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇬",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "탰",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퇬",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "탰",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "complex_V|simple_T|tense_O": {
+      "chars": [
+        "띘",
+        "쀆",
+        "똮",
+        "뙸",
+        "쮞"
+      ],
+      "clean_accuracy": 0.0,
+      "degraded_accuracy": 0.0,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "띘",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "띈",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띘",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "띈",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띘",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "띈",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띘",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "띈",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띘",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "띈",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띘",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "띄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띘",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "띄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "띘",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "떴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쀆",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "삑",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쀆",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쀆",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "삑",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쀆",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "북",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쀆",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "삑",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쀆",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뿍",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쀆",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "삑",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쀆",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뿍",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똮",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "딲",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똮",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "딱",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똮",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "딲",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똮",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "딲",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똮",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "딲",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똮",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "딲",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똮",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "딲",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똮",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "딲",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뙸",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "됬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뙸",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "뙸",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "됬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뙸",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "됬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뙸",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "됬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뙸",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "됬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뙸",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "됬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뙸",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "됬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쮞",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쭉",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쮞",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쭉",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쮞",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쑥",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쮞",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쭉",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쮞",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쭉",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쮞",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쭉",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쮞",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쭉",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쮞",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쭉",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "complex_V|cluster_T|simple_O": {
+      "chars": [
+        "죇",
+        "뷦",
+        "숺",
+        "봝",
+        "읪"
+      ],
+      "clean_accuracy": 0.0,
+      "degraded_accuracy": 0.0,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "죇",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "족",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "죇",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "졸",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "죇",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "죘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "죇",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "졸",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "죇",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "족",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "죇",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "졸",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "죇",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "죘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "죇",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "졸",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뷦",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "부비",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뷦",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "부비",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뷦",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "부비",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뷦",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "붐",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뷦",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "운",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뷦",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "운",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뷦",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뷘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뷦",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "운",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "숺",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "슝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "숺",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "슝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "숺",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "슝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "숺",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "슝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "숺",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "슝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "숺",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "슝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "숺",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "슝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "숺",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "슝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봝",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봝",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봝",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봝",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봝",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봝",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "봣",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봝",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "봝",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읪",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "읎",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읪",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "읎",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읪",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "읎",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읪",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "읎",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읪",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "읎",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읪",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "읎",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읪",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "읎",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "읪",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "읎",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "complex_V|cluster_T|aspir_O": {
+      "chars": [
+        "퐋",
+        "퉑",
+        "훭",
+        "퉔",
+        "휥"
+      ],
+      "clean_accuracy": 0.0,
+      "degraded_accuracy": 0.0,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "퐋",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "폴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퐋",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "폴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퐋",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "폴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퐋",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "팍",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퐋",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "폴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퐋",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "폴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퐋",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "폴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퐋",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "폴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉑",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퉜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉑",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "툭",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉑",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "붐",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉑",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "툭",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉑",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "툭",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉑",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "붉",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉑",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "툭",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉑",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "붉",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "훭",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "휴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "훭",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "후라",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "훭",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "후라",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "훭",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "후라",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "훭",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "휴",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "훭",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "훌",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "훭",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "훑",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "훭",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "월",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉔",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퉜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉔",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퉜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉔",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퉜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉔",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "퉜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉔",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "퉜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉔",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "퉜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉔",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "퉜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "퉔",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "퉜",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "휥",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "휠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "휥",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "휠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "휥",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "휘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "휥",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "휠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "휥",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "휠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "휥",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "휠",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "휥",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "휘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "휥",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "휠",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    },
+    "complex_V|cluster_T|tense_O": {
+      "chars": [
+        "쬙",
+        "똵",
+        "쒻",
+        "뚻",
+        "끣"
+      ],
+      "clean_accuracy": 0.0,
+      "degraded_accuracy": 0.0,
+      "official_validity": "official_excluded",
+      "n_clean": 10,
+      "n_degraded": 30,
+      "samples": [
+        {
+          "char": "쬙",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쬐",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬙",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쬐",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬙",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쬘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬙",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쬐",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬙",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쬐",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬙",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쪽",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬙",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쬐",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쬙",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쬘",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똵",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똵",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똵",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똵",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "똬",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똵",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똵",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똵",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "똵",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "봙",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒻",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쒼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒻",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쒼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒻",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쒼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒻",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "쒼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒻",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "쒼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒻",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쒼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒻",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쒼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "쒻",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "쒼",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뚻",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뚝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뚻",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뚝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뚻",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "뚝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뚻",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "떡",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뚻",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "뚝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뚻",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "뚝",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "뚻",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "뚻",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": null,
+          "matching_rule": "F4",
+          "correct": false
+        },
+        {
+          "char": "끣",
+          "condition": "clean",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "끄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "끣",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "끄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "끣",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "끗",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "끣",
+          "condition": "degraded",
+          "font_name": "noto_sans_kr",
+          "candidate_text": "끄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "끣",
+          "condition": "clean",
+          "font_name": "pretendard",
+          "candidate_text": "그기",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "끣",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "끈",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "끣",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "끄",
+          "matching_rule": "F0",
+          "correct": false
+        },
+        {
+          "char": "끣",
+          "condition": "degraded",
+          "font_name": "pretendard",
+          "candidate_text": "끈",
+          "matching_rule": "F0",
+          "correct": false
+        }
+      ]
+    }
+  }
+}
