@@ -449,19 +449,24 @@ For anyone building or reading a visual-text-rendering benchmark:
 
 ## 9. Reproducibility
 
-Every number in this note is recomputed from raw data by:
+Code: [github.com/Nasser-Lim/jamo-bench](https://github.com/Nasser-Lim/jamo-bench).
+Data: [huggingface.co/datasets/Nasser4963/jamo-gold](https://huggingface.co/datasets/Nasser4963/jamo-gold).
 
 ```bash
+git clone https://github.com/Nasser-Lim/jamo-bench && cd jamo-bench
+pip install -e ".[dev]"
 python scripts/verify_claims.py
 ```
 
-If the script's output disagrees with this document, the document is wrong.
-The script exists because a data-loading bug in an earlier revision silently
-dropped 44 human-labelled images and inverted two of this project's
-conclusions; numbers are therefore never transcribed by hand.
+Every number in this note is recomputed from `release/` (mirrored to the
+HuggingFace repo above) by this script. If its output disagrees with this
+document, the document is wrong. The script exists because a data-loading
+bug in an earlier revision silently dropped 44 human-labelled images and
+inverted two of this project's conclusions; numbers are therefore never
+transcribed by hand.
 
 Released artifacts, code layout, and licensing are described in
-[`docs/RELEASE.md`](RELEASE.md).
+[`RELEASE.md`](https://github.com/Nasser-Lim/jamo-bench/blob/main/docs/RELEASE.md).
 
 **Environment note.** PaddleOCR 3.x requires `enable_mkldnn=False` on Windows
 CPU (the default crashes with a PIR/oneDNN error). OpenCV cannot read paths

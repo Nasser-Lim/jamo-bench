@@ -29,6 +29,8 @@
 | [`docs/PROGRESS.md`](docs/PROGRESS.md) | 20단계 구현 히스토리 — 기각된 주장 포함 |
 
 ```bash
+git clone https://github.com/Nasser-Lim/jamo-bench && cd jamo-bench
+pip install -e ".[dev]"
 python scripts/build_release.py   # 익명화된 공개 번들 생성 -> release/ (0.9MB)
 python scripts/verify_claims.py   # 노트의 모든 수치를 release/ 데이터만으로 재검증
 ```

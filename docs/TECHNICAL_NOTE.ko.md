@@ -459,19 +459,24 @@ Qwen-Image 평가 세트 및 그 후속 연구들)가 여기서 시험한 것과
 
 ## 9. 재현성
 
-이 노트의 모든 수치는 다음 명령으로 원본 데이터에서 다시 계산된다.
+코드: [github.com/Nasser-Lim/jamo-bench](https://github.com/Nasser-Lim/jamo-bench).
+데이터: [huggingface.co/datasets/Nasser4963/jamo-gold](https://huggingface.co/datasets/Nasser4963/jamo-gold).
 
 ```bash
+git clone https://github.com/Nasser-Lim/jamo-bench && cd jamo-bench
+pip install -e ".[dev]"
 python scripts/verify_claims.py
 ```
 
-스크립트 출력이 이 문서와 다르면 문서 쪽이 틀린 것이다. 이런
-스크립트를 따로 둔 이유가 있다 — 예전 버전에서 데이터 로딩 버그
-때문에 사람이 라벨링한 이미지 44장이 조용히 빠지면서, 이 프로젝트의
-결론 두 개가 뒤집힌 적이 있었다. 그 뒤로는 수치를 손으로 옮겨 적지
-않는다.
+이 노트의 모든 수치는 위 저장소(데이터는 위 HuggingFace 저장소에도
+미러링돼 있다)를 대상으로 이 스크립트가 다시 계산한 것이다. 스크립트
+출력이 이 문서와 다르면 문서 쪽이 틀린 것이다. 이런 스크립트를 따로
+둔 이유가 있다 — 예전 버전에서 데이터 로딩 버그 때문에 사람이
+라벨링한 이미지 44장이 조용히 빠지면서, 이 프로젝트의 결론 두 개가
+뒤집힌 적이 있었다. 그 뒤로는 수치를 손으로 옮겨 적지 않는다.
 
-공개 산출물, 코드 구조, 라이선스는 [`docs/RELEASE.md`](RELEASE.md)에
+공개 산출물, 코드 구조, 라이선스는
+[`RELEASE.md`](https://github.com/Nasser-Lim/jamo-bench/blob/main/docs/RELEASE.md)에
 정리돼 있다.
 
 **환경 참고.** PaddleOCR 3.x는 Windows CPU 환경에서
