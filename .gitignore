@@ -13,3 +13,7 @@ results/pilot/images/
 
 # 릴리스 번들은 build_release.py로 생성 (커밋 대상 아님)
 release/
+
+# 원 설계서 — 비공개 전환 (2026-08-17), 로컬에만 유지
+/JAMO_benchmark_design.md
+/JAMO_v51_patch.md

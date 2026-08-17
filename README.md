@@ -6,13 +6,12 @@
 
 An OCR-mediated benchmark that diagnoses Hangul visual-text rendering at the
 jamo level (onset/nucleus/coda). The deliverable is not images — it is a
-**prompt set + scorer + structural error analysis**. Full design background
-is in [`JAMO_benchmark_design.md`](JAMO_benchmark_design.md) (v5) and
-[`JAMO_v51_patch.md`](JAMO_v51_patch.md); the **actual v1 scope and why it
-was cut down** is in [`docs/SCOPE.md`](docs/SCOPE.md); the full history of
-what was built and what broke (and why) is in
-[`docs/PROGRESS.md`](docs/PROGRESS.md). (Those two docs are in Korean —
-the technical note below has an English original.)
+**prompt set + scorer + structural error analysis**. The original design
+spec (`JAMO_benchmark_design.md` v5 and its `JAMO_v51_patch.md`) is kept
+private; the **actual v1 scope and why it was cut down** is in
+[`docs/SCOPE.md`](docs/SCOPE.md), and the full history of what was built and
+what broke (and why) is in [`docs/PROGRESS.md`](docs/PROGRESS.md). (Those
+two docs are in Korean — the technical note below has an English original.)
 
 > v1 implements a **narrowed subset** of the v5/v5.1 design, not the full
 > scope — a single model (Seedream), 18-cell structural diagnosis, and
@@ -179,10 +178,10 @@ JAMO/
 │   ├── SCOPE.md                  v1 scope decision — evidence tiers, inclusion/exclusion, trade-offs
 │   ├── PROGRESS.md               step-by-step build history — what was built, what broke, why
 │   └── partitioning.md           single-spec doc for data partition execution order
-├── JAMO_benchmark_design.md     design spec v5 (v1 scope is narrowed by SCOPE.md)
-├── JAMO_v51_patch.md            design patch v5.1
 ├── PROMPT_SPECS.yaml            T1/T2/T3 prompt templates (version-frozen)
 ├── jamo_*.py (root)             one-off design-verification scripts (early arithmetic checks, for reference)
+├── JAMO_benchmark_design.md     design spec v5 (gitignored, private — v1 scope is narrowed by SCOPE.md)
+├── JAMO_v51_patch.md            design patch v5.1 (gitignored, private)
 └── .env                         API keys (gitignored)
 ```
 
