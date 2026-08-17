@@ -28,7 +28,7 @@
 
 | | GitHub | Zenodo | HuggingFace |
 |---|---|---|---|
-| 대상 | [`jamo-bench`](https://github.com/Nasser-Lim/jamo-bench) 저장소 전체(코드·테스트·문서) | `v1.0.0` 소스 스냅샷 — [DOI: 10.5281/zenodo.21971468](https://zenodo.org/records/21971468) | 데이터셋 (기술노트 PDF 포함) |
+| 대상 | [`jamo-bench`](https://github.com/Nasser-Lim/jamo-bench) 저장소 전체(코드·테스트·문서) | `v1.0.1` 소스 스냅샷 — [DOI: 10.5281/zenodo.21971542](https://zenodo.org/records/21971542) | 데이터셋 (기술노트 PDF 포함) |
 | 성격 | 재현 코드 원본, 버전 관리 | 인용 가능한(DOI) 고정 아카이브 | 재현 자산(라벨·판정자 출력·매니페스트) |
 | 카드 | `README.md` | — | [`docs/DATASET_CARD.md`](DATASET_CARD.md) → `release/README.md` |
 
@@ -338,12 +338,20 @@ python scripts/eval_oss_ocr.py --engine paddleocr
       이 저장소를 가리키도록 갱신 완료.
 - [x] Zenodo 배포 — **완료(2026-08-17)**. GitHub·ORCID 연동 후
       `v1.0.0` 태그(`CITATION.cff` 포함 커밋 기준)를 릴리스하자 Zenodo가
-      자동 아카이빙 — **DOI: 10.5281/zenodo.21971468**
-      (https://zenodo.org/records/21971468). 저자·ORCID·라이선스(Apache
-      2.0)는 `CITATION.cff`에서 그대로 반영됨. 이 레코드는 코드 스냅샷
-      (GitHub `v1.0.0` 트리)이며 `TECHNICAL_NOTE.pdf` 자체는 별도 업로드
-      하지 않음 — PDF는 HuggingFace에서 배포(§"세 개의 배포처" 참고).
-      README·기술노트에 DOI 인용 표기 추가는 다음 항목.
+      자동 아카이빙 — DOI: 10.5281/zenodo.21971468. **직후 발견: 이
+      스냅샷에 비공개 설계서 초안 2개(`JAMO_benchmark_design.md`,
+      `JAMO_v51_patch.md`)가 그대로 포함돼 있었음** — Zenodo 레코드는
+      발급 후 삭제·수정이 원칙적으로 불가능해 GitHub 히스토리만 지우는
+      걸로는 해결이 안 됨. 대응: GitHub의 `v1.0.0` 릴리스·태그 삭제 →
+      `git filter-repo`로 두 파일을 전체 히스토리(모든 커밋·태그)에서
+      제거 → force-push → `v1.0.1`로 재릴리스. **현재 유효한 DOI:
+      10.5281/zenodo.21971542** (https://zenodo.org/records/21971542,
+      concept DOI 10.5281/zenodo.21971467). 새 zip 다운로드해 두 파일
+      부재 직접 확인함. 저자·ORCID·라이선스(Apache 2.0)는 `CITATION.cff`
+      에서 반영, `TECHNICAL_NOTE.pdf` 자체는 별도 업로드하지 않음 — PDF는
+      HuggingFace에서 배포(§"세 개의 배포처" 참고). **10.5281/zenodo.21971468
+      (v1.0.0)은 폐기됐지만 Zenodo 특성상 완전히 사라지지 않으며, 어디에도
+      다시 인용하지 말 것.**
 - [x] README·기술노트에 Zenodo DOI 인용 배지/문구 추가 — **완료(2026-08-17)**,
       README에 DOI 배지·BibTeX 인용 섹션 추가.
 - [x] **AI 생성 콘텐츠 금지 조항 대응(2026-08-14)** — TechRxiv는 "콘텐츠

@@ -2,7 +2,7 @@
 
 ### Judging Accuracy of Machine-rendered Orthography
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21971468.svg)](https://doi.org/10.5281/zenodo.21971468)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21971542.svg)](https://doi.org/10.5281/zenodo.21971542)
 
 An OCR-mediated benchmark that diagnoses Hangul visual-text rendering at the
 jamo level (onset/nucleus/coda). The deliverable is not images — it is a
@@ -31,7 +31,7 @@ two docs are in Korean — the technical note below has an English original.)
 | Where | What |
 |---|---|
 | [huggingface.co/datasets/Nasser4963/jamo-gold](https://huggingface.co/datasets/Nasser4963/jamo-gold) | Released data: human labels, judge outputs, prompt/hash manifests (generated images withheld, see [License](#license)) |
-| [doi.org/10.5281/zenodo.21971468](https://doi.org/10.5281/zenodo.21971468) | Citable, DOI-pinned Zenodo archive of this repository's `v1.0.0` release |
+| [doi.org/10.5281/zenodo.21971542](https://doi.org/10.5281/zenodo.21971542) | Citable, DOI-pinned Zenodo archive of this repository's `v1.0.1` release |
 | [`docs/TECHNICAL_NOTE.md`](docs/TECHNICAL_NOTE.md) | Technical note — claims, experiments, limitations. Korean translation: [`docs/TECHNICAL_NOTE.ko.md`](docs/TECHNICAL_NOTE.ko.md) |
 | [`docs/DATASET_CARD.md`](docs/DATASET_CARD.md) | Dataset card (mirrors the HuggingFace card) |
 | [`docs/SCOPE.md`](docs/SCOPE.md) | v1 scope decision — evidence tiers, what was included/excluded and why |
@@ -284,11 +284,11 @@ python scripts/audit_server_pilot2.py
 @software{lim2026jamo,
   author    = {Lim, Taewoo},
   title     = {JAMO: Judging Accuracy of Machine-rendered Orthography},
-  version   = {v1.0.0},
+  version   = {v1.0.1},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.21971468},
-  url       = {https://doi.org/10.5281/zenodo.21971468}
+  doi       = {10.5281/zenodo.21971542},
+  url       = {https://doi.org/10.5281/zenodo.21971542}
 }
 ```
 
