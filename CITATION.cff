@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or its accompanying technical note, please cite it as below."
+title: "JAMO: Judging Accuracy of Machine-rendered Orthography"
+type: software
+authors:
+  - family-names: "Lim"
+    given-names: "Taewoo"
+    orcid: "https://orcid.org/0009-0003-4014-384X"
+repository-code: "https://github.com/Nasser-Lim/jamo-bench"
+url: "https://huggingface.co/datasets/Nasser4963/jamo-gold"
+abstract: >-
+  An OCR-mediated benchmark that diagnoses Hangul visual-text rendering at
+  the jamo (onset/nucleus/coda) level. JAMO's central finding is that
+  OCR-based judges systematically conceal Hangul rendering failures by
+  snapping malformed or nonexistent glyphs to the nearest valid syllable,
+  and it provides a confidence-gated judging protocol plus human-verified
+  ground truth to measure and correct for that concealment.
+keywords:
+  - hangul
+  - ocr
+  - benchmark
+  - text-to-image
+  - measurement-validity
+  - typography
+license: Apache-2.0
+version: 1.0.0
+date-released: "2026-08-17"
