@@ -16,17 +16,30 @@
 
 ---
 
-## 두 개의 배포처
+## 세 개의 배포처
 
-| | TechRxiv | HuggingFace |
-|---|---|---|
-| 대상 | [`docs/TECHNICAL_NOTE.md`](TECHNICAL_NOTE.md) (PDF 변환) | 데이터셋 + 코드 |
-| 성격 | 측정 타당성 연구 노트 | 재현 자산 |
-| 카드 | — | [`docs/DATASET_CARD.md`](DATASET_CARD.md) → `release/README.md` |
+> **2026-08-17 갱신 — TechRxiv → Zenodo 전환.** TechRxiv는 신규 제출이
+> 플랫폼 전환으로 일시 중단된 상태(아래 체크리스트 참고)라 실제로 쓸 수
+> 없다. 대신 **Zenodo**로 기술노트를 배포한다 — Zenodo 계정에 GitHub와
+> ORCID를 모두 연동해뒀고, DOI가 발급되며 GitHub 저장소의 특정 릴리스를
+> 그대로 아카이빙할 수 있다. 코드는 이미 GitHub에 공개돼 있었으므로
+> (2026-08-17, `github.com/Nasser-Lim/jamo-bench`) 이 표에 정식으로
+> 추가한다.
 
-TechRxiv는 학계 보증인이 필요 없는 프리프린트 서버이며, arXiv 엔도스먼트가
-없는 상태에서 기술노트를 공개하는 경로다. HuggingFace에는 데이터와 코드를
-올려 노트의 모든 주장을 재현 가능하게 한다.
+| | GitHub | Zenodo | HuggingFace |
+|---|---|---|---|
+| 대상 | [`jamo-bench`](https://github.com/Nasser-Lim/jamo-bench) 저장소 전체(코드·테스트·문서) | [`docs/TECHNICAL_NOTE.md`](TECHNICAL_NOTE.md) (PDF 변환) + 소스 스냅샷 | 데이터셋 |
+| 성격 | 재현 코드 원본, 버전 관리 | 인용 가능한(DOI) 고정 아카이브 | 재현 자산(라벨·판정자 출력·매니페스트) |
+| 카드 | `README.md` | — | [`docs/DATASET_CARD.md`](DATASET_CARD.md) → `release/README.md` |
+
+GitHub은 코드의 정본이며 계속 갱신된다. Zenodo는 특정 시점(릴리스)을 DOI로
+고정해 인용 가능하게 만드는 아카이브 — ORCID 연동으로 저자 신원이,
+GitHub 연동으로 코드 출처가 확인된다. HuggingFace에는 데이터를 올려 노트의
+모든 주장을 재현 가능하게 한다. `verify_claims.py`가 참조하는 코드/데이터
+경로는 GitHub·HuggingFace이며, Zenodo 아카이브는 그 시점의 스냅샷이다.
+
+TechRxiv 제출은 플랫폼이 신규 접수를 재개하면 재검토한다(아래 체크리스트
+"TechRxiv 제출" 항목 참고) — 지금은 목표 경로가 아니다.
 
 ---
 
@@ -284,8 +297,10 @@ python scripts/eval_oss_ocr.py --engine paddleocr
 - [x] 주장하지 않는 것 명시 (노트 §7, 카드 §Uses to avoid)
 - [x] 폐기·음성 결과 코드 보존 및 표시
 - [x] 한글 번역본 (`TECHNICAL_NOTE.ko.md`) — 번역이며 정본은 영문 원본
-- [x] TechRxiv 제출용 PDF 변환 (`TECHNICAL_NOTE.pdf` · `TECHNICAL_NOTE.ko.pdf`,
-      각 10페이지, `npx md-to-pdf`, 모델명 익명화·그림 3종·따옴표 처리 반영 최신본)
+- [x] PDF 변환 (`TECHNICAL_NOTE.pdf` · `TECHNICAL_NOTE.ko.pdf`, 각 10페이지,
+      `npx md-to-pdf`, 모델명 익명화·그림 3종·따옴표 처리 반영 최신본).
+      **2026-08-17 재생성** — §9 Reproducibility의 GitHub 링크 수정을
+      반영, HuggingFace에도 재업로드 완료
 - [x] 약관 리스크 검토 반영(2026-08-12) — 노트 본문 모델명 익명화, 이미지
       CC BY 4.0 배포 보류, 제한적 연구 라이선스 정책 수립, 문의문 보강
 - [x] 노트에 그림 3종 추가(`figures/`) — fig2는 합성(OFL 파생물). **fig1·
@@ -313,9 +328,21 @@ python scripts/eval_oss_ocr.py --engine paddleocr
       계속 작동하며, 재개 공지 전까지 신규 업로드 불가. 신원 확인은
       신분증 제출이 아니라 (1) 소속 허위표시 금지, (2) 게시 전 범위·표절·
       윤리 스크리닝, (3) ORCID 연동 방식 — 실명·소속·ORCID 일치만
-      맞으면 신원 문제는 없음. 대안으로 arXiv(cs.CV/cs.CL)도 고려 가능하나
-      추천인(endorser)이 없어 보류 중(위 "왜 arXiv 대신 TechRxiv/HF인가"
-      참고).
+      맞으면 신원 문제는 없음. **재개 전까지는 목표 배포처가 아니며,
+      아래 Zenodo가 실제 배포 경로다.** 재개되면 이미 있는 Zenodo DOI를
+      인용하는 형태로 교차 게시를 재검토한다.
+- [x] GitHub 저장소 공개 — **완료(2026-08-17)**,
+      https://github.com/Nasser-Lim/jamo-bench (public). 코드·테스트·
+      `scripts/verify_claims.py`·문서·`release/`의 이미지 제외 부분을
+      커밋. `docs/TECHNICAL_NOTE.md`/`.ko.md` §9(Reproducibility/재현성)가
+      이 저장소를 가리키도록 갱신 완료.
+- [ ] Zenodo 배포 — **TechRxiv 대체 경로로 확정, 아직 미실행.** 계정에
+      GitHub·ORCID 연동 완료. 남은 절차: (1) GitHub 저장소에서 릴리스
+      태그를 만들어 Zenodo GitHub 연동으로 자동 아카이빙하거나, (2)
+      `TECHNICAL_NOTE.pdf`/`.ko.pdf`를 Zenodo에 직접 업로드해 DOI 발급 —
+      코드(GitHub 스냅샷)와 논문(PDF)을 하나로 묶을지 별도 레코드로 낼지
+      결정 필요. DOI 발급 후 README·기술노트·데이터셋 카드에 인용 표기
+      추가할 것.
 - [x] **AI 생성 콘텐츠 금지 조항 대응(2026-08-14)** — TechRxiv는 "콘텐츠
       생성에 AI를 사용"한 것을 윤리적 저작 위반으로 보아 거부 사유로
       명시. 이 프로젝트는 문장 초안·편집·한글 번역에 AI 글쓰기 도구를
