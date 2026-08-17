@@ -224,7 +224,7 @@ for tense onsets (vs. 4.5% for simple, 21.7% for aspirated). CLOVA is
 | Per-axis bias spread | coda 1.5 / vowel 0.5 / onset-group 1.9pp | passes ≤2.5pp on all three of the 18-cell axes |
 | Coda-gap reconstruction error | −1.6pp | vs. −15.8pp on the human ground truth |
 | Jamo-position error slope overstatement | +3.3–3.9pp | ordering preserved; absolute values trusted only on the Gold split |
-| Concealment (invalid glyph scored as correct) | 0 of 133 auto-accepted images | n small — interpret as a 95% upper bound of ≈2.2% |
+| Concealment (invalid glyph scored as correct) | 16 of 128 auto-accepted images (12.5%) | final n=300 gold-set count; inflates reported valid-syllable rate from a true 78.3% to 83.7% — the protocol reduces bias, not concealment |
 
 **Non-negotiable when reporting results — always report
 `jamo_bench.judging_protocol.MEASURED_BIAS_PP` alongside any number.**
