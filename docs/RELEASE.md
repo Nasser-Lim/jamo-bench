@@ -28,7 +28,7 @@
 
 | | GitHub | Zenodo | HuggingFace |
 |---|---|---|---|
-| 대상 | [`jamo-bench`](https://github.com/Nasser-Lim/jamo-bench) 저장소 전체(코드·테스트·문서) | [`docs/TECHNICAL_NOTE.md`](TECHNICAL_NOTE.md) (PDF 변환) + 소스 스냅샷 | 데이터셋 |
+| 대상 | [`jamo-bench`](https://github.com/Nasser-Lim/jamo-bench) 저장소 전체(코드·테스트·문서) | `v1.0.0` 소스 스냅샷 — [DOI: 10.5281/zenodo.21971468](https://zenodo.org/records/21971468) | 데이터셋 (기술노트 PDF 포함) |
 | 성격 | 재현 코드 원본, 버전 관리 | 인용 가능한(DOI) 고정 아카이브 | 재현 자산(라벨·판정자 출력·매니페스트) |
 | 카드 | `README.md` | — | [`docs/DATASET_CARD.md`](DATASET_CARD.md) → `release/README.md` |
 
@@ -336,13 +336,16 @@ python scripts/eval_oss_ocr.py --engine paddleocr
       `scripts/verify_claims.py`·문서·`release/`의 이미지 제외 부분을
       커밋. `docs/TECHNICAL_NOTE.md`/`.ko.md` §9(Reproducibility/재현성)가
       이 저장소를 가리키도록 갱신 완료.
-- [ ] Zenodo 배포 — **TechRxiv 대체 경로로 확정, 아직 미실행.** 계정에
-      GitHub·ORCID 연동 완료. 남은 절차: (1) GitHub 저장소에서 릴리스
-      태그를 만들어 Zenodo GitHub 연동으로 자동 아카이빙하거나, (2)
-      `TECHNICAL_NOTE.pdf`/`.ko.pdf`를 Zenodo에 직접 업로드해 DOI 발급 —
-      코드(GitHub 스냅샷)와 논문(PDF)을 하나로 묶을지 별도 레코드로 낼지
-      결정 필요. DOI 발급 후 README·기술노트·데이터셋 카드에 인용 표기
-      추가할 것.
+- [x] Zenodo 배포 — **완료(2026-08-17)**. GitHub·ORCID 연동 후
+      `v1.0.0` 태그(`CITATION.cff` 포함 커밋 기준)를 릴리스하자 Zenodo가
+      자동 아카이빙 — **DOI: 10.5281/zenodo.21971468**
+      (https://zenodo.org/records/21971468). 저자·ORCID·라이선스(Apache
+      2.0)는 `CITATION.cff`에서 그대로 반영됨. 이 레코드는 코드 스냅샷
+      (GitHub `v1.0.0` 트리)이며 `TECHNICAL_NOTE.pdf` 자체는 별도 업로드
+      하지 않음 — PDF는 HuggingFace에서 배포(§"세 개의 배포처" 참고).
+      README·기술노트에 DOI 인용 표기 추가는 다음 항목.
+- [x] README·기술노트에 Zenodo DOI 인용 배지/문구 추가 — **완료(2026-08-17)**,
+      README에 DOI 배지·BibTeX 인용 섹션 추가.
 - [x] **AI 생성 콘텐츠 금지 조항 대응(2026-08-14)** — TechRxiv는 "콘텐츠
       생성에 AI를 사용"한 것을 윤리적 저작 위반으로 보아 거부 사유로
       명시. 이 프로젝트는 문장 초안·편집·한글 번역에 AI 글쓰기 도구를
