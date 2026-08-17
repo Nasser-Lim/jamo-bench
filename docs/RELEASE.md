@@ -26,17 +26,21 @@
 > (2026-08-17, `github.com/Nasser-Lim/jamo-bench`) 이 표에 정식으로
 > 추가한다.
 
-| | GitHub | Zenodo | HuggingFace |
-|---|---|---|---|
-| 대상 | [`jamo-bench`](https://github.com/Nasser-Lim/jamo-bench) 저장소 전체(코드·테스트·문서) | `v1.0.1` 소스 스냅샷 — [DOI: 10.5281/zenodo.21971542](https://zenodo.org/records/21971542) | 데이터셋 (기술노트 PDF 포함) |
-| 성격 | 재현 코드 원본, 버전 관리 | 인용 가능한(DOI) 고정 아카이브 | 재현 자산(라벨·판정자 출력·매니페스트) |
-| 카드 | `README.md` | — | [`docs/DATASET_CARD.md`](DATASET_CARD.md) → `release/README.md` |
+| | GitHub | Zenodo (코드) | Zenodo (논문) | HuggingFace |
+|---|---|---|---|---|
+| 대상 | [`jamo-bench`](https://github.com/Nasser-Lim/jamo-bench) 저장소 전체(코드·테스트·문서) | `v1.0.1` 소스 스냅샷 — [DOI: 10.5281/zenodo.21971542](https://zenodo.org/records/21971542) | `TECHNICAL_NOTE.pdf`/`.ko.pdf` — [DOI: 10.5281/zenodo.21971663](https://zenodo.org/records/21971663) | 데이터셋 (기술노트 PDF 포함) |
+| 성격 | 재현 코드 원본, 버전 관리 | 인용 가능한(DOI) 고정 코드 아카이브 (upload_type: software) | 인용 가능한(DOI) 고정 논문 아카이브 (upload_type: publication/preprint) | 재현 자산(라벨·판정자 출력·매니페스트) |
+| 카드 | `README.md` | — | — | [`docs/DATASET_CARD.md`](DATASET_CARD.md) → `release/README.md` |
 
-GitHub은 코드의 정본이며 계속 갱신된다. Zenodo는 특정 시점(릴리스)을 DOI로
-고정해 인용 가능하게 만드는 아카이브 — ORCID 연동으로 저자 신원이,
-GitHub 연동으로 코드 출처가 확인된다. HuggingFace에는 데이터를 올려 노트의
-모든 주장을 재현 가능하게 한다. `verify_claims.py`가 참조하는 코드/데이터
-경로는 GitHub·HuggingFace이며, Zenodo 아카이브는 그 시점의 스냅샷이다.
+GitHub은 코드의 정본이며 계속 갱신된다. Zenodo는 두 개의 별도 레코드로
+나뉜다 — 코드 스냅샷(GitHub 연동 자동 아카이빙)과 논문 PDF(수동 업로드,
+Publication/Preprint 타입) — 관례상 소프트웨어와 출판물은 서로 다른
+upload_type과 별도 DOI를 갖는다. 두 레코드는 `related_identifiers`로
+서로를 가리키도록 연결해뒀다(`isSupplementTo` 양방향). ORCID 연동으로
+저자 신원이, GitHub 연동으로 코드 출처가 확인된다. HuggingFace에는
+데이터를 올려 노트의 모든 주장을 재현 가능하게 한다. `verify_claims.py`가
+참조하는 코드/데이터 경로는 GitHub·HuggingFace이며, Zenodo 아카이브는
+그 시점의 스냅샷이다.
 
 TechRxiv 제출은 플랫폼이 신규 접수를 재개하면 재검토한다(아래 체크리스트
 "TechRxiv 제출" 항목 참고) — 지금은 목표 경로가 아니다.
@@ -348,12 +352,29 @@ python scripts/eval_oss_ocr.py --engine paddleocr
       10.5281/zenodo.21971542** (https://zenodo.org/records/21971542,
       concept DOI 10.5281/zenodo.21971467). 새 zip 다운로드해 두 파일
       부재 직접 확인함. 저자·ORCID·라이선스(Apache 2.0)는 `CITATION.cff`
-      에서 반영, `TECHNICAL_NOTE.pdf` 자체는 별도 업로드하지 않음 — PDF는
-      HuggingFace에서 배포(§"세 개의 배포처" 참고). **10.5281/zenodo.21971468
-      (v1.0.0)은 폐기됐지만 Zenodo 특성상 완전히 사라지지 않으며, 어디에도
-      다시 인용하지 말 것.**
+      에서 반영. **10.5281/zenodo.21971468 (v1.0.0)은 폐기됐지만 Zenodo
+      특성상 완전히 사라지지 않으며, 어디에도 다시 인용하지 말 것** —
+      소유자 계정에서 access_right를 restricted로 전환해 파일 접근은
+      차단해뒀음(2026-08-17, `curl` 재조회로 `access_right: restricted`,
+      `files: []` 확인).
+- [x] `TECHNICAL_NOTE.pdf`/`.ko.pdf` 별도 Zenodo 레코드 업로드 —
+      **완료(2026-08-17)**. Zenodo REST API(Personal Access Token, 사용자
+      발급)로 새 deposition 생성 → 두 PDF 업로드 → 메타데이터(초록은 노트
+      Abstract 그대로, 저자/ORCID, 키워드, 라이선스 CC BY 4.0,
+      `related_identifiers`로 코드 DOI·GitHub·HuggingFace 셋 다 연결) →
+      publish. **DOI: 10.5281/zenodo.21971663**
+      (https://zenodo.org/record/21971663). upload_type은 코드 레코드와
+      구분해 `publication`/`preprint`로 지정 — 소프트웨어와 출판물을 같은
+      레코드에 섞지 않는 Zenodo 관례를 따름.
+- [x] 코드 Zenodo 레코드(`.21971542`)에 논문 레코드로의 역방향 링크 추가 —
+      **완료(2026-08-17)**. `actions/edit`로 게시된 deposition을 잠금
+      해제 → `related_identifiers`에 `{doi: 10.5281/zenodo.21971663,
+      relation: isSupplementTo}` 추가 → `actions/publish`로 재게시. DOI·
+      기존 파일(`jamo-bench-v1.0.1.zip`)은 그대로 유지되고 메타데이터만
+      갱신됨(공개 API로 재조회해 확인).
 - [x] README·기술노트에 Zenodo DOI 인용 배지/문구 추가 — **완료(2026-08-17)**,
-      README에 DOI 배지·BibTeX 인용 섹션 추가.
+      README에 논문·코드 DOI 배지 각각과 BibTeX 인용 두 항목(논문/코드)
+      추가.
 - [x] **AI 생성 콘텐츠 금지 조항 대응(2026-08-14)** — TechRxiv는 "콘텐츠
       생성에 AI를 사용"한 것을 윤리적 저작 위반으로 보아 거부 사유로
       명시. 이 프로젝트는 문장 초안·편집·한글 번역에 AI 글쓰기 도구를
