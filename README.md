@@ -27,6 +27,16 @@ two docs are in Korean — the technical note below has an English original.)
 > ["Why this project pivoted"](docs/SCOPE.md#프로젝트-전환-경위--한글-타이포그래피-벤치마크에서-측정-타당성-연구로)
 > section.
 
+## Human verification, in action
+
+The "human" side of the human-verified ground truth isn't hypothetical — this
+is the actual target-blind transcription UI (`scripts/audit_server_pilot.py`),
+recorded live during a real annotation pass. No target character is shown;
+the annotator transcribes only what the image shows, which is what makes the
+resulting labels usable as independent ground truth.
+
+![Screen recording of the target-blind human audit UI: an ambiguous Hangul glyph is shown with no target label, and the annotator transcribes what they actually see before submitting](docs/figures/human_review_demo.gif)
+
 ## Data + Paper
 
 | Where | What |
